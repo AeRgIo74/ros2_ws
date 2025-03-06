@@ -1,6 +1,0 @@
-setup.py
-mma_interfaces/__init__.py
-mma_interfaces.egg-info/PKG-INFO
-mma_interfaces.egg-info/SOURCES.txt
-mma_interfaces.egg-info/dependency_links.txt
-mma_interfaces.egg-info/top_level.txt

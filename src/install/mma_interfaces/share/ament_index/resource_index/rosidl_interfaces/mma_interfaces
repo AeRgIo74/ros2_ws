@@ -1,8 +1,0 @@
-action/FightSimulation.action
-action/FightSimulation.idl
-msg/Fighter.idl
-msg/Fighter.msg
-srv/FightRequest.idl
-srv/FightRequest.srv
-srv/FightRequest_Request.msg
-srv/FightRequest_Response.msg
