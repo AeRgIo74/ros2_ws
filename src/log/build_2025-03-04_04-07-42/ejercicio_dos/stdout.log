@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/ejercicio_dos/ejercicio_dos.egg-info/PKG-INFO
+writing dependency_links to ../build/ejercicio_dos/ejercicio_dos.egg-info/dependency_links.txt
+writing entry points to ../build/ejercicio_dos/ejercicio_dos.egg-info/entry_points.txt
+writing requirements to ../build/ejercicio_dos/ejercicio_dos.egg-info/requires.txt
+writing top-level names to ../build/ejercicio_dos/ejercicio_dos.egg-info/top_level.txt
+reading manifest file '../build/ejercicio_dos/ejercicio_dos.egg-info/SOURCES.txt'
+writing manifest file '../build/ejercicio_dos/ejercicio_dos.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/src/install/ejercicio_dos/lib/python3.10/site-packages/ejercicio_dos-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/ejercicio_dos/ejercicio_dos.egg-info to /home/sergio/ros2_ws/src/install/ejercicio_dos/lib/python3.10/site-packages/ejercicio_dos-0.0.0-py3.10.egg-info
+running install_scripts
+Installing impares_publisher script to /home/sergio/ros2_ws/src/install/ejercicio_dos/lib/ejercicio_dos
+Installing pares_publisher script to /home/sergio/ros2_ws/src/install/ejercicio_dos/lib/ejercicio_dos
+Installing suma_cuadrados script to /home/sergio/ros2_ws/src/install/ejercicio_dos/lib/ejercicio_dos
+writing list of installed files to '/home/sergio/ros2_ws/src/build/ejercicio_dos/install.log'

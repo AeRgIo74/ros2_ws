@@ -1,0 +1,30 @@
+running egg_info
+creating ../build/ejemplo_uno/ejemplo_uno.egg-info
+writing ../build/ejemplo_uno/ejemplo_uno.egg-info/PKG-INFO
+writing dependency_links to ../build/ejemplo_uno/ejemplo_uno.egg-info/dependency_links.txt
+writing entry points to ../build/ejemplo_uno/ejemplo_uno.egg-info/entry_points.txt
+writing requirements to ../build/ejemplo_uno/ejemplo_uno.egg-info/requires.txt
+writing top-level names to ../build/ejemplo_uno/ejemplo_uno.egg-info/top_level.txt
+writing manifest file '../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+reading manifest file '../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+writing manifest file '../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/src/build/ejemplo_uno/build
+creating /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib
+creating /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib/ejemplo_uno
+copying ejemplo_uno/suma_acumulador.py -> /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib/ejemplo_uno
+copying ejemplo_uno/__init__.py -> /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib/ejemplo_uno
+copying ejemplo_uno/calculador.py -> /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib/ejemplo_uno
+copying ejemplo_uno/random_publicador.py -> /home/sergio/ros2_ws/src/build/ejemplo_uno/build/lib/ejemplo_uno
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/src/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/ejemplo_uno/ejemplo_uno.egg-info to /home/sergio/ros2_ws/src/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno-0.0.0-py3.10.egg-info
+running install_scripts
+Installing calculador script to /home/sergio/ros2_ws/src/install/ejemplo_uno/lib/ejemplo_uno
+Installing random_publicador script to /home/sergio/ros2_ws/src/install/ejemplo_uno/lib/ejemplo_uno
+Installing suma_acumulador script to /home/sergio/ros2_ws/src/install/ejemplo_uno/lib/ejemplo_uno
+writing list of installed files to '/home/sergio/ros2_ws/src/build/ejemplo_uno/install.log'

@@ -1,0 +1,6 @@
+{
+  "package_name": "ejercicio_tres_interface",
+  "non_idl_tuples": [
+    "/home/sergio/ros2_ws/src/ejercicio_tres_interface:srv/Midpoint.srv"
+  ]
+}

@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/action/detail/dds_fastrtps/fight_simulation__type_support.cpp.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/action/detail/dds_fastrtps/fight_simulation__type_support.cpp.o.d"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/msg/detail/dds_fastrtps/fighter__type_support.cpp.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/msg/detail/dds_fastrtps/fighter__type_support.cpp.o.d"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/srv/detail/dds_fastrtps/fight_request__type_support.cpp.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mma_interfaces/srv/detail/dds_fastrtps/fight_request__type_support.cpp.o.d"
+  "libmma_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libmma_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/action/detail/dds_fastrtps/fight_simulation__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/msg/detail/dds_fastrtps/fighter__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/msg/detail/fighter__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/srv/detail/dds_fastrtps/fight_request__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/mma_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

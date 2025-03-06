@@ -1,0 +1,3 @@
+[console_scripts]
+midpoint_server = ejercicio_tres_server.midpoint_server:main
+

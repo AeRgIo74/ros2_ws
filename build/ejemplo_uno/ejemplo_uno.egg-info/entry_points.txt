@@ -1,0 +1,5 @@
+[console_scripts]
+calculador = ejemplo_uno.calculador:main
+random_publicador = ejemplo_uno.random_publicador:main
+suma_acumulador = ejemplo_uno.suma_acumulador:main
+

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from mma_interfaces/srv/FightRequest.srv
+// generated code does not contain a copyright notice
+
+
+module mma_interfaces {
+  module srv {
+    struct FightRequest_Request {
+      string fighter1;
+
+      string fighter2;
+    };
+    struct FightRequest_Response {
+      string result;
+    };
+  };
+};

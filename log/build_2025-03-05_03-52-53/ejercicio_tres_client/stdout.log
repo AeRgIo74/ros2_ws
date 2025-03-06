@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/dependency_links.txt
+writing entry points to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/entry_points.txt
+writing requirements to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/requires.txt
+writing top-level names to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/top_level.txt
+reading manifest file '../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/SOURCES.txt'
+writing manifest file '../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ejercicio_tres_client/midpoint_client.py -> /home/sergio/ros2_ws/build/ejercicio_tres_client/build/lib/ejercicio_tres_client
+running install
+running install_lib
+copying /home/sergio/ros2_ws/build/ejercicio_tres_client/build/lib/ejercicio_tres_client/midpoint_client.py -> /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client
+byte-compiling /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client/midpoint_client.py to midpoint_client.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info to /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client-0.0.0-py3.10.egg-info
+running install_scripts
+Installing midpoint_client script to /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/ejercicio_tres_client
+writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio_tres_client/install.log'

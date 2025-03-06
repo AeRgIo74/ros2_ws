@@ -1,0 +1,11 @@
+# Objetivo (Goal)
+string fighter1
+string fighter2
+
+---
+# Resultado
+string winner
+
+---
+# Feedback
+string current_status

@@ -1,0 +1,6 @@
+setup.py
+ejercicio_tres/__init__.py
+ejercicio_tres.egg-info/PKG-INFO
+ejercicio_tres.egg-info/SOURCES.txt
+ejercicio_tres.egg-info/dependency_links.txt
+ejercicio_tres.egg-info/top_level.txt

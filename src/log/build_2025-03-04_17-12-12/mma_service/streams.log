@@ -1,0 +1,28 @@
+[1.276s] Invoking command in '/home/sergio/ros2_ws/src/mma_service': PYTHONPATH=/home/sergio/ros2_ws/src/build/mma_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/src/install/mma_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mma_service build --build-base /home/sergio/ros2_ws/src/build/mma_service/build install --record /home/sergio/ros2_ws/src/build/mma_service/install.log --single-version-externally-managed install_data
+[1.496s] running egg_info
+[1.498s] creating ../build/mma_service/mma_service.egg-info
+[1.498s] writing ../build/mma_service/mma_service.egg-info/PKG-INFO
+[1.499s] writing dependency_links to ../build/mma_service/mma_service.egg-info/dependency_links.txt
+[1.499s] writing entry points to ../build/mma_service/mma_service.egg-info/entry_points.txt
+[1.500s] writing requirements to ../build/mma_service/mma_service.egg-info/requires.txt
+[1.502s] writing top-level names to ../build/mma_service/mma_service.egg-info/top_level.txt
+[1.502s] writing manifest file '../build/mma_service/mma_service.egg-info/SOURCES.txt'
+[1.507s] reading manifest file '../build/mma_service/mma_service.egg-info/SOURCES.txt'
+[1.509s] writing manifest file '../build/mma_service/mma_service.egg-info/SOURCES.txt'
+[1.509s] running build
+[1.509s] running build_py
+[1.509s] creating /home/sergio/ros2_ws/src/build/mma_service/build
+[1.509s] creating /home/sergio/ros2_ws/src/build/mma_service/build/lib
+[1.509s] creating /home/sergio/ros2_ws/src/build/mma_service/build/lib/mma_service
+[1.509s] copying mma_service/fight_service.py -> /home/sergio/ros2_ws/src/build/mma_service/build/lib/mma_service
+[1.509s] copying mma_service/__init__.py -> /home/sergio/ros2_ws/src/build/mma_service/build/lib/mma_service
+[1.509s] running install
+[1.509s] running install_lib
+[1.516s] running install_data
+[1.516s] running install_egg_info
+[1.517s] removing '/home/sergio/ros2_ws/src/install/mma_service/lib/python3.10/site-packages/mma_service-0.0.0-py3.10.egg-info' (and everything under it)
+[1.517s] Copying ../build/mma_service/mma_service.egg-info to /home/sergio/ros2_ws/src/install/mma_service/lib/python3.10/site-packages/mma_service-0.0.0-py3.10.egg-info
+[1.517s] running install_scripts
+[1.537s] Installing fight_service script to /home/sergio/ros2_ws/src/install/mma_service/lib/mma_service
+[1.537s] writing list of installed files to '/home/sergio/ros2_ws/src/build/mma_service/install.log'
+[1.571s] Invoked command in '/home/sergio/ros2_ws/src/mma_service' returned '0': PYTHONPATH=/home/sergio/ros2_ws/src/build/mma_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/src/install/mma_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/mma_service build --build-base /home/sergio/ros2_ws/src/build/mma_service/build install --record /home/sergio/ros2_ws/src/build/mma_service/install.log --single-version-externally-managed install_data

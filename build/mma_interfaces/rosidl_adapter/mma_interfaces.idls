@@ -1,0 +1,3 @@
+/home/sergio/ros2_ws/build/mma_interfaces/rosidl_adapter/mma_interfaces:msg/Fighter.idl
+/home/sergio/ros2_ws/build/mma_interfaces/rosidl_adapter/mma_interfaces:srv/FightRequest.idl
+/home/sergio/ros2_ws/build/mma_interfaces/rosidl_adapter/mma_interfaces:action/FightSimulation.idl

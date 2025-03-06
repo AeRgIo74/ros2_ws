@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/action/detail/fight_simulation__type_support.c.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/action/detail/fight_simulation__type_support.c.o.d"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/msg/detail/fighter__type_support.c.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/msg/detail/fighter__type_support.c.o.d"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/srv/detail/fight_request__type_support.c.o"
+  "CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mma_interfaces/srv/detail/fight_request__type_support.c.o.d"
+  "libmma_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libmma_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mma_interfaces/action/detail/fight_simulation__type_support.c"
+  "rosidl_typesupport_introspection_c/mma_interfaces/msg/detail/fighter__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mma_interfaces/msg/detail/fighter__type_support.c"
+  "rosidl_typesupport_introspection_c/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/mma_interfaces/srv/detail/fight_request__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/mma_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

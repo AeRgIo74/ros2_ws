@@ -1,0 +1,3 @@
+[console_scripts]
+fight_service = mma_service.fight_service:main
+

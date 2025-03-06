@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ejercicio_tres_interface__py",
+		"source" : "/home/sergio/ros2_ws/build/ejercicio_tres_interface/ejercicio_tres_interface__py"
+	}
+}

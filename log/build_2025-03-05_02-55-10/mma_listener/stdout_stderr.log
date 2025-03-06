@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/mma_listener/mma_listener.egg-info
+writing ../../build/mma_listener/mma_listener.egg-info/PKG-INFO
+writing dependency_links to ../../build/mma_listener/mma_listener.egg-info/dependency_links.txt
+writing entry points to ../../build/mma_listener/mma_listener.egg-info/entry_points.txt
+writing requirements to ../../build/mma_listener/mma_listener.egg-info/requires.txt
+writing top-level names to ../../build/mma_listener/mma_listener.egg-info/top_level.txt
+writing manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+reading manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+writing manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/mma_listener/build
+creating /home/sergio/ros2_ws/build/mma_listener/build/lib
+creating /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+copying mma_listener/__init__.py -> /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+copying mma_listener/listener.py -> /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+running install
+running install_lib
+creating /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+copying /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener/__init__.py -> /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+copying /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener/listener.py -> /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+byte-compiling /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener/listener.py to listener.cpython-310.pyc
+running install_data
+creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index
+creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index
+creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index/packages
+copying resource/mma_listener -> /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/mma_listener/share/mma_listener
+running install_egg_info
+Copying ../../build/mma_listener/mma_listener.egg-info to /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/sergio/ros2_ws/install/mma_listener/lib/mma_listener
+writing list of installed files to '/home/sergio/ros2_ws/build/mma_listener/install.log'

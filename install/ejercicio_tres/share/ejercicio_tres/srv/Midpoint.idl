@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ejercicio_tres/srv/Midpoint.srv
+// generated code does not contain a copyright notice
+
+
+module ejercicio_tres {
+  module srv {
+    struct Midpoint_Request {
+      double x1;
+
+      double y1;
+
+      double x2;
+
+      double y2;
+    };
+    struct Midpoint_Response {
+      double x_mid;
+
+      double y_mid;
+    };
+  };
+};

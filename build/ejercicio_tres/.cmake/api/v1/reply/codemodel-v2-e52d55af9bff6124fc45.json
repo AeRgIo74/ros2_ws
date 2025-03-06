@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-77a78ae2d57d91378bdc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ejercicio_tres__py",
+					"jsonFile" : "directory-ejercicio_tres__py-55e584e1986169e7cb03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sergio/ros2_ws/build/ejercicio_tres/ejercicio_tres__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ejercicio_tres",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ejercicio_tres_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ejercicio_tres_egg-6b264bd8a4bc35d39650.json",
+					"name" : "ament_cmake_python_build_ejercicio_tres_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ejercicio_tres::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ejercicio_tres-fb518b657822d14a951f.json",
+					"name" : "ament_cmake_python_copy_ejercicio_tres",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres-e2fc278d03fbef96ab9e.json",
+					"name" : "ejercicio_tres",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__cpp-b1d12c3251adfc2d4429.json",
+					"name" : "ejercicio_tres__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ejercicio_tres__py::@6f413d94129dac371c5d",
+					"jsonFile" : "target-ejercicio_tres__py-a6c8af4b842fb15b9298.json",
+					"name" : "ejercicio_tres__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_generator_c-9f7a07d4cfccf9167c2b.json",
+					"name" : "ejercicio_tres__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_generator_py-26687515a9a8fa76f19d.json",
+					"name" : "ejercicio_tres__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_c-248e34bb8ec87836d2f8.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_c__pyext-93261c412b66d65c95ca.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_cpp-99c052de344e5bb64a88.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_fastrtps_c-e343d5c8522a94a4b993.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_fastrtps_c__pyext-2e5c0e4c50b7239fcb7f.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_fastrtps_cpp-6dada4eb2898593c38f8.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_introspection_c-efbb64f6921bdbef43fe.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_introspection_c__pyext-072bcc1a322ce09fef1e.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres__rosidl_typesupport_introspection_cpp-553e6a40ce760c796fba.json",
+					"name" : "ejercicio_tres__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ejercicio_tres_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ejercicio_tres_uninstall-6371dcc029a6153c7f80.json",
+					"name" : "ejercicio_tres_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-323c003063409ecfd5c1.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sergio/ros2_ws/build/ejercicio_tres",
+		"source" : "/home/sergio/ros2_ws/src/ejercicio_tres"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

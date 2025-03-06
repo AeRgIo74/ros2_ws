@@ -1,0 +1,8 @@
+{
+  "package_name": "mma_interfaces",
+  "non_idl_tuples": [
+    "/home/sergio/ros2_ws/src/mma_interfaces:msg/Fighter.msg",
+    "/home/sergio/ros2_ws/src/mma_interfaces:srv/FightRequest.srv",
+    "/home/sergio/ros2_ws/src/mma_interfaces:action/FightSimulation.action"
+  ]
+}

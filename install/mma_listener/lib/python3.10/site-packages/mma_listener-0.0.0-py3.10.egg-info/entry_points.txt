@@ -1,0 +1,3 @@
+[console_scripts]
+listener = mma_listener.listener:main
+
