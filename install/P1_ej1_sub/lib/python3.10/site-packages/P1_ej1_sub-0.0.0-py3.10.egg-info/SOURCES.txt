@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/PKG-INFO
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/dependency_links.txt
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/entry_points.txt
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/requires.txt
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/top_level.txt
+../../build/P1_ej1_sub/P1_ej1_sub.egg-info/zip-safe
+P1_ej1_sub/__init__.py
+P1_ej1_sub/suscriptor.py
+resource/P1_ej1_sub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/PKG-INFO
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/dependency_links.txt
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/entry_points.txt
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/requires.txt
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/top_level.txt
+../../build/P1_ej1_pub/P1_ej1_pub.egg-info/zip-safe
+P1_ej1_pub/__init__.py
+P1_ej1_pub/publicador.py
+resource/P1_ej1_pub
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

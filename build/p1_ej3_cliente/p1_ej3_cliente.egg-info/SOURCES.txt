@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/PKG-INFO
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/SOURCES.txt
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/dependency_links.txt
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/entry_points.txt
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/requires.txt
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/top_level.txt
+../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/zip-safe
+p1_ej3_cliente/__init__.py
+p1_ej3_cliente/cliente.py
+resource/p1_ej3_cliente
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

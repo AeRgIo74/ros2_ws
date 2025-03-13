@@ -1,0 +1,795 @@
+[0.064s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.064s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7302d9a45570>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7302d9a44730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7302d9a44730>>)
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sergio/ros2_ws'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extension 'ignore'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extension 'ignore_ament_install'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extensions ['colcon_pkg']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extension 'colcon_pkg'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extensions ['colcon_meta']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extension 'colcon_meta'
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extensions ['ros']
+[0.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_pub) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/P1_ej1_pub' with type 'ros.ament_python' and name 'P1_ej1_pub'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/P1_ej1_sub) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/P1_ej1_sub' with type 'ros.ament_python' and name 'P1_ej1_sub'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejemplo_uno) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejemplo_uno' with type 'ros.ament_python' and name 'ejemplo_uno'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_dos) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio_dos' with type 'ros.ament_python' and name 'ejercicio_dos'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_client) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio_tres_client' with type 'ros.ament_python' and name 'ejercicio_tres_client'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extension 'ignore_ament_install'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extensions ['colcon_pkg']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extension 'colcon_pkg'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extensions ['colcon_meta']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extension 'colcon_meta'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extensions ['ros']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_interface) by extension 'ros'
+[0.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio_tres_interface' with type 'ros.ament_cmake' and name 'ejercicio_tres_interface'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/ejercicio_tres_server) by extension 'ros'
+[0.172s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ejercicio_tres_server' with type 'ros.ament_python' and name 'ejercicio_tres_server'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_interfaces) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mma_interfaces' with type 'ros.ament_cmake' and name 'mma_interfaces'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_listener) by extension 'ros'
+[0.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mma_listener' with type 'ros.ament_python' and name 'mma_listener'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_service) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mma_service' with type 'ros.ament_python' and name 'mma_service'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/mma_talker) by extension 'ros'
+[0.174s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mma_talker' with type 'ros.ament_python' and name 'mma_talker'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_package) by extension 'ros'
+[0.175s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_package' with type 'ros.ament_python' and name 'my_package'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/p1_ej3_interface) by extension 'ros'
+[0.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/p1_ej3_interface' with type 'ros.ament_cmake' and name 'p1_ej3_interface'
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/sergio/ros2_ws/install
+[0.198s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.204s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'P1_ej1_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/P1_ej1_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/P1_ej1_pub', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/P1_ej1_pub', 'symlink_install': False, 'test_result_base': None}
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'P1_ej1_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'P1_ej1_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/P1_ej1_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/P1_ej1_sub', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/P1_ej1_sub', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejemplo_uno' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ejemplo_uno' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/ejemplo_uno', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/ejemplo_uno', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/ejemplo_uno', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_dos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio_dos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/ejercicio_dos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/ejercicio_dos', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/ejercicio_dos', 'symlink_install': False, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_client' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio_tres_client' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/ejercicio_tres_client', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/ejercicio_tres_client', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/ejercicio_tres_client', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio_tres_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/ejercicio_tres_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/ejercicio_tres_interface', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/ejercicio_tres_interface', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'ejercicio_tres_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'ejercicio_tres_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/ejercicio_tres_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/ejercicio_tres_server', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/ejercicio_tres_server', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'mma_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'mma_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/mma_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/mma_interfaces', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/mma_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_listener' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'mma_listener' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/mma_listener', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/mma_listener', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/mma_listener', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'mma_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/mma_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/mma_service', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/mma_service', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'mma_talker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'mma_talker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/mma_talker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/mma_talker', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/mma_talker', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'my_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'my_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/my_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/my_package', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/my_package', 'symlink_install': False, 'test_result_base': None}
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_target' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.230s] Level 5:colcon.colcon_core.verb:set package 'p1_ej3_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.230s] DEBUG:colcon.colcon_core.verb:Building package 'p1_ej3_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sergio/ros2_ws/build/p1_ej3_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sergio/ros2_ws/install/p1_ej3_interface', 'merge_install': False, 'path': '/home/sergio/ros2_ws/src/p1_ej3_interface', 'symlink_install': False, 'test_result_base': None}
+[0.230s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.231s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/P1_ej1_pub' with build type 'ament_python'
+[0.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('P1_ej1_pub', 'ament_prefix_path')
+[0.232s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/ament_prefix_path.ps1'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/ament_prefix_path.dsv'
+[0.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/ament_prefix_path.sh'
+[0.233s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.233s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/P1_ej1_sub' with build type 'ament_python'
+[0.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('P1_ej1_sub', 'ament_prefix_path')
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/ament_prefix_path.ps1'
+[0.236s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/ament_prefix_path.sh'
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/ejemplo_uno' with build type 'ament_python'
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejemplo_uno', 'ament_prefix_path')
+[0.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/ament_prefix_path.ps1'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/ament_prefix_path.dsv'
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/ament_prefix_path.sh'
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.245s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/ejercicio_dos' with build type 'ament_python'
+[0.245s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_dos', 'ament_prefix_path')
+[0.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/ament_prefix_path.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/ament_prefix_path.dsv'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/ament_prefix_path.sh'
+[0.247s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.247s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.250s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/ejercicio_tres_client' with build type 'ament_python'
+[0.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_client', 'ament_prefix_path')
+[0.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/ament_prefix_path.ps1'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/ament_prefix_path.dsv'
+[0.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/ament_prefix_path.sh'
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.254s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sergio/ros2_ws/src/ejercicio_tres_interface' with build type 'ament_cmake'
+[0.254s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sergio/ros2_ws/src/ejercicio_tres_interface'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/ejercicio_tres_server' with build type 'ament_python'
+[0.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_server', 'ament_prefix_path')
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/ament_prefix_path.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sergio/ros2_ws/src/mma_interfaces' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sergio/ros2_ws/src/mma_interfaces'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/mma_listener' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_listener', 'ament_prefix_path')
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.270s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/mma_service' with build type 'ament_python'
+[0.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_service', 'ament_prefix_path')
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/ament_prefix_path.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/mma_talker' with build type 'ament_python'
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_talker', 'ament_prefix_path')
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/ament_prefix_path.ps1'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/ament_prefix_path.dsv'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/ament_prefix_path.sh'
+[0.275s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.275s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.278s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sergio/ros2_ws/src/my_package' with build type 'ament_python'
+[0.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'ament_prefix_path')
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.ps1'
+[0.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.dsv'
+[0.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/ament_prefix_path.sh'
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.284s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sergio/ros2_ws/src/p1_ej3_interface' with build type 'ament_cmake'
+[0.284s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sergio/ros2_ws/src/p1_ej3_interface'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/P1_ej1_pub'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/P1_ej1_sub'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.797s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/ejemplo_uno'
+[0.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.961s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/ejercicio_dos'
+[0.961s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.961s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.121s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/ejercicio_tres_client'
+[1.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[1.313s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/ejercicio_tres_server'
+[1.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.318s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/mma_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/mma_interfaces -- -j16 -l16
+[1.513s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/mma_listener'
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.687s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/mma_service'
+[1.688s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.688s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.850s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/mma_talker'
+[1.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.015s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sergio/ros2_ws/src/my_package'
+[2.015s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.015s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/p1_ej3_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/p1_ej3_interface -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/p1_ej3_interface
+[2.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[2.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres_interface
+[2.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/mma_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/mma_interfaces -- -j16 -l16
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/mma_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/mma_interfaces
+[2.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio_tres_interface)
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface' for CMake module files
+[2.132s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres_interface
+[2.133s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface' for CMake config files
+[2.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_interface', 'cmake_prefix_path')
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.dsv'
+[2.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.sh'
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib'
+[2.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_interface', 'ld_library_path_lib')
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.ps1'
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.sh'
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/bin'
+[2.139s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/pkgconfig/ejercicio_tres_interface.pc'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/python3.10/site-packages'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/bin'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.ps1'
+[2.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.dsv'
+[2.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.sh'
+[2.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.bash'
+[2.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.zsh'
+[2.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/colcon-core/packages/ejercicio_tres_interface)
+[2.180s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio_tres_interface)
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface' for CMake module files
+[2.181s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface' for CMake config files
+[2.182s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_interface', 'cmake_prefix_path')
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.ps1'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.dsv'
+[2.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/cmake_prefix_path.sh'
+[2.184s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib'
+[2.184s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_interface', 'ld_library_path_lib')
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.ps1'
+[2.185s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.dsv'
+[2.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/hook/ld_library_path_lib.sh'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/bin'
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/pkgconfig/ejercicio_tres_interface.pc'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/python3.10/site-packages'
+[2.187s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_interface/bin'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.ps1'
+[2.188s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.dsv'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.sh'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.bash'
+[2.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.zsh'
+[2.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejercicio_tres_interface/share/colcon-core/packages/ejercicio_tres_interface)
+[2.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mma_interfaces)
+[2.196s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces' for CMake module files
+[2.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/mma_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/mma_interfaces
+[2.197s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces' for CMake config files
+[2.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_interfaces', 'cmake_prefix_path')
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.ps1'
+[2.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.dsv'
+[2.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.sh'
+[2.201s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib'
+[2.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_interfaces', 'ld_library_path_lib')
+[2.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.ps1'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.dsv'
+[2.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.sh'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/bin'
+[2.203s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib/pkgconfig/mma_interfaces.pc'
+[2.211s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib/python3.10/site-packages'
+[2.212s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/bin'
+[2.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.ps1'
+[2.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.sh'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.zsh'
+[2.215s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/mma_interfaces/share/colcon-core/packages/mma_interfaces)
+[2.216s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mma_interfaces)
+[2.217s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces' for CMake module files
+[2.218s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces' for CMake config files
+[2.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_interfaces', 'cmake_prefix_path')
+[2.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.ps1'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.dsv'
+[2.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/cmake_prefix_path.sh'
+[2.221s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib'
+[2.221s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_interfaces', 'ld_library_path_lib')
+[2.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.ps1'
+[2.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.dsv'
+[2.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/hook/ld_library_path_lib.sh'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/bin'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib/pkgconfig/mma_interfaces.pc'
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/lib/python3.10/site-packages'
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_interfaces/bin'
+[2.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.ps1'
+[2.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.dsv'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.sh'
+[2.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.bash'
+[2.227s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.zsh'
+[2.228s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/mma_interfaces/share/colcon-core/packages/mma_interfaces)
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_sub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data
+[2.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_pub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/ejercicio_dos': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_dos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_dos build --build-base /home/sergio/ros2_ws/build/ejercicio_dos/build install --record /home/sergio/ros2_ws/build/ejercicio_dos/install.log --single-version-externally-managed install_data
+[2.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/ejemplo_uno': PYTHONPATH=/home/sergio/ros2_ws/build/ejemplo_uno/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejemplo_uno build --build-base /home/sergio/ros2_ws/build/ejemplo_uno/build install --record /home/sergio/ros2_ws/build/ejemplo_uno/install.log --single-version-externally-managed install_data
+[2.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/ejercicio_tres_server': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_server build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_server/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_server/install.log --single-version-externally-managed install_data
+[2.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/mma_service': PYTHONPATH=/home/sergio/ros2_ws/build/mma_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_service build --build-base /home/sergio/ros2_ws/build/mma_service/build install --record /home/sergio/ros2_ws/build/mma_service/install.log --single-version-externally-managed install_data
+[2.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/mma_talker': PYTHONPATH=/home/sergio/ros2_ws/build/mma_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_talker build --build-base /home/sergio/ros2_ws/build/mma_talker/build install --record /home/sergio/ros2_ws/build/mma_talker/install.log --single-version-externally-managed install_data
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/mma_listener': PYTHONPATH=/home/sergio/ros2_ws/build/mma_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_listener build --build-base /home/sergio/ros2_ws/build/mma_listener/build install --record /home/sergio/ros2_ws/build/mma_listener/install.log --single-version-externally-managed install_data
+[2.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/my_package': PYTHONPATH=/home/sergio/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/sergio/ros2_ws/build/my_package/build install --record /home/sergio/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/src/ejercicio_tres_client': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_client build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_client/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_client/install.log --single-version-externally-managed install_data
+[3.025s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub' for CMake module files
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_sub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data
+[3.027s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub' for CMake config files
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub/lib'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub/bin'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub/lib/pkgconfig/P1_ej1_sub.pc'
+[3.028s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages'
+[3.028s] Level 1:colcon.colcon_core.shell:create_environment_hook('P1_ej1_sub', 'pythonpath')
+[3.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/pythonpath.ps1'
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/pythonpath.dsv'
+[3.030s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/hook/pythonpath.sh'
+[3.032s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_sub/bin'
+[3.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(P1_ej1_sub)
+[3.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/package.ps1'
+[3.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/package.dsv'
+[3.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/package.sh'
+[3.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/package.bash'
+[3.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub/package.zsh'
+[3.037s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/P1_ej1_sub/share/colcon-core/packages/P1_ej1_sub)
+[3.039s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub' for CMake module files
+[3.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_pub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data
+[3.041s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub' for CMake config files
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub/lib'
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub/bin'
+[3.042s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub/lib/pkgconfig/P1_ej1_pub.pc'
+[3.043s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages'
+[3.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('P1_ej1_pub', 'pythonpath')
+[3.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/pythonpath.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/pythonpath.dsv'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/hook/pythonpath.sh'
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/P1_ej1_pub/bin'
+[3.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(P1_ej1_pub)
+[3.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/package.ps1'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/package.dsv'
+[3.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/package.sh'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/package.bash'
+[3.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub/package.zsh'
+[3.047s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/P1_ej1_pub/share/colcon-core/packages/P1_ej1_pub)
+[3.049s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service' for CMake module files
+[3.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/mma_service' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/mma_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_service build --build-base /home/sergio/ros2_ws/build/mma_service/build install --record /home/sergio/ros2_ws/build/mma_service/install.log --single-version-externally-managed install_data
+[3.051s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service' for CMake config files
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service/lib'
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service/bin'
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service/lib/pkgconfig/mma_service.pc'
+[3.052s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages'
+[3.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_service', 'pythonpath')
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/pythonpath.ps1'
+[3.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/pythonpath.dsv'
+[3.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_service/share/mma_service/hook/pythonpath.sh'
+[3.054s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_service/bin'
+[3.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mma_service)
+[3.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_service/share/mma_service/package.ps1'
+[3.057s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/mma_service/share/mma_service/package.dsv'
+[3.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_service/share/mma_service/package.sh'
+[3.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_service/share/mma_service/package.bash'
+[3.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_service/share/mma_service/package.zsh'
+[3.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/mma_service/share/colcon-core/packages/mma_service)
+[3.061s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos' for CMake module files
+[3.061s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos' for CMake config files
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos/lib'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos/bin'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos/lib/pkgconfig/ejercicio_dos.pc'
+[3.062s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages'
+[3.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_dos', 'pythonpath')
+[3.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/pythonpath.ps1'
+[3.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/ejercicio_dos' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_dos/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_dos build --build-base /home/sergio/ros2_ws/build/ejercicio_dos/build install --record /home/sergio/ros2_ws/build/ejercicio_dos/install.log --single-version-externally-managed install_data
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/pythonpath.dsv'
+[3.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/hook/pythonpath.sh'
+[3.065s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_dos/bin'
+[3.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio_dos)
+[3.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/package.ps1'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/package.dsv'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/package.sh'
+[3.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/package.bash'
+[3.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos/package.zsh'
+[3.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejercicio_dos/share/colcon-core/packages/ejercicio_dos)
+[3.070s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener' for CMake module files
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/mma_listener' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/mma_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_listener build --build-base /home/sergio/ros2_ws/build/mma_listener/build install --record /home/sergio/ros2_ws/build/mma_listener/install.log --single-version-externally-managed install_data
+[3.071s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener' for CMake config files
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener/lib'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener/bin'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener/lib/pkgconfig/mma_listener.pc'
+[3.072s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages'
+[3.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_listener', 'pythonpath')
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/pythonpath.ps1'
+[3.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/pythonpath.dsv'
+[3.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/hook/pythonpath.sh'
+[3.074s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_listener/bin'
+[3.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mma_listener)
+[3.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/package.ps1'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/package.dsv'
+[3.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/package.sh'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/package.bash'
+[3.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_listener/share/mma_listener/package.zsh'
+[3.078s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/mma_listener/share/colcon-core/packages/mma_listener)
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno' for CMake module files
+[3.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/ejemplo_uno' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejemplo_uno/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejemplo_uno build --build-base /home/sergio/ros2_ws/build/ejemplo_uno/build install --record /home/sergio/ros2_ws/build/ejemplo_uno/install.log --single-version-externally-managed install_data
+[3.081s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno' for CMake config files
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno/lib'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno/bin'
+[3.082s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno/lib/pkgconfig/ejemplo_uno.pc'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages'
+[3.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejemplo_uno', 'pythonpath')
+[3.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/pythonpath.ps1'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/pythonpath.dsv'
+[3.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/hook/pythonpath.sh'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejemplo_uno/bin'
+[3.085s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejemplo_uno)
+[3.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/package.sh'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/package.bash'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno/package.zsh'
+[3.087s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejemplo_uno/share/colcon-core/packages/ejemplo_uno)
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server' for CMake module files
+[3.089s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server' for CMake config files
+[3.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/ejercicio_tres_server' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_server build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_server/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_server/install.log --single-version-externally-managed install_data
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server/lib'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server/bin'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/pkgconfig/ejercicio_tres_server.pc'
+[3.090s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages'
+[3.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_server', 'pythonpath')
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/pythonpath.ps1'
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/pythonpath.dsv'
+[3.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/hook/pythonpath.sh'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_server/bin'
+[3.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio_tres_server)
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/package.ps1'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/package.dsv'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/package.sh'
+[3.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/package.bash'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server/package.zsh'
+[3.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejercicio_tres_server/share/colcon-core/packages/ejercicio_tres_server)
+[3.094s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package' for CMake module files
+[3.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/sergio/ros2_ws/build/my_package/build install --record /home/sergio/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package' for CMake config files
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package/lib'
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package/bin'
+[3.095s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package/lib/pkgconfig/my_package.pc'
+[3.096s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages'
+[3.096s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_package', 'pythonpath')
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/pythonpath.ps1'
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/pythonpath.dsv'
+[3.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/my_package/share/my_package/hook/pythonpath.sh'
+[3.097s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/my_package/bin'
+[3.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_package)
+[3.097s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/my_package/share/my_package/package.ps1'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/my_package/share/my_package/package.dsv'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/my_package/share/my_package/package.sh'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/my_package/share/my_package/package.bash'
+[3.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/my_package/share/my_package/package.zsh'
+[3.098s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/my_package/share/colcon-core/packages/my_package)
+[3.099s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client' for CMake module files
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client' for CMake config files
+[3.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/ejercicio_tres_client' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_client build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_client/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_client/install.log --single-version-externally-managed install_data
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client/lib'
+[3.100s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client/bin'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/pkgconfig/ejercicio_tres_client.pc'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages'
+[3.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('ejercicio_tres_client', 'pythonpath')
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/pythonpath.ps1'
+[3.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/pythonpath.dsv'
+[3.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/hook/pythonpath.sh'
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/ejercicio_tres_client/bin'
+[3.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ejercicio_tres_client)
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/package.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/package.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/package.sh'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/package.bash'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/ejercicio_tres_client/share/ejercicio_tres_client/package.zsh'
+[3.104s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/ejercicio_tres_client/share/colcon-core/packages/ejercicio_tres_client)
+[3.110s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker' for CMake module files
+[3.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/src/mma_talker' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/mma_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_talker build --build-base /home/sergio/ros2_ws/build/mma_talker/build install --record /home/sergio/ros2_ws/build/mma_talker/install.log --single-version-externally-managed install_data
+[3.111s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker' for CMake config files
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker/lib'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker/bin'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker/lib/pkgconfig/mma_talker.pc'
+[3.112s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages'
+[3.112s] Level 1:colcon.colcon_core.shell:create_environment_hook('mma_talker', 'pythonpath')
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/pythonpath.ps1'
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/pythonpath.dsv'
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/hook/pythonpath.sh'
+[3.115s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/mma_talker/bin'
+[3.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mma_talker)
+[3.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/package.ps1'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/package.dsv'
+[3.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/package.sh'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/package.bash'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/mma_talker/share/mma_talker/package.zsh'
+[3.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/mma_talker/share/colcon-core/packages/mma_talker)
+[3.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/p1_ej3_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/p1_ej3_interface -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/p1_ej3_interface
+[3.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/p1_ej3_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej3_interface -- -j16 -l16
+[4.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/p1_ej3_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej3_interface -- -j16 -l16
+[4.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sergio/ros2_ws/build/p1_ej3_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p1_ej3_interface
+[4.813s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p1_ej3_interface)
+[4.814s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface' for CMake module files
+[4.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sergio/ros2_ws/build/p1_ej3_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p1_ej3_interface
+[4.814s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface' for CMake config files
+[4.815s] Level 1:colcon.colcon_core.shell:create_environment_hook('p1_ej3_interface', 'cmake_prefix_path')
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.ps1'
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.dsv'
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.sh'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib'
+[4.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('p1_ej3_interface', 'ld_library_path_lib')
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.ps1'
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.dsv'
+[4.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.sh'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/bin'
+[4.816s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib/pkgconfig/p1_ej3_interface.pc'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib/python3.10/site-packages'
+[4.817s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/bin'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.sh'
+[4.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.bash'
+[4.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.zsh'
+[4.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/p1_ej3_interface/share/colcon-core/packages/p1_ej3_interface)
+[4.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(p1_ej3_interface)
+[4.818s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface' for CMake module files
+[4.819s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface' for CMake config files
+[4.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('p1_ej3_interface', 'cmake_prefix_path')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.ps1'
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.dsv'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/cmake_prefix_path.sh'
+[4.820s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib'
+[4.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('p1_ej3_interface', 'ld_library_path_lib')
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.ps1'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.dsv'
+[4.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/hook/ld_library_path_lib.sh'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/bin'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib/pkgconfig/p1_ej3_interface.pc'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/lib/python3.10/site-packages'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/sergio/ros2_ws/install/p1_ej3_interface/bin'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.ps1'
+[4.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.dsv'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.sh'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.bash'
+[4.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/sergio/ros2_ws/install/p1_ej3_interface/share/p1_ej3_interface/package.zsh'
+[4.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sergio/ros2_ws/install/p1_ej3_interface/share/colcon-core/packages/p1_ej3_interface)
+[4.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.823s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.823s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.827s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.827s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.827s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.836s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sergio/ros2_ws/install/local_setup.ps1'
+[4.837s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sergio/ros2_ws/install/_local_setup_util_ps1.py'
+[4.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sergio/ros2_ws/install/setup.ps1'
+[4.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sergio/ros2_ws/install/local_setup.sh'
+[4.841s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sergio/ros2_ws/install/_local_setup_util_sh.py'
+[4.841s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sergio/ros2_ws/install/setup.sh'
+[4.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sergio/ros2_ws/install/local_setup.bash'
+[4.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sergio/ros2_ws/install/setup.bash'
+[4.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sergio/ros2_ws/install/local_setup.zsh'
+[4.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sergio/ros2_ws/install/setup.zsh'

@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/PKG-INFO
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/SOURCES.txt
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/dependency_links.txt
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/entry_points.txt
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/requires.txt
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/top_level.txt
+../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/zip-safe
+p1_ej3_servidor/__init__.py
+p1_ej3_servidor/servidor.py
+resource/p1_ej3_servidor
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

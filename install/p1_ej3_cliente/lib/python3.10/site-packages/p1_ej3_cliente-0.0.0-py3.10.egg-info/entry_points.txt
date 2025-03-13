@@ -1,0 +1,3 @@
+[console_scripts]
+cliente = p1_ej3_cliente.cliente:main
+

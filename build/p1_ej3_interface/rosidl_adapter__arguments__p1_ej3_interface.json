@@ -1,0 +1,6 @@
+{
+  "package_name": "p1_ej3_interface",
+  "non_idl_tuples": [
+    "/home/sergio/ros2_ws/src/p1_ej3_interface:srv/Angulos.srv"
+  ]
+}

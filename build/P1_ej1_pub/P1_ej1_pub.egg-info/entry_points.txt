@@ -1,0 +1,3 @@
+[console_scripts]
+publicador = P1_ej1_pub.publicador:main
+

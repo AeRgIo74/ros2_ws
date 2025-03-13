@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from p1_ej3_interface/srv/Angulos.srv
+// generated code does not contain a copyright notice
+
+
+module p1_ej3_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Angulos_Request {
+      double theta1;
+
+      double theta2;
+
+      double theta3;
+
+      double theta4;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Angulos_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      double roll;
+
+      double pitch;
+
+      double yaw;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/P1_ej1_sub/P1_ej1_sub.egg-info
+writing ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/entry_points.txt
+writing requirements to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/requires.txt
+writing top-level names to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/top_level.txt
+writing manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/P1_ej1_sub/build
+creating /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib
+creating /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+copying P1_ej1_sub/__init__.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+copying P1_ej1_sub/suscriptor.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+running install
+running install_lib
+creating /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+copying /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub/__init__.py -> /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+copying /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub/suscriptor.py -> /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+byte-compiling /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub/suscriptor.py to suscriptor.cpython-310.pyc
+running install_data
+creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index
+creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index
+creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index/packages
+copying resource/P1_ej1_sub -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub
+running install_egg_info
+Copying ../../build/P1_ej1_sub/P1_ej1_sub.egg-info to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing suscriptor script to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/P1_ej1_sub
+writing list of installed files to '/home/sergio/ros2_ws/build/P1_ej1_sub/install.log'

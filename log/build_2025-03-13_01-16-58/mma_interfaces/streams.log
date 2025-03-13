@@ -1,0 +1,35 @@
+[1.057s] Invoking command in '/home/sergio/ros2_ws/build/mma_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/mma_interfaces -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/mma_interfaces
+[1.592s] -- The C compiler identification is GNU 11.4.0
+[1.592s] -- The CXX compiler identification is GNU 11.4.0
+[1.592s] -- Detecting C compiler ABI info
+[1.592s] -- Detecting C compiler ABI info - done
+[1.592s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.592s] -- Detecting C compile features
+[1.592s] -- Detecting C compile features - done
+[1.592s] -- Detecting CXX compiler ABI info
+[1.592s] -- Detecting CXX compiler ABI info - done
+[1.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.593s] -- Detecting CXX compile features
+[1.593s] -- Detecting CXX compile features - done
+[1.593s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.593s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.593s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.593s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.593s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.593s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.770s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.080s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.443s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.444s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.461s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.461s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.461s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.476s] -- Found PythonExtra: .so  
+[2.512s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.526s] -- Added test 'lint_cmake' to check CMake code style
+[2.527s] -- Added test 'xmllint' to check XML markup files
+[2.529s] -- Configuring done
+[2.548s] -- Generating done
+[2.555s] -- Build files have been written to: /home/sergio/ros2_ws/build/mma_interfaces
