@@ -1,32 +1,65 @@
 import rclpy
 from rclpy.node import Node
 from p1_ej3_interface.srv import Angulos
-import random  # Para generar números aleatorios
+import numpy as np
 
-class ServidorAngulos(Node):
+class ServidorCinematica(Node):
     def __init__(self):
-        super().__init__('servidor_angulos')
-        self.srv = self.create_service(Angulos, '/calcular_angulos', self.callback_angulos)
-        self.get_logger().info('✅ Servidor de ángulos listo y esperando solicitudes...')
+        super().__init__('servidor_cinematica')
+        self.srv = self.create_service(Angulos, '/calcular_cinematica', self.callback_cinematica)
 
-    def callback_angulos(self, request, response):
-        self.get_logger().info(f'📥 Recibido: θ1={request.theta1}°, θ2={request.theta2}°, θ3={request.theta3}°')
+    def callback_cinematica(self, request, response):
+        # Ángulos de entrada
+        theta1 = np.deg2rad(request.theta1)
+        theta2 = np.deg2rad(request.theta2)
+        theta3 = np.deg2rad(request.theta3)
+        theta4 = np.deg2rad(request.theta4)
 
-        # Generar valores aleatorios como respuesta
-        response.x = random.uniform(-10.0, 10.0)
-        response.y = random.uniform(-10.0, 10.0)
-        response.z = random.uniform(-10.0, 10.0)
-        response.roll = random.uniform(-180.0, 180.0)
-        response.pitch = random.uniform(-180.0, 180.0)
-        response.yaw = random.uniform(-180.0, 180.0)
+        # Longitudes L1 y L2
+        L1 = 69.5 / 1000  # Convertido a metros
+        L2 = 71.5 / 1000  # Convertido a metros
 
-        self.get_logger().info(f'📤 Respuesta enviada: x={response.x}, y={response.y}, z={response.z}, roll={response.roll}, pitch={response.pitch}, yaw={response.yaw}')
+        # Matrices de rotación 3x3
+        R_x = np.array([[1, 0, 0], [0, np.cos(theta1), -np.sin(theta1)], [0, np.sin(theta1), np.cos(theta1)]])
+        R_y1 = np.array([[np.cos(theta2), 0, np.sin(theta2)], [0, 1, 0], [-np.sin(theta2), 0, np.cos(theta2)]])
+        R_y2 = np.array([[np.cos(theta3), 0, np.sin(theta3)], [0, 1, 0], [-np.sin(theta3), 0, np.cos(theta3)]])
+        R_y3 = np.array([[np.cos(theta4), 0, np.sin(theta4)], [0, 1, 0], [-np.sin(theta4), 0, np.cos(theta4)]])
+
+        # Matrices de traslación 4x4 (agregar la fila y columna para la traslación)
+        T_z1 = np.array([[1, 0, 0, 0], [0, 1, 0, -L1], [0, 0, 1, 0], [0, 0, 0, 1]])
+        T_z2 = np.array([[1, 0, 0, 0], [0, 1, 0, -L2], [0, 0, 1, 0], [0, 0, 0, 1]])
+
+        # Convertir las matrices de rotación 3x3 a 4x4 homogéneas
+        R_x_4x4 = np.eye(4)
+        R_x_4x4[:3, :3] = R_x
+
+        R_y1_4x4 = np.eye(4)
+        R_y1_4x4[:3, :3] = R_y1
+
+        R_y2_4x4 = np.eye(4)
+        R_y2_4x4[:3, :3] = R_y2
+
+        R_y3_4x4 = np.eye(4)
+        R_y3_4x4[:3, :3] = R_y3
+
+        # Multiplicación de matrices homogéneas
+        M = np.dot(R_x_4x4, np.dot(R_y1_4x4, np.dot(T_z1, np.dot(R_y2_4x4, np.dot(T_z2, R_y3_4x4)))))
+        
+        # La respuesta será la última columna de la matriz M (posiciones y orientaciones)
+        response.x = M[0, 3]
+        response.y = M[1, 3]
+        response.z = M[2, 3]
+        response.roll = np.rad2deg(np.arctan2(M[2, 1], M[2, 2]))
+        response.pitch = np.rad2deg(np.arctan2(-M[2, 0], np.sqrt(M[2, 1]**2 + M[2, 2]**2)))
+        response.yaw = np.rad2deg(np.arctan2(M[1, 0], M[0, 0]))
+
+        self.get_logger().info(f'✅ Respuesta calculada: x={response.x}, y={response.y}, z={response.z}, roll={response.roll}, pitch={response.pitch}, yaw={response.yaw}')
         return response
 
 def main():
     rclpy.init()
-    servidor = ServidorAngulos()
-    rclpy.spin(servidor)  # Mantener el servidor activo
+    servidor = ServidorCinematica()
+    rclpy.spin(servidor)
     servidor.destroy_node()
     rclpy.shutdown()
 
