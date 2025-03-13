@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info
+writing ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/PKG-INFO
+writing dependency_links to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/dependency_links.txt
+writing entry points to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/entry_points.txt
+writing requirements to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/requires.txt
+writing top-level names to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/top_level.txt
+writing manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+reading manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+writing manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build
+creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib
+creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+copying p1_ej2_nodos_sensor/__init__.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+copying p1_ej2_nodos_sensor/nodo1.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+copying p1_ej2_nodos_sensor/nodo3.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+copying p1_ej2_nodos_sensor/nodo2.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nodo1 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+Installing nodo2 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+Installing nodo3 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log'

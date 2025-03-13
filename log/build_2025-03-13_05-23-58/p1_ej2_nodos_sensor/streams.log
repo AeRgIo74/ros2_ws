@@ -1,0 +1,23 @@
+[2.903s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej2_nodos_sensor': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodos_sensor build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log --single-version-externally-managed install_data
+[3.298s] running egg_info
+[3.299s] writing ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/PKG-INFO
+[3.299s] writing dependency_links to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/dependency_links.txt
+[3.299s] writing entry points to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/entry_points.txt
+[3.300s] writing requirements to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/requires.txt
+[3.301s] writing top-level names to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/top_level.txt
+[3.301s] reading manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+[3.302s] writing manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+[3.302s] running build
+[3.302s] running build_py
+[3.303s] running install
+[3.303s] running install_lib
+[3.305s] running install_data
+[3.306s] running install_egg_info
+[3.307s] removing '/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[3.308s] Copying ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor-0.0.0-py3.10.egg-info
+[3.309s] running install_scripts
+[3.338s] Installing nodo1 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.338s] Installing nodo2 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.338s] Installing nodo3 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.339s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log'
+[3.393s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej2_nodos_sensor' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodos_sensor build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log --single-version-externally-managed install_data

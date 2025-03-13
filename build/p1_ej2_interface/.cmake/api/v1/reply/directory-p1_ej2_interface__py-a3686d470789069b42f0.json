@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "p1_ej2_interface__py",
+		"source" : "/home/sergio/ros2_ws/build/p1_ej2_interface/p1_ej2_interface__py"
+	}
+}

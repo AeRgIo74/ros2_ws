@@ -1,0 +1,53 @@
+[0.055s] Invoking command in '/home/sergio/ros2_ws/build/p1_ej2_interface': AMENT_PREFIX_PATH=/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble PYTHONPATH=/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej2_interface -- -j16 -l16
+[0.083s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.239s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.242s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.418s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.419s]   p1_ej2_interface --arguments-file
+[0.419s]   /home/sergio/ros2_ws/build/p1_ej2_interface/rosidl_adapter__arguments__p1_ej2_interface.json
+[0.419s]   --output-dir
+[0.419s]   /home/sergio/ros2_ws/build/p1_ej2_interface/rosidl_adapter/p1_ej2_interface
+[0.419s]   --output-file
+[0.419s]   /home/sergio/ros2_ws/build/p1_ej2_interface/rosidl_adapter/p1_ej2_interface.idls)
+[0.419s]   returned error code 1:
+[0.419s] 
+[0.419s]   Error processing 'builtin.Time timestamp' of
+[0.419s]   'p1_ej2_interface/FilteredSensor': ''builtin.Time' is an invalid message
+[0.419s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[0.419s] 
+[0.419s]   Traceback (most recent call last):
+[0.419s] 
+[0.419s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.419s]       return _run_code(code, main_globals, None,
+[0.419s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.419s]       exec(code, run_globals)
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.419s]       sys.exit(main())
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.419s]       abs_idl_file = convert_to_idl(
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.419s]       return convert_msg_to_idl(
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.419s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+[0.419s]       Type(type_string, context_package_name=pkg_name),
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 277, in __init__
+[0.419s]       super(Type, self).__init__(
+[0.419s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.420s]       raise InvalidResourceName(
+[0.420s] 
+[0.420s]   rosidl_adapter.parser.InvalidResourceName: 'builtin.Time' is an invalid
+[0.420s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.420s] 
+[0.420s] Call Stack (most recent call first):
+[0.420s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.420s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.420s] 
+[0.420s] [0m
+[0.420s] -- Configuring incomplete, errors occurred!
+[0.420s] See also "/home/sergio/ros2_ws/build/p1_ej2_interface/CMakeFiles/CMakeOutput.log".
+[0.422s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.424s] Invoked command in '/home/sergio/ros2_ws/build/p1_ej2_interface' returned '2': AMENT_PREFIX_PATH=/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble PYTHONPATH=/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej2_interface -- -j16 -l16

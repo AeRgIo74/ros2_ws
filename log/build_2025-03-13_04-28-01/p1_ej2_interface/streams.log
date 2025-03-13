@@ -1,0 +1,144 @@
+[1.769s] Invoking command in '/home/sergio/ros2_ws/build/p1_ej2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej2_interface -- -j16 -l16
+[2.121s] [  3%] Built target p1_ej2_interface__cpp
+[2.121s] [ 12%] Built target p1_ej2_interface__rosidl_generator_c
+[2.121s] [ 12%] Built target ament_cmake_python_copy_p1_ej2_interface
+[2.121s] [ 25%] Built target p1_ej2_interface__rosidl_typesupport_c
+[2.121s] [ 45%] Built target p1_ej2_interface__rosidl_typesupport_introspection_c
+[2.121s] [ 48%] Built target p1_ej2_interface__rosidl_typesupport_fastrtps_cpp
+[2.121s] [ 51%] Built target p1_ej2_interface__rosidl_typesupport_introspection_cpp
+[2.121s] [ 67%] Built target p1_ej2_interface__rosidl_typesupport_cpp
+[2.121s] [ 70%] Built target p1_ej2_interface__rosidl_typesupport_fastrtps_c
+[2.121s] [ 70%] Built target p1_ej2_interface
+[2.121s] [ 74%] Built target p1_ej2_interface__py
+[2.121s] [ 80%] Built target p1_ej2_interface__rosidl_generator_py
+[2.121s] [100%] Built target p1_ej2_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.121s] [100%] Built target p1_ej2_interface__rosidl_typesupport_c__pyext
+[2.121s] [100%] Built target p1_ej2_interface__rosidl_typesupport_introspection_c__pyext
+[2.121s] running egg_info
+[2.122s] writing p1_ej2_interface.egg-info/PKG-INFO
+[2.122s] writing dependency_links to p1_ej2_interface.egg-info/dependency_links.txt
+[2.122s] writing top-level names to p1_ej2_interface.egg-info/top_level.txt
+[2.122s] reading manifest file 'p1_ej2_interface.egg-info/SOURCES.txt'
+[2.122s] writing manifest file 'p1_ej2_interface.egg-info/SOURCES.txt'
+[2.122s] [100%] Built target ament_cmake_python_build_p1_ej2_interface_egg
+[2.132s] Invoked command in '/home/sergio/ros2_ws/build/p1_ej2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p1_ej2_interface -- -j16 -l16
+[2.133s] Invoking command in '/home/sergio/ros2_ws/build/p1_ej2_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p1_ej2_interface
+[2.243s] -- Install configuration: ""
+[2.243s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/ament_index/resource_index/rosidl_interfaces/p1_ej2_interface
+[2.243s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.243s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.247s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/sensor.h
+[2.248s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/rosidl_generator_c__visibility_control.h
+[2.248s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.248s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__struct.h
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__type_support.h
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__functions.h
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__functions.c
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/library_path.sh
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/library_path.dsv
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_generator_c.so
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.249s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__rosidl_typesupport_fastrtps_c.h
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_fastrtps_c.so
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__type_support.c
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__rosidl_typesupport_introspection_c.h
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_introspection_c.so
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_c.so
+[2.250s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.251s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.251s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.251s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.251s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__struct.hpp
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__traits.hpp
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__builder.hpp
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__type_support.hpp
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/sensor.hpp
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.255s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.256s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/dds_fastrtps
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__rosidl_typesupport_fastrtps_cpp.hpp
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail
+[2.259s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__rosidl_typesupport_introspection_cpp.hpp
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/include/p1_ej2_interface/p1_ej2_interface/msg/detail/sensor__type_support.cpp
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_introspection_cpp.so
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_typesupport_cpp.so
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/pythonpath.sh
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/pythonpath.dsv
+[2.260s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface-0.0.0-py3.10.egg-info
+[2.260s] -- Installing: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.260s] -- Installing: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.260s] -- Installing: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.263s] -- Installing: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/msg
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/msg/__init__.py
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/msg/_sensor.py
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/msg/_sensor_s.c
+[2.263s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/__init__.py
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/libp1_ej2_interface__rosidl_generator_py.so
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/_p1_ej2_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/_p1_ej2_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/_p1_ej2_interface_s.ep.rosidl_typesupport_c.c
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.264s] Listing '/home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface'...
+[2.264s] Listing '/home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/msg'...
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.264s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages/p1_ej2_interface/p1_ej2_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.265s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/lib/libp1_ej2_interface__rosidl_generator_py.so
+[2.269s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/msg/Sensor.idl
+[2.269s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/msg/Sensor.msg
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/ament_index/resource_index/package_run_dependencies/p1_ej2_interface
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/ament_index/resource_index/parent_prefix_path/p1_ej2_interface
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/ament_prefix_path.sh
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/ament_prefix_path.dsv
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/path.sh
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/environment/path.dsv
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/local_setup.bash
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/local_setup.sh
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/local_setup.zsh
+[2.270s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/local_setup.dsv
+[2.270s] -- Installing: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/package.dsv
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/ament_index/resource_index/packages/p1_ej2_interface
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_generator_cExport.cmake
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_generator_cExport-noconfig.cmake
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.272s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_cExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_generator_cppExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_cppExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_generator_pyExport.cmake
+[2.273s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/export_p1_ej2_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/rosidl_cmake-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interfaceConfig.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/cmake/p1_ej2_interfaceConfig-version.cmake
+[2.274s] -- Up-to-date: /home/sergio/ros2_ws/install/p1_ej2_interface/share/p1_ej2_interface/package.xml
+[2.363s] Invoked command in '/home/sergio/ros2_ws/build/p1_ej2_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p1_ej2_interface

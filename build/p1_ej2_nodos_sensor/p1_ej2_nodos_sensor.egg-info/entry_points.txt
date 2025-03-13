@@ -1,0 +1,5 @@
+[console_scripts]
+nodo1 = p1_ej2_nodos_sensor.nodo1:main
+nodo2 = p1_ej2_nodos_sensor.nodo2:main
+nodo3 = p1_ej2_nodos_sensor.nodo3:main
+

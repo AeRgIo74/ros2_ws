@@ -1,0 +1,3 @@
+[console_scripts]
+nodo5 = p1_ej2_nodo5.nodo5:main
+

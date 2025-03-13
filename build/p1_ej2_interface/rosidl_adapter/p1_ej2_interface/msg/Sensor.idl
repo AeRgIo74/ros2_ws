@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from p1_ej2_interface/msg/Sensor.msg
+// generated code does not contain a copyright notice
+
+
+module p1_ej2_interface {
+  module msg {
+    struct Sensor {
+      double data;
+    };
+  };
+};

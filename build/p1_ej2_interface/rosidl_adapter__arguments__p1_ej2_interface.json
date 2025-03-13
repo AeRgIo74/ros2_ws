@@ -1,0 +1,7 @@
+{
+  "package_name": "p1_ej2_interface",
+  "non_idl_tuples": [
+    "/home/sergio/ros2_ws/src/p1_ej2_interface:msg/Sensor.msg",
+    "/home/sergio/ros2_ws/src/p1_ej2_interface:msg/FilteredSensor.msg"
+  ]
+}

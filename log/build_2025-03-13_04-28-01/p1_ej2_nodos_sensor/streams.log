@@ -1,0 +1,45 @@
+[2.846s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej2_nodos_sensor': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodos_sensor build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log --single-version-externally-managed install_data
+[3.311s] running egg_info
+[3.313s] creating ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info
+[3.313s] writing ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/PKG-INFO
+[3.313s] writing dependency_links to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/dependency_links.txt
+[3.313s] writing entry points to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/entry_points.txt
+[3.313s] writing requirements to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/requires.txt
+[3.313s] writing top-level names to ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/top_level.txt
+[3.313s] writing manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+[3.318s] reading manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+[3.318s] writing manifest file '../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info/SOURCES.txt'
+[3.321s] running build
+[3.321s] running build_py
+[3.321s] creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build
+[3.321s] creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib
+[3.321s] creating /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+[3.321s] copying p1_ej2_nodos_sensor/__init__.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+[3.322s] copying p1_ej2_nodos_sensor/nodo1.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+[3.322s] copying p1_ej2_nodos_sensor/nodo3.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+[3.322s] copying p1_ej2_nodos_sensor/nodo2.py -> /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor
+[3.322s] running install
+[3.322s] running install_lib
+[3.322s] creating /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor
+[3.323s] copying /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor/__init__.py -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor
+[3.326s] copying /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor/nodo1.py -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor
+[3.326s] copying /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor/nodo3.py -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor
+[3.326s] copying /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build/lib/p1_ej2_nodos_sensor/nodo2.py -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor
+[3.330s] byte-compiling /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor/__init__.py to __init__.cpython-310.pyc
+[3.330s] byte-compiling /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor/nodo1.py to nodo1.cpython-310.pyc
+[3.331s] byte-compiling /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor/nodo3.py to nodo3.cpython-310.pyc
+[3.331s] byte-compiling /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor/nodo2.py to nodo2.cpython-310.pyc
+[3.331s] running install_data
+[3.331s] creating /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/share/ament_index
+[3.331s] creating /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/share/ament_index/resource_index
+[3.331s] creating /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/share/ament_index/resource_index/packages
+[3.331s] copying resource/p1_ej2_nodos_sensor -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/share/ament_index/resource_index/packages
+[3.331s] copying package.xml -> /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/share/p1_ej2_nodos_sensor
+[3.331s] running install_egg_info
+[3.331s] Copying ../../build/p1_ej2_nodos_sensor/p1_ej2_nodos_sensor.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages/p1_ej2_nodos_sensor-0.0.0-py3.10.egg-info
+[3.332s] running install_scripts
+[3.364s] Installing nodo1 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.365s] Installing nodo2 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.365s] Installing nodo3 script to /home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/p1_ej2_nodos_sensor
+[3.366s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log'
+[3.398s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej2_nodos_sensor' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodos_sensor build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodos_sensor/install.log --single-version-externally-managed install_data
