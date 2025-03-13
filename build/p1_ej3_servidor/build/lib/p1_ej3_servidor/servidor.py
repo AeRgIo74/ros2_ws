@@ -17,9 +17,9 @@ class ServidorCinematica(Node):
 
         # Longitudes L1 y L2
         L1 = 69.5 / 1000  # Convertido a metros
-        L2 = 71.5 / 1000  # Convertido a metros
+        L2 = 71.5 / 1000 
 
-        # Matrices de rotación 3x3
+        # Matrices de rotación
         R_x = np.array([[1, 0, 0], [0, np.cos(theta1), -np.sin(theta1)], [0, np.sin(theta1), np.cos(theta1)]])
         R_y1 = np.array([[np.cos(theta2), 0, np.sin(theta2)], [0, 1, 0], [-np.sin(theta2), 0, np.cos(theta2)]])
         R_y2 = np.array([[np.cos(theta3), 0, np.sin(theta3)], [0, 1, 0], [-np.sin(theta3), 0, np.cos(theta3)]])
@@ -53,7 +53,7 @@ class ServidorCinematica(Node):
         response.pitch = np.rad2deg(np.arctan2(-M[2, 0], np.sqrt(M[2, 1]**2 + M[2, 2]**2)))
         response.yaw = np.rad2deg(np.arctan2(M[1, 0], M[0, 0]))
 
-        self.get_logger().info(f'✅ Respuesta calculada: x={response.x}, y={response.y}, z={response.z}, roll={response.roll}, pitch={response.pitch}, yaw={response.yaw}')
+        self.get_logger().info(f'Respuesta calculada: x={response.x}, y={response.y}, z={response.z}, roll={response.roll}, pitch={response.pitch}, yaw={response.yaw}')
         return response
 
 def main():

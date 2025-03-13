@@ -27,9 +27,9 @@ class ClienteCinematica(Node):
             request.theta1 = float(config[0])
             request.theta2 = float(config[1])
             request.theta3 = float(config[2])
-            request.theta4 = 0.0  # Se deja en 0 si no se usa
+            request.theta4 = 0.0 
 
-            self.get_logger().info(f'📤 Enviando Configuración {i+1}: {config} grados')
+            self.get_logger().info(f'Enviando Configuración {i+1}: {config} grados')
             
             future = self.cli.call_async(request)
             rclpy.spin_until_future_complete(self, future)
@@ -37,11 +37,11 @@ class ClienteCinematica(Node):
             if future.result():
                 respuesta = future.result()
                 resultados.append([respuesta.x, respuesta.y, respuesta.z, respuesta.roll, respuesta.pitch, respuesta.yaw])
-                self.get_logger().info(f'✅ Respuesta: {respuesta}')
+                self.get_logger().info(f'Respuesta: {respuesta}')
             else:
-                self.get_logger().error('❌ Error al llamar al servicio')
+                self.get_logger().error('Error al llamar al servicio')
 
-        self.get_logger().info(f'📊 Resultados almacenados: {resultados}')
+        self.get_logger().info(f'Resultados almacenados: {resultados}')
 
 def main():
     rclpy.init()
