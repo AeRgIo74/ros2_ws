@@ -1,0 +1,39 @@
+[3.310s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej2_nodo5': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo5 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo5/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log --single-version-externally-managed install_data
+[3.814s] Traceback (most recent call last):
+[3.814s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2866, in get_entry_map
+[3.815s]     ep_map = self._ep_map
+[3.815s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2828, in __getattr__
+[3.815s]     raise AttributeError(attr)
+[3.816s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[3.816s] 
+[3.817s] During handling of the above exception, another exception occurred:
+[3.817s] 
+[3.817s] Traceback (most recent call last):
+[3.817s]   File "/home/sergio/ros2_ws/src/p1_ej2_nodo5/setup.py", line 5, in <module>
+[3.817s]     setup(
+[3.817s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 152, in setup
+[3.817s]     _install_setup_requires(attrs)
+[3.817s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[3.817s]     dist = MinimalDistribution(attrs)
+[3.818s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 134, in __init__
+[3.818s]     distutils.core.Distribution.__init__(self, filtered)
+[3.818s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 457, in __init__
+[3.818s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[3.818s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 646, in <genexpr>
+[3.818s]     for entry in dist.get_entry_map(group).values()
+[3.818s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2868, in get_entry_map
+[3.818s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[3.818s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2549, in parse_map
+[3.818s]     for group, lines in data:
+[3.819s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3205, in split_sections
+[3.819s]     for line in yield_lines(s):
+[3.819s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+[3.822s]     for line in self.get_metadata_lines(name):
+[3.822s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+[3.822s]     return yield_lines(self.get_metadata(name))
+[3.822s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1412, in get_metadata
+[3.822s]     value = self._get(path)
+[3.822s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1616, in _get
+[3.822s]     with open(path, 'rb') as stream:
+[3.823s] FileNotFoundError: [Errno 2] No such file or directory: '/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages/p1_ej2_nodo4-0.0.0-py3.10.egg-info/entry_points.txt'
+[3.876s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej2_nodo5' returned '1': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo5 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo5/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log --single-version-externally-managed install_data
