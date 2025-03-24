@@ -1,0 +1,16 @@
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/urdf/robot_trr.urdf
+/home/sergio/ros2_ws/install/robot_trr/share/ament_index/resource_index/package_run_dependencies/robot_trr
+/home/sergio/ros2_ws/install/robot_trr/share/ament_index/resource_index/parent_prefix_path/robot_trr
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/environment/ament_prefix_path.sh
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/environment/ament_prefix_path.dsv
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/environment/path.sh
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/environment/path.dsv
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/local_setup.bash
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/local_setup.sh
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/local_setup.zsh
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/local_setup.dsv
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/package.dsv
+/home/sergio/ros2_ws/install/robot_trr/share/ament_index/resource_index/packages/robot_trr
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/cmake/robot_trrConfig.cmake
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/cmake/robot_trrConfig-version.cmake
+/home/sergio/ros2_ws/install/robot_trr/share/robot_trr/package.xml

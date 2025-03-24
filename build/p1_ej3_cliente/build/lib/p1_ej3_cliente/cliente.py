@@ -24,10 +24,10 @@ class ClienteCinematica(Node):
         
         for i, config in enumerate(configuraciones):
             request = Angulos.Request()
-            request.theta1 = float(config[0])
-            request.theta2 = float(config[1])
-            request.theta3 = float(config[2])
-            request.theta4 = 0.0 
+            request.theta1 = float(90)
+            request.theta2 = float(2)
+            request.theta3 = float(3)
+            request.theta4 = float(45)
 
             self.get_logger().info(f'Enviando Configuración {i+1}: {config} grados')
             
