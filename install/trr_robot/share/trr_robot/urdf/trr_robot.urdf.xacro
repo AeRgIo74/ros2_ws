@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<robot name="trr_robot">
+    <!-- Base del robot -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.2"/>
+            </geometry>
+            <material name="dark_gray">
+                <color rgba="0.3 0.3 0.3 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Articulación torsional -->
+    <joint name="torsional_joint" type="revolute">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0.2"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link1">
+        <visual>
+            <geometry>
+                <cylinder radius="0.05" length="0.3"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0.1 0.1 0.8 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Articulación rotacional 1 -->
+    <joint name="revolute_joint1" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 0.3"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link2">
+        <visual>
+            <geometry>
+                <cylinder radius="0.04" length="0.3"/>
+            </geometry>
+            <material name="green">
+                <color rgba="0.1 0.8 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Articulación rotacional 2 -->
+    <joint name="revolute_joint2" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 0.3"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link3">
+        <visual>
+            <geometry>
+                <cylinder radius="0.03" length="0.2"/>
+            </geometry>
+            <material name="yellow">
+                <color rgba="0.8 0.8 0.2 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Gripper (garra) -->
+    <joint name="gripper_joint" type="fixed">
+        <parent link="link3"/>
+        <child link="gripper_base"/>
+        <origin xyz="0 0 0.2"/>
+    </joint>
+    <link name="gripper_base">
+        <visual>
+            <geometry>
+                <box size="0.06 0.06 0.02"/> <!-- Base del gripper -->
+            </geometry>
+            <material name="gray">
+                <color rgba="0.5 0.5 0.5 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Dedo izquierdo -->
+    <joint name="left_finger_joint" type="prismatic">
+        <parent link="gripper_base"/>
+        <child link="left_finger"/>
+        <origin xyz="0 0.03 0"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="0" upper="0.025" effort="10" velocity="0.2"/>
+    </joint>
+    <link name="left_finger">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.02"/> <!-- Forma del dedo -->
+            </geometry>
+            <material name="black">
+                <color rgba="0.1 0.1 0.1 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- Dedo derecho -->
+    <joint name="right_finger_joint" type="prismatic">
+        <parent link="gripper_base"/>
+        <child link="right_finger"/>
+        <origin xyz="0 -0.03 0"/>
+        <axis xyz="0 -1 0"/>
+        <limit lower="0" upper="0.025" effort="10" velocity="0.2"/>
+    </joint>
+    <link name="right_finger">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.02"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+    </link>
+</robot>

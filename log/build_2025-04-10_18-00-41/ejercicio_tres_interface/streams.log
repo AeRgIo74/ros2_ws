@@ -1,0 +1,25 @@
+[2.210s] Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[3.885s] [  3%] Built target ejercicio_tres_interface__cpp
+[3.885s] [ 12%] Built target ejercicio_tres_interface__rosidl_generator_c
+[3.885s] [ 12%] Built target ament_cmake_python_copy_ejercicio_tres_interface
+[3.885s] [ 22%] Built target ejercicio_tres_interface__rosidl_typesupport_c
+[3.885s] [ 32%] Built target ejercicio_tres_interface__rosidl_typesupport_cpp
+[3.885s] [ 41%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_c
+[3.885s] [ 51%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_cpp
+[3.885s] [ 61%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_cpp
+[3.886s] [ 70%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_c
+[3.886s] [ 70%] Built target ejercicio_tres_interface
+[3.886s] [ 74%] Built target ejercicio_tres_interface__py
+[3.886s] [ 80%] Built target ejercicio_tres_interface__rosidl_generator_py
+[3.886s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_c__pyext
+[3.886s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_c__pyext
+[3.886s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_c__pyext
+[3.886s] running egg_info
+[3.886s] writing ejercicio_tres_interface.egg-info/PKG-INFO
+[3.886s] writing dependency_links to ejercicio_tres_interface.egg-info/dependency_links.txt
+[3.887s] writing top-level names to ejercicio_tres_interface.egg-info/top_level.txt
+[3.887s] reading manifest file 'ejercicio_tres_interface.egg-info/SOURCES.txt'
+[3.887s] writing manifest file 'ejercicio_tres_interface.egg-info/SOURCES.txt'
+[3.887s] [100%] Built target ament_cmake_python_build_ejercicio_tres_interface_egg
+[3.892s] Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[3.901s] Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres_interface

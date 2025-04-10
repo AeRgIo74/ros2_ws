@@ -1,0 +1,69 @@
+[0.190s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+[3.967s] -- The C compiler identification is GNU 11.4.0
+[3.969s] -- The CXX compiler identification is GNU 11.4.0
+[3.969s] -- Detecting C compiler ABI info
+[3.969s] -- Detecting C compiler ABI info - done
+[3.969s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.969s] -- Detecting C compile features
+[3.969s] -- Detecting C compile features - done
+[3.969s] -- Detecting CXX compiler ABI info
+[3.969s] -- Detecting CXX compiler ABI info - done
+[3.969s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.969s] -- Detecting CXX compile features
+[3.969s] -- Detecting CXX compile features - done
+[3.969s] -- Stage version 4.3.0
+[3.969s] -- Operating system is Linux
+[3.969s] -- Installing Libraries to /home/sergio/ros2_ws/install/Stage/lib
+[3.970s] -- Installing Plugins to /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3
+[3.970s] -- Build type RELEASE
+[3.970s] -- Checking for libtool
+[3.970s] -- Checking for required libraries...
+[3.970s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.970s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.970s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[3.970s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.970s] -- Found X11: /usr/include   
+[3.970s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.970s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.970s] -- Looking for gethostbyname
+[3.970s] -- Looking for gethostbyname - found
+[3.970s] -- Looking for connect
+[3.970s] -- Looking for connect - found
+[3.970s] -- Looking for remove
+[3.970s] -- Looking for remove - found
+[3.970s] -- Looking for shmat
+[3.970s] -- Looking for shmat - found
+[3.970s] -- Looking for IceConnectionNumber in ICE
+[3.971s] -- Looking for IceConnectionNumber in ICE - found
+[3.971s] -- Configuring incomplete, errors occurred!
+[3.971s] See also "/home/sergio/ros2_ws/build/Stage/CMakeFiles/CMakeOutput.log".
+[3.973s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[3.973s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[3.973s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[3.973s]   cmake_policy command to set the policy and suppress this warning.
+[3.973s] 
+[3.973s]   FindOpenGL found both a legacy GL library:
+[3.973s] 
+[3.973s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[3.973s] 
+[3.974s]   and GLVND libraries for OpenGL and GLX:
+[3.974s] 
+[3.974s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[3.974s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[3.974s] 
+[3.974s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[3.974s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[3.974s] Call Stack (most recent call first):
+[3.974s]   /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)
+[3.974s]   CMakeLists.txt:100 (find_package)
+[3.974s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[3.974s] [0m
+[3.974s] [31mCMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
+[3.974s]   Could NOT find FLTK (missing: FLTK_LIBRARIES)
+[3.974s] Call Stack (most recent call first):
+[3.974s]   /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
+[3.974s]   /usr/share/cmake-3.22/Modules/FindFLTK.cmake:327 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+[3.974s]   CMakeLists.txt:100 (find_package)
+[3.974s] 
+[3.974s] [0m
+[3.977s] Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '1': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage

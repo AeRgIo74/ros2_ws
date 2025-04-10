@@ -1,0 +1,128 @@
+[0.012s] Invoking command in '/home/sergio/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake /home/sergio/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/stage_ros2
+[0.063s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.256s] -- Detecting CXX compiler ABI info - done
+[0.262s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.263s] -- Detecting CXX compile features - done
+[0.267s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.532s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.594s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.605s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.616s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.708s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.713s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.796s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.820s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.852s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.864s] -- Looking for pthread.h
+[0.935s] -- Looking for pthread.h - found
+[0.936s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.006s] -- Found Threads: TRUE  
+[1.056s] -- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.093s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.124s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.139s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.219s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.239s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.240s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.240s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.244s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.260s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.380s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.380s] -- Configured cppcheck include dirs: /home/sergio/ros2_ws/src/stage_ros2/./include;$<BUILD_INTERFACE:/home/sergio/ros2_ws/src/stage_ros2/include>
+[1.380s] -- Configured cppcheck exclude dirs and/or files: 
+[1.384s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.388s] -- Added test 'lint_cmake' to check CMake code style
+[1.391s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.400s] -- Added test 'uncrustify' to check C / C++ code style
+[1.401s] -- Configured uncrustify additional arguments: 
+[1.402s] -- Added test 'xmllint' to check XML markup files
+[1.404s] -- Configuring done
+[1.418s] -- Generating done
+[1.423s] -- Build files have been written to: /home/sergio/ros2_ws/build/stage_ros2
+[1.431s] Invoked command in '/home/sergio/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake /home/sergio/ros2_ws/src/stage_ros2 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/stage_ros2
+[1.432s] Invoking command in '/home/sergio/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/sergio/ros2_ws/build/stage_ros2 -- -j16 -l16
+[1.469s] [ 14%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/stage_node.cpp.o[0m
+[1.469s] [ 28%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/vehicle.cpp.o[0m
+[1.469s] [ 42%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/ranger.cpp.o[0m
+[1.470s] [ 57%] [32mBuilding CXX object CMakeFiles/stage_node.dir/src/camera.cpp.o[0m
+[10.587s] [ 71%] [32m[1mLinking CXX shared library libstage_node.so[0m
+[11.143s] [ 71%] Built target stage_node
+[11.157s] [ 85%] [32mBuilding CXX object CMakeFiles/stage_ros2.dir/src/main.cpp.o[0m
+[13.765s] [100%] [32m[1mLinking CXX executable stage_ros2[0m
+[14.010s] [100%] Built target stage_ros2
+[14.017s] Invoked command in '/home/sergio/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake --build /home/sergio/ros2_ws/build/stage_ros2 -- -j16 -l16
+[14.018s] Invoking command in '/home/sergio/ros2_ws/build/stage_ros2': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/sergio/ros2_ws/build/stage_ros2
+[14.027s] -- Install configuration: ""
+[14.027s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.sh
+[14.028s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/library_path.dsv
+[14.028s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch
+[14.028s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch/f710.launch.py
+[14.029s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch/demo.launch.py
+[14.029s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz.launch.py
+[14.029s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch/rviz_ns.launch.py
+[14.029s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//launch/stage.launch.py
+[14.029s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/willow-four-erratics-multisensor.world
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_three_robots.world
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_multi.world
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/straden.png
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/willow-full.pgm
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.png
+[14.030s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/hallway.pgm
+[14.031s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/cave.png
+[14.031s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse008.pgm
+[14.031s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse200.pgm
+[14.033s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/line.png
+[14.033s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/bitmaps/warehouse032.pgm
+[14.034s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave_seven_robots.world
+[14.034s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/straden.world
+[14.034s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/hallway.world
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/include
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/pioneer2dx.inc
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/include/robots.inc
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/cave.world
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//world/lines.world
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config
+[14.035s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns.rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave.rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_three_robots.rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot_ns_depth.rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/cave_seven_robots.rviz
+[14.036s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/lines.rviz
+[14.037s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/rviz/robot0.rviz
+[14.037s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy
+[14.037s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2//config/teleop_twist_joy/f710.config.yaml
+[14.037s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/lib/libstage_node.so
+[14.046s] -- Set runtime path of "/home/sergio/ros2_ws/install/stage_ros2/lib/libstage_node.so" to ""
+[14.046s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2
+[14.047s] -- Set runtime path of "/home/sergio/ros2_ws/install/stage_ros2/lib/stage_ros2/stage_ros2" to ""
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/ament_index/resource_index/package_run_dependencies/stage_ros2
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/ament_index/resource_index/parent_prefix_path/stage_ros2
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.sh
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/ament_prefix_path.dsv
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.sh
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/environment/path.dsv
+[14.047s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.bash
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.sh
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.zsh
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/local_setup.dsv
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/package.dsv
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/ament_index/resource_index/packages/stage_ros2
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config.cmake
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/cmake/stage_ros2Config-version.cmake
+[14.048s] -- Installing: /home/sergio/ros2_ws/install/stage_ros2/share/stage_ros2/package.xml
+[14.050s] Invoked command in '/home/sergio/ros2_ws/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/Stage/lib:${LD_LIBRARY_PATH} PATH=/home/sergio/ros2_ws/install/Stage/bin:${PATH} /usr/bin/cmake --install /home/sergio/ros2_ws/build/stage_ros2

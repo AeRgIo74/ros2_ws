@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/trr_robot_ps/trr_robot_ps.egg-info/PKG-INFO
+../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt
+../../build/trr_robot_ps/trr_robot_ps.egg-info/dependency_links.txt
+../../build/trr_robot_ps/trr_robot_ps.egg-info/entry_points.txt
+../../build/trr_robot_ps/trr_robot_ps.egg-info/requires.txt
+../../build/trr_robot_ps/trr_robot_ps.egg-info/top_level.txt
+../../build/trr_robot_ps/trr_robot_ps.egg-info/zip-safe
+resource/trr_robot_ps
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+trr_robot_ps/__init__.py
+trr_robot_ps/pub_sub.py

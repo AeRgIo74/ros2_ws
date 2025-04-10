@@ -1,0 +1,3 @@
+[console_scripts]
+pub_sub = trr_robot_ps.pub_sub:main
+

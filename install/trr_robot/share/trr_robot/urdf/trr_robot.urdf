@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<robot name="trr_robot">
+    <!-- Base -->
+    <link name="base_link"/>
+    
+    <!-- Eje Traslacional -->
+    <joint name="prismatic_joint" type="prismatic">
+        <parent link="base_link"/>
+        <child link="link1"/>
+        <origin xyz="0 0 0"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="0.5" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link1"/>
+
+    <!-- Eje Rotacional 1 -->
+    <joint name="revolute_joint1" type="revolute">
+        <parent link="link1"/>
+        <child link="link2"/>
+        <origin xyz="0 0 0.2"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link2"/>
+
+    <!-- Eje Rotacional 2 -->
+    <joint name="revolute_joint2" type="revolute">
+        <parent link="link2"/>
+        <child link="link3"/>
+        <origin xyz="0 0 0.2"/>
+        <axis xyz="0 1 0"/>
+        <limit lower="-1.57" upper="1.57" effort="50" velocity="1.0"/>
+    </joint>
+    <link name="link3"/>
+</robot>

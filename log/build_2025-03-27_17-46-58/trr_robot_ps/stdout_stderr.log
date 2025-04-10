@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/trr_robot_ps/trr_robot_ps.egg-info
+writing ../../build/trr_robot_ps/trr_robot_ps.egg-info/PKG-INFO
+writing dependency_links to ../../build/trr_robot_ps/trr_robot_ps.egg-info/dependency_links.txt
+writing entry points to ../../build/trr_robot_ps/trr_robot_ps.egg-info/entry_points.txt
+writing requirements to ../../build/trr_robot_ps/trr_robot_ps.egg-info/requires.txt
+writing top-level names to ../../build/trr_robot_ps/trr_robot_ps.egg-info/top_level.txt
+writing manifest file '../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt'
+reading manifest file '../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt'
+writing manifest file '../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/trr_robot_ps/build
+creating /home/sergio/ros2_ws/build/trr_robot_ps/build/lib
+creating /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps
+copying trr_robot_ps/__init__.py -> /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps
+copying trr_robot_ps/pub_sub.py -> /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps
+running install
+running install_lib
+creating /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps
+copying /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps/__init__.py -> /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps
+copying /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps/pub_sub.py -> /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps
+byte-compiling /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps/pub_sub.py to pub_sub.cpython-310.pyc
+running install_data
+creating /home/sergio/ros2_ws/install/trr_robot_ps/share/ament_index
+creating /home/sergio/ros2_ws/install/trr_robot_ps/share/ament_index/resource_index
+creating /home/sergio/ros2_ws/install/trr_robot_ps/share/ament_index/resource_index/packages
+copying resource/trr_robot_ps -> /home/sergio/ros2_ws/install/trr_robot_ps/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/trr_robot_ps/share/trr_robot_ps
+running install_egg_info
+Copying ../../build/trr_robot_ps/trr_robot_ps.egg-info to /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps-0.0.0-py3.10.egg-info
+running install_scripts
+Installing pub_sub script to /home/sergio/ros2_ws/install/trr_robot_ps/lib/trr_robot_ps
+writing list of installed files to '/home/sergio/ros2_ws/build/trr_robot_ps/install.log'
