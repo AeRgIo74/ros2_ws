@@ -1,0 +1,39 @@
+[3.920s] Invoking command in '/home/sergio/ros2_ws/src/auto_mover': PYTHONPATH=/home/sergio/ros2_ws/build/auto_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mover build --build-base /home/sergio/ros2_ws/build/auto_mover/build install --record /home/sergio/ros2_ws/build/auto_mover/install.log --single-version-externally-managed install_data
+[4.504s] Traceback (most recent call last):
+[4.505s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2866, in get_entry_map
+[4.505s]     ep_map = self._ep_map
+[4.505s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2828, in __getattr__
+[4.506s]     raise AttributeError(attr)
+[4.506s] AttributeError: _ep_map. Did you mean: '_dep_map'?
+[4.507s] 
+[4.507s] During handling of the above exception, another exception occurred:
+[4.507s] 
+[4.508s] Traceback (most recent call last):
+[4.508s]   File "/home/sergio/ros2_ws/src/auto_mover/setup.py", line 5, in <module>
+[4.508s]     setup(
+[4.508s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 152, in setup
+[4.510s]     _install_setup_requires(attrs)
+[4.510s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 142, in _install_setup_requires
+[4.510s]     dist = MinimalDistribution(attrs)
+[4.510s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 134, in __init__
+[4.510s]     distutils.core.Distribution.__init__(self, filtered)
+[4.510s]   File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 457, in __init__
+[4.512s]     for ep in pkg_resources.iter_entry_points('distutils.setup_keywords'):
+[4.512s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 646, in <genexpr>
+[4.512s]     for entry in dist.get_entry_map(group).values()
+[4.512s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2868, in get_entry_map
+[4.512s]     ep_map = self._ep_map = EntryPoint.parse_map(
+[4.512s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2549, in parse_map
+[4.512s]     for group, lines in data:
+[4.512s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3205, in split_sections
+[4.512s]     for line in yield_lines(s):
+[4.513s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+[4.513s]     for line in self.get_metadata_lines(name):
+[4.514s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+[4.514s]     return yield_lines(self.get_metadata(name))
+[4.514s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1412, in get_metadata
+[4.515s]     value = self._get(path)
+[4.515s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1616, in _get
+[4.515s]     with open(path, 'rb') as stream:
+[4.516s] FileNotFoundError: [Errno 2] No such file or directory: '/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages/ejercicio_dos-0.0.0-py3.10.egg-info/entry_points.txt'
+[4.549s] Invoked command in '/home/sergio/ros2_ws/src/auto_mover' returned '1': PYTHONPATH=/home/sergio/ros2_ws/build/auto_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mover build --build-base /home/sergio/ros2_ws/build/auto_mover/build install --record /home/sergio/ros2_ws/build/auto_mover/install.log --single-version-externally-managed install_data

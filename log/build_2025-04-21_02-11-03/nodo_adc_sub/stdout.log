@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/nodo_adc_sub/nodo_adc_sub.egg-info
+writing ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/entry_points.txt
+writing requirements to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/requires.txt
+writing top-level names to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/top_level.txt
+writing manifest file '../../build/nodo_adc_sub/nodo_adc_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/nodo_adc_sub/nodo_adc_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/nodo_adc_sub/nodo_adc_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/nodo_adc_sub/build
+creating /home/sergio/ros2_ws/build/nodo_adc_sub/build/lib
+creating /home/sergio/ros2_ws/build/nodo_adc_sub/build/lib/nodo_adc_sub
+copying nodo_adc_sub/subscriber_adc.py -> /home/sergio/ros2_ws/build/nodo_adc_sub/build/lib/nodo_adc_sub
+copying nodo_adc_sub/__init__.py -> /home/sergio/ros2_ws/build/nodo_adc_sub/build/lib/nodo_adc_sub
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages/nodo_adc_sub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/nodo_adc_sub/nodo_adc_sub.egg-info to /home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages/nodo_adc_sub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing subscriber_adc script to /home/sergio/ros2_ws/install/nodo_adc_sub/lib/nodo_adc_sub
+writing list of installed files to '/home/sergio/ros2_ws/build/nodo_adc_sub/install.log'

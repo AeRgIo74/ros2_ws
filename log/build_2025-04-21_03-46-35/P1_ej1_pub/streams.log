@@ -1,0 +1,21 @@
+[3.673s] Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_pub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data
+[4.157s] running egg_info
+[4.159s] writing ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/PKG-INFO
+[4.159s] writing dependency_links to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/dependency_links.txt
+[4.159s] writing entry points to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/entry_points.txt
+[4.160s] writing requirements to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/requires.txt
+[4.160s] writing top-level names to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/top_level.txt
+[4.162s] reading manifest file '../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt'
+[4.164s] writing manifest file '../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt'
+[4.164s] running build
+[4.164s] running build_py
+[4.165s] running install
+[4.166s] running install_lib
+[4.167s] running install_data
+[4.167s] running install_egg_info
+[4.169s] removing '/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[4.171s] Copying ../../build/P1_ej1_pub/P1_ej1_pub.egg-info to /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub-0.0.0-py3.10.egg-info
+[4.171s] running install_scripts
+[4.202s] Installing publicador script to /home/sergio/ros2_ws/install/P1_ej1_pub/lib/P1_ej1_pub
+[4.206s] writing list of installed files to '/home/sergio/ros2_ws/build/P1_ej1_pub/install.log'
+[4.241s] Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_pub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data

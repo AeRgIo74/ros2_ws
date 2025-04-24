@@ -1,0 +1,35 @@
+[5.337s] Invoking command in '/home/sergio/ros2_ws/src/robot_nav': PYTHONPATH=/home/sergio/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nav build --build-base /home/sergio/ros2_ws/build/robot_nav/build install --record /home/sergio/ros2_ws/build/robot_nav/install.log --single-version-externally-managed install_data
+[6.969s] running egg_info
+[6.978s] creating ../../build/robot_nav/robot_nav.egg-info
+[6.978s] writing ../../build/robot_nav/robot_nav.egg-info/PKG-INFO
+[6.978s] writing dependency_links to ../../build/robot_nav/robot_nav.egg-info/dependency_links.txt
+[6.978s] writing entry points to ../../build/robot_nav/robot_nav.egg-info/entry_points.txt
+[6.978s] writing requirements to ../../build/robot_nav/robot_nav.egg-info/requires.txt
+[6.978s] writing top-level names to ../../build/robot_nav/robot_nav.egg-info/top_level.txt
+[6.978s] writing manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+[6.987s] reading manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+[6.988s] writing manifest file '../../build/robot_nav/robot_nav.egg-info/SOURCES.txt'
+[6.989s] running build
+[6.993s] running build_py
+[6.993s] creating /home/sergio/ros2_ws/build/robot_nav/build
+[6.993s] creating /home/sergio/ros2_ws/build/robot_nav/build/lib
+[6.993s] creating /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[6.993s] copying robot_nav/path_follower.py -> /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[7.003s] copying robot_nav/__init__.py -> /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[7.004s] copying robot_nav/wavefront_planner.py -> /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[7.004s] copying robot_nav/avoid_obstacles.py -> /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[7.004s] copying robot_nav/a_star_planner.py -> /home/sergio/ros2_ws/build/robot_nav/build/lib/robot_nav
+[7.004s] running install
+[7.004s] running install_lib
+[7.007s] running install_data
+[7.015s] running install_egg_info
+[7.021s] removing '/home/sergio/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[7.025s] Copying ../../build/robot_nav/robot_nav.egg-info to /home/sergio/ros2_ws/install/robot_nav/lib/python3.10/site-packages/robot_nav-0.0.0-py3.10.egg-info
+[7.031s] running install_scripts
+[7.154s] Installing a_star_planner script to /home/sergio/ros2_ws/install/robot_nav/lib/robot_nav
+[7.154s] Installing avoid_obstacles script to /home/sergio/ros2_ws/install/robot_nav/lib/robot_nav
+[7.154s] Installing path_follower script to /home/sergio/ros2_ws/install/robot_nav/lib/robot_nav
+[7.155s] Installing path_planner script to /home/sergio/ros2_ws/install/robot_nav/lib/robot_nav
+[7.155s] Installing wavefront_planner script to /home/sergio/ros2_ws/install/robot_nav/lib/robot_nav
+[7.155s] writing list of installed files to '/home/sergio/ros2_ws/build/robot_nav/install.log'
+[7.258s] Invoked command in '/home/sergio/ros2_ws/src/robot_nav' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/robot_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/robot_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_nav build --build-base /home/sergio/ros2_ws/build/robot_nav/build install --record /home/sergio/ros2_ws/build/robot_nav/install.log --single-version-externally-managed install_data

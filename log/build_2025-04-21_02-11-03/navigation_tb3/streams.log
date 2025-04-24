@@ -1,0 +1,105 @@
+[0.974s] Invoking command in '/home/sergio/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/navigation_tb3
+[1.723s] -- The C compiler identification is GNU 11.4.0
+[1.723s] -- The CXX compiler identification is GNU 11.4.0
+[1.723s] -- Detecting C compiler ABI info
+[1.723s] -- Detecting C compiler ABI info - done
+[1.723s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.723s] -- Detecting C compile features
+[1.724s] -- Detecting C compile features - done
+[1.724s] -- Detecting CXX compiler ABI info
+[1.922s] -- Detecting CXX compiler ABI info - done
+[1.943s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.943s] -- Detecting CXX compile features
+[1.944s] -- Detecting CXX compile features - done
+[1.976s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.454s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.919s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.234s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.284s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.317s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.429s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.667s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.684s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.044s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.178s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.367s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.476s] -- Looking for pthread.h
+[4.755s] -- Looking for pthread.h - found
+[4.756s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.998s] -- Found Threads: TRUE  
+[5.229s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.333s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[5.719s] -- Configuring done
+[5.754s] -- Generating done
+[5.773s] -- Build files have been written to: /home/sergio/ros2_ws/build/navigation_tb3
+[6.536s] Invoked command in '/home/sergio/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/navigation_tb3 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/navigation_tb3
+[6.537s] Invoking command in '/home/sergio/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/navigation_tb3 -- -j16 -l16
+[9.046s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o[0m
+[9.048s] [ 50%] Built target ament_cmake_python_copy_navigation_tb3
+[9.048s] running egg_info
+[9.048s] creating navigation_tb3.egg-info
+[9.048s] writing navigation_tb3.egg-info/PKG-INFO
+[9.048s] writing dependency_links to navigation_tb3.egg-info/dependency_links.txt
+[9.048s] writing top-level names to navigation_tb3.egg-info/top_level.txt
+[9.049s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[9.049s] reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[9.049s] writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'
+[9.049s] [ 50%] Built target ament_cmake_python_build_navigation_tb3_egg
+[16.927s] [100%] [32m[1mLinking CXX executable pub_occupancy_grid[0m
+[17.110s] [100%] Built target pub_occupancy_grid
+[17.128s] Invoked command in '/home/sergio/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/navigation_tb3 -- -j16 -l16
+[17.130s] Invoking command in '/home/sergio/ros2_ws/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/navigation_tb3
+[17.142s] -- Install configuration: ""
+[17.142s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid
+[17.144s] -- Set runtime path of "/home/sergio/ros2_ws/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid" to ""
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/move_robot.py
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/map2.yaml
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/visualize.rviz
+[17.144s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/rosbostito.lua
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapCasa3.yaml
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/cuarto.pgm
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mapCasa3.pgm
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/mappingV2.rviz
+[17.145s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm
+[17.146s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz
+[17.146s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/map2.pgm
+[17.146s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/pioneer.lua
+[17.146s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml
+[17.146s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/config/cuarto.yaml
+[17.146s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh
+[17.146s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv
+[17.147s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info
+[17.147s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO
+[17.147s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt
+[17.147s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt
+[17.147s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt
+[17.147s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3
+[17.147s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py
+[17.212s] Listing '/home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...
+[17.217s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py
+[17.217s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py
+[17.217s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3
+[17.217s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3
+[17.217s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh
+[17.217s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv
+[17.218s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.sh
+[17.218s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/environment/path.dsv
+[17.218s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.bash
+[17.218s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.sh
+[17.218s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.zsh
+[17.219s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/local_setup.dsv
+[17.219s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.dsv
+[17.219s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3
+[17.219s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake
+[17.219s] -- Installing: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake
+[17.219s] -- Up-to-date: /home/sergio/ros2_ws/install/navigation_tb3/share/navigation_tb3/package.xml
+[17.222s] Invoked command in '/home/sergio/ros2_ws/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/navigation_tb3

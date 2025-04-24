@@ -1,0 +1,26 @@
+running egg_info
+creating ../../build/auto_mover/auto_mover.egg-info
+writing ../../build/auto_mover/auto_mover.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_mover/auto_mover.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_mover/auto_mover.egg-info/entry_points.txt
+writing requirements to ../../build/auto_mover/auto_mover.egg-info/requires.txt
+writing top-level names to ../../build/auto_mover/auto_mover.egg-info/top_level.txt
+writing manifest file '../../build/auto_mover/auto_mover.egg-info/SOURCES.txt'
+reading manifest file '../../build/auto_mover/auto_mover.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_mover/auto_mover.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/auto_mover/build
+creating /home/sergio/ros2_ws/build/auto_mover/build/lib
+creating /home/sergio/ros2_ws/build/auto_mover/build/lib/auto_mover
+copying auto_mover/move_node.py -> /home/sergio/ros2_ws/build/auto_mover/build/lib/auto_mover
+copying auto_mover/__init__.py -> /home/sergio/ros2_ws/build/auto_mover/build/lib/auto_mover
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages/auto_mover-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/auto_mover/auto_mover.egg-info to /home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages/auto_mover-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move_node script to /home/sergio/ros2_ws/install/auto_mover/lib/auto_mover
+writing list of installed files to '/home/sergio/ros2_ws/build/auto_mover/install.log'
