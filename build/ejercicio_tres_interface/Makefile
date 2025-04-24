@@ -315,17 +315,17 @@ ejercicio_tres_interface__rosidl_typesupport_cpp/fast:
 .PHONY : ejercicio_tres_interface__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_ejercicio_tres_interface
+# Target rules for targets named ament_cmake_python_symlink_ejercicio_tres_interface
 
 # Build rule for target.
-ament_cmake_python_copy_ejercicio_tres_interface: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_ejercicio_tres_interface
-.PHONY : ament_cmake_python_copy_ejercicio_tres_interface
+ament_cmake_python_symlink_ejercicio_tres_interface: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_ejercicio_tres_interface
+.PHONY : ament_cmake_python_symlink_ejercicio_tres_interface
 
 # fast build rule for target.
-ament_cmake_python_copy_ejercicio_tres_interface/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_ejercicio_tres_interface.dir/build.make CMakeFiles/ament_cmake_python_copy_ejercicio_tres_interface.dir/build
-.PHONY : ament_cmake_python_copy_ejercicio_tres_interface/fast
+ament_cmake_python_symlink_ejercicio_tres_interface/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_ejercicio_tres_interface.dir/build.make CMakeFiles/ament_cmake_python_symlink_ejercicio_tres_interface.dir/build
+.PHONY : ament_cmake_python_symlink_ejercicio_tres_interface/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_ejercicio_tres_interface_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_ejercicio_tres_interface_egg"
-	@echo "... ament_cmake_python_copy_ejercicio_tres_interface"
+	@echo "... ament_cmake_python_symlink_ejercicio_tres_interface"
 	@echo "... ejercicio_tres_interface"
 	@echo "... ejercicio_tres_interface__cpp"
 	@echo "... ejercicio_tres_interface__py"

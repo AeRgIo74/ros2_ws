@@ -1,0 +1,37 @@
+[4.094s] Invoking command in '/home/sergio/ros2_ws/src/ejercicio_tres_server': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_server build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_server/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_server/install.log --single-version-externally-managed install_data
+[5.500s] running egg_info
+[5.501s] creating ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info
+[5.501s] writing ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/PKG-INFO
+[5.502s] writing dependency_links to ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/dependency_links.txt
+[5.505s] writing entry points to ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/entry_points.txt
+[5.510s] writing requirements to ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/requires.txt
+[5.511s] writing top-level names to ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/top_level.txt
+[5.511s] writing manifest file '../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/SOURCES.txt'
+[5.521s] reading manifest file '../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/SOURCES.txt'
+[5.526s] writing manifest file '../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info/SOURCES.txt'
+[5.526s] running build
+[5.526s] running build_py
+[5.526s] creating /home/sergio/ros2_ws/build/ejercicio_tres_server/build
+[5.526s] creating /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib
+[5.526s] creating /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib/ejercicio_tres_server
+[5.526s] copying ejercicio_tres_server/__init__.py -> /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib/ejercicio_tres_server
+[5.526s] copying ejercicio_tres_server/midpoint_server.py -> /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib/ejercicio_tres_server
+[5.534s] running install
+[5.534s] running install_lib
+[5.534s] creating /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server
+[5.534s] copying /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib/ejercicio_tres_server/__init__.py -> /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server
+[5.534s] copying /home/sergio/ros2_ws/build/ejercicio_tres_server/build/lib/ejercicio_tres_server/midpoint_server.py -> /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server
+[5.534s] byte-compiling /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server/__init__.py to __init__.cpython-310.pyc
+[5.538s] byte-compiling /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server/midpoint_server.py to midpoint_server.cpython-310.pyc
+[5.538s] running install_data
+[5.538s] creating /home/sergio/ros2_ws/install/ejercicio_tres_server/share/ament_index
+[5.538s] creating /home/sergio/ros2_ws/install/ejercicio_tres_server/share/ament_index/resource_index
+[5.538s] creating /home/sergio/ros2_ws/install/ejercicio_tres_server/share/ament_index/resource_index/packages
+[5.538s] copying resource/ejercicio_tres_server -> /home/sergio/ros2_ws/install/ejercicio_tres_server/share/ament_index/resource_index/packages
+[5.539s] copying package.xml -> /home/sergio/ros2_ws/install/ejercicio_tres_server/share/ejercicio_tres_server
+[5.539s] running install_egg_info
+[5.547s] Copying ../../build/ejercicio_tres_server/ejercicio_tres_server.egg-info to /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages/ejercicio_tres_server-0.0.0-py3.10.egg-info
+[5.547s] running install_scripts
+[5.626s] Installing midpoint_server script to /home/sergio/ros2_ws/install/ejercicio_tres_server/lib/ejercicio_tres_server
+[5.626s] writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio_tres_server/install.log'
+[6.148s] Invoked command in '/home/sergio/ros2_ws/src/ejercicio_tres_server' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_server/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_server build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_server/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_server/install.log --single-version-externally-managed install_data

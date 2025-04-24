@@ -1,6 +1,0 @@
-Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres': /usr/bin/cmake /home/sergio/ros2_ws/src/ejercicio_tres -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/ejercicio_tres
-Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres' returned '0': /usr/bin/cmake /home/sergio/ros2_ws/src/ejercicio_tres -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/ejercicio_tres
-Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres': /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres -- -j16 -l16
-Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres' returned '0': /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres -- -j16 -l16
-Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres': /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres
-Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres' returned '0': /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres

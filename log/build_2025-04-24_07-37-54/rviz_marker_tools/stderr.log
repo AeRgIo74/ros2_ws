@@ -1,0 +1,7 @@
+[0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    OpenGL_GL_PREFERENCE
+
+[0m

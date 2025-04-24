@@ -1,2 +1,0 @@
-Invoking command in '/home/sergio/ros2_ws/build/lol_nav': /usr/bin/cmake /home/sergio/ros2_ws/src/lol_nav -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/lol_nav
-Invoked command in '/home/sergio/ros2_ws/build/lol_nav' returned '1': /usr/bin/cmake /home/sergio/ros2_ws/src/lol_nav -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/lol_nav

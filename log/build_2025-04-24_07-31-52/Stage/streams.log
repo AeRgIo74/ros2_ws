@@ -1,0 +1,269 @@
+[0.098s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+[2.033s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindOpenGL.cmake:315 (message):
+[2.033s]   Policy CMP0072 is not set: FindOpenGL prefers GLVND by default when
+[2.033s]   available.  Run "cmake --help-policy CMP0072" for policy details.  Use the
+[2.033s]   cmake_policy command to set the policy and suppress this warning.
+[2.033s] 
+[2.033s]   FindOpenGL found both a legacy GL library:
+[2.033s] 
+[2.033s]     OPENGL_gl_LIBRARY: /usr/lib/x86_64-linux-gnu/libGL.so
+[2.033s] 
+[2.033s]   and GLVND libraries for OpenGL and GLX:
+[2.033s] 
+[2.033s]     OPENGL_opengl_LIBRARY: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[2.033s]     OPENGL_glx_LIBRARY: /usr/lib/x86_64-linux-gnu/libGLX.so
+[2.033s] 
+[2.033s]   OpenGL_GL_PREFERENCE has not been set to "GLVND" or "LEGACY", so for
+[2.033s]   compatibility with CMake 3.10 and below the legacy GL library will be used.
+[2.033s] Call Stack (most recent call first):
+[2.033s]   /usr/share/cmake-3.22/Modules/FindFLTK.cmake:87 (find_package)
+[2.034s]   CMakeLists.txt:100 (find_package)
+[2.034s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.034s] [0m
+[2.034s] -- The C compiler identification is GNU 11.4.0
+[2.034s] -- The CXX compiler identification is GNU 11.4.0
+[2.034s] -- Detecting C compiler ABI info
+[2.034s] -- Detecting C compiler ABI info - done
+[2.034s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.034s] -- Detecting C compile features
+[2.034s] -- Detecting C compile features - done
+[2.034s] -- Detecting CXX compiler ABI info
+[2.034s] -- Detecting CXX compiler ABI info - done
+[2.034s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.034s] -- Detecting CXX compile features
+[2.034s] -- Detecting CXX compile features - done
+[2.034s] -- Stage version 4.3.0
+[2.034s] -- Operating system is Linux
+[2.034s] -- Installing Libraries to /home/sergio/ros2_ws/install/Stage/lib
+[2.034s] -- Installing Plugins to /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3
+[2.035s] -- Build type RELEASE
+[2.035s] -- Checking for libtool
+[2.035s] -- Checking for required libraries...
+[2.035s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.035s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.035s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.035s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.035s] -- Found X11: /usr/include   
+[2.035s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[2.035s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[2.035s] -- Looking for gethostbyname
+[2.035s] -- Looking for gethostbyname - found
+[2.035s] -- Looking for connect
+[2.035s] -- Looking for connect - found
+[2.035s] -- Looking for remove
+[2.035s] -- Looking for remove - found
+[2.035s] -- Looking for shmat
+[2.035s] -- Looking for shmat - found
+[2.036s] -- Looking for IceConnectionNumber in ICE
+[2.036s] -- Looking for IceConnectionNumber in ICE - found
+[2.036s] -- Found FLTK: fltk_images;fltk_forms;fltk_gl;/usr/lib/x86_64-linux-gnu/libGL.so;fltk  
+[2.036s] -- Checking for optional libraries...
+[2.036s] -- Installation path CMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+[2.036s] -- Configuring libstage
+[2.036s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.036s] -- Checking for one of the modules 'playercore>=2.1.0'
+[2.036s] --   * Player not detected. If Player is installed but not detected, check your PKG_CONFIG_PATH.
+[2.036s] -- Configuring done
+[2.036s] -- Generating done
+[2.036s] -- Build files have been written to: /home/sergio/ros2_ws/build/Stage
+[2.255s] Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '0': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+[2.256s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake --build /home/sergio/ros2_ws/build/Stage -- -j16 -l16
+[2.328s] [  1%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/blockgroup.cc.o[0m
+[2.331s] [  3%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/block.cc.o[0m
+[2.332s] [  5%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/file_manager.cc.o[0m
+[2.332s] [  6%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/camera.cc.o[0m
+[2.334s] [  8%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/logentry.cc.o[0m
+[2.335s] [ 10%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/color.cc.o[0m
+[2.346s] [ 11%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/gl.cc.o[0m
+[2.346s] [ 13%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blinkenlight.cc.o[0m
+[2.346s] [ 15%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_actuator.cc.o[0m
+[2.346s] [ 16%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_bumper.cc.o[0m
+[2.346s] [ 18%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_blobfinder.cc.o[0m
+[2.357s] [ 20%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model.cc.o[0m
+[2.386s] [ 22%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_callbacks.cc.o[0m
+[2.395s] [ 23%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_fiducial.cc.o[0m
+[2.400s] [ 25%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_camera.cc.o[0m
+[2.400s] [ 27%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_draw.cc.o[0m
+[4.350s] [ 28%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_gripper.cc.o[0m
+[5.184s] [ 30%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_lightindicator.cc.o[0m
+[5.868s] [ 32%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_position.cc.o[0m
+[5.900s] [ 33%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/model_ranger.cc.o[0m
+[5.958s] [ 35%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/option.cc.o[0m
+[5.970s] [ 37%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/powerpack.cc.o[0m
+[6.185s] [ 38%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/region.cc.o[0m
+[6.217s] [ 40%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/stage.cc.o[0m
+[6.226s] [ 42%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/texture_manager.cc.o[0m
+[6.472s] [ 44%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/typetable.cc.o[0m
+[6.560s] [ 45%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/world.cc.o[0m
+[6.679s] [ 47%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldfile.cc.o[0m
+[6.953s] [ 49%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/canvas.cc.o[0m
+[7.037s] [ 50%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/options_dlg.cc.o[0m
+[7.505s] [ 52%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/vis_strip.cc.o[0m
+[7.561s] [ 54%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/worldgui.cc.o[0m
+[7.767s] [ 55%] [32mBuilding CXX object libstage/CMakeFiles/stage.dir/ancestor.cc.o[0m
+[13.023s] [ 57%] [32m[1mLinking CXX shared library libstage.so[0m
+[13.777s] [ 57%] Built target stage
+[13.874s] [ 59%] [32mBuilding CXX object examples/ctrl/CMakeFiles/sink.dir/sink.cc.o[0m
+[13.882s] [ 61%] [32mBuilding CXX object libstage/CMakeFiles/stagebinary.dir/main.cc.o[0m
+[13.887s] [ 62%] [32mBuilding CXX object examples/ctrl/CMakeFiles/source.dir/source.cc.o[0m
+[13.900s] [ 64%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr.dir/fasr.cc.o[0m
+[13.900s] [ 66%] [32mBuilding CXX object examples/ctrl/CMakeFiles/pioneer_flocking.dir/pioneer_flocking.cc.o[0m
+[13.901s] [ 67%] [32mBuilding CXX object examples/ctrl/CMakeFiles/wander.dir/wander.cc.o[0m
+[13.909s] [ 69%] [32mBuilding CXX object examples/ctrl/CMakeFiles/rasterize.dir/rasterize.cc.o[0m
+[13.927s] [ 71%] [32mBuilding CXX object examples/ctrl/CMakeFiles/dynamic.dir/dynamic.cc.o[0m
+[13.939s] [ 72%] [32mBuilding CXX object examples/ctrl/CMakeFiles/lasernoise.dir/lasernoise.cc.o[0m
+[13.950s] [ 74%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/fasr2.cc.o[0m
+[13.963s] [ 76%] [32mBuilding CXX object examples/ctrl/CMakeFiles/fasr2.dir/astar/findpath.cpp.o[0m
+[13.972s] [ 77%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_swarm.dir/expand_swarm.cc.o[0m
+[13.976s] [ 79%] [32mBuilding CXX object worlds/benchmark/CMakeFiles/expand_pioneer.dir/expand_pioneer.cc.o[0m
+[15.235s] [ 81%] [32m[1mLinking CXX shared module sink.so[0m
+[15.365s] [ 83%] [32m[1mLinking CXX shared module pioneer_flocking.so[0m
+[15.743s] [ 83%] Built target sink
+[15.777s] [ 83%] Built target pioneer_flocking
+[16.336s] [ 84%] [32m[1mLinking CXX shared module rasterize.so[0m
+[16.903s] [ 84%] Built target rasterize
+[18.093s] [ 86%] [32m[1mLinking CXX shared module lasernoise.so[0m
+[18.112s] [ 88%] [32m[1mLinking CXX shared module expand_pioneer.so[0m
+[18.236s] [ 89%] [32m[1mLinking CXX shared module wander.so[0m
+[18.247s] [ 91%] [32m[1mLinking CXX shared module source.so[0m
+[18.482s] [ 91%] Built target lasernoise
+[18.494s] [ 91%] Built target source
+[18.534s] [ 91%] Built target expand_pioneer
+[18.635s] [ 91%] Built target wander
+[18.644s] [ 93%] [32m[1mLinking CXX executable stage[0m
+[18.795s] [ 94%] [32m[1mLinking CXX shared module fasr.so[0m
+[18.839s] [ 96%] [32m[1mLinking CXX shared module dynamic.so[0m
+[19.000s] [ 98%] [32m[1mLinking CXX shared module expand_swarm.so[0m
+[19.069s] [ 98%] Built target dynamic
+[19.096s] [ 98%] Built target stagebinary
+[19.122s] [ 98%] Built target fasr
+[19.294s] [ 98%] Built target expand_swarm
+[19.935s] [100%] [32m[1mLinking CXX shared module fasr2.so[0m
+[20.091s] [100%] Built target fasr2
+[20.258s] Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/sergio/ros2_ws/build/Stage -- -j16 -l16
+[20.259s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake --install /home/sergio/ros2_ws/build/Stage
+[20.839s] -- Install configuration: "RELEASE"
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/pkgconfig/stage.pc
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/cmake/Stage/stage-config.cmake
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/cmake/Stage/stage-config-version.cmake
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/bin/stage
+[20.840s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/bin/stage" to ""
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/libstage.so.4.3.0
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/libstage.so
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/include/Stage-4.3/stage.hh
+[20.840s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so
+[20.840s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/fasr.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/sink.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/sink.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/source.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/source.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/wander.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/wander.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/pioneer_flocking.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/rasterize.so" to ""
+[20.841s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so
+[20.841s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/lasernoise.so" to ""
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so
+[20.842s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/dynamic.so" to ""
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so
+[20.842s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/fasr2.so" to ""
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/blue.png
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/death.png
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/green.png
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/logo.png
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/mains.png
+[20.842s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/mainspower.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/question_mark.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/red.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/stagelogo.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/stall-old.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/stall.png
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/assets/rgb.txt
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/rgb.txt
+[20.843s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/amcl-sonar.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/autolab.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/camera.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/everything.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/lsp_test.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/mbicp.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/nd.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/roomba.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/simple.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/test.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/vfh.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wavefront-remote.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wavefront.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi.cfg
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/SFU.world
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/autolab.world
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/camera.world
+[20.844s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/circuit.world
+[20.845s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/everything.world
+[20.845s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/fasr.world
+[20.845s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/fasr2.world
+[20.845s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/fasr_plan.world
+[20.845s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/large.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/lsp_test.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/mbicp.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/pioneer_flocking.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/pioneer_follow.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/pioneer_walle.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/roomba.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_demo.world
+[20.849s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/sensor_noise_module_demo.world
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/simple.world
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab.world
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi.world
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/beacons.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/chatterbox.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/hokuyo.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/irobot.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/map.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/objects.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/pantilt.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/pioneer.inc
+[20.850s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/sick.inc
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/ubot.inc
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/uoa_robotics_lab_models.inc
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/walle.inc
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/cfggen.sh
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/test.sh
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/worldgen.sh
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so
+[20.851s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/expand_swarm.so" to ""
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so
+[20.851s] -- Set runtime path of "/home/sergio/ros2_ws/install/Stage/lib/Stage-4.3/expand_pioneer.so" to ""
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/889_05.png
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SFU_1200x615.png
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/SRI-AIC-kwing.png
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/autolab.png
+[20.851s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_compact.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/cave_filled.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/frieburg.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/ghost.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/hospital_section.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/human_outline.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/mbicp.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/rink.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/sal2.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/simple_rooms.png
+[20.852s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/space_invader.png
+[20.853s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine.png
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/submarine_small.png
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/table.png
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/bitmaps/uoa_robotics_lab.png
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/commando.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/hosp_wifi_5.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_itu.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_logdistance.world
+[20.855s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_ray.world
+[20.856s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/wifi_simple.world
+[20.856s] -- Installing: /home/sergio/ros2_ws/install/Stage/share/stage/worlds/wifi/map.inc
+[20.898s] Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --install /home/sergio/ros2_ws/build/Stage

@@ -1,0 +1,3 @@
+Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '0': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DOpenGL_GL_PREFERENCE=LEGACY -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
+Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake --build /home/sergio/ros2_ws/build/Stage -- -j16 -l16

@@ -1,8 +1,0 @@
--- Configuring incomplete, errors occurred!
-See also "/home/sergio/ros2_ws/build/p1_ej2_interface/CMakeFiles/CMakeOutput.log".
-[31mCMake Error at CMakeLists.txt:18:
-  Parse error.  Expected a command name, got unquoted argument with text
-  "install/".
-
-[0m
-gmake: *** [Makefile:747: cmake_check_build_system] Error 1

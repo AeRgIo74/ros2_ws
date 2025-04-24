@@ -1,0 +1,16 @@
+/home/sergio/ros2_ws/install/p2_ej2/lib/p2_ej2/panda_ik_menu
+/home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/package_run_dependencies/p2_ej2
+/home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/parent_prefix_path/p2_ej2
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/ament_prefix_path.sh
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/ament_prefix_path.dsv
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/path.sh
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/path.dsv
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.bash
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.sh
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.zsh
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.dsv
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/package.dsv
+/home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/packages/p2_ej2
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/cmake/p2_ej2Config.cmake
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/cmake/p2_ej2Config-version.cmake
+/home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/package.xml

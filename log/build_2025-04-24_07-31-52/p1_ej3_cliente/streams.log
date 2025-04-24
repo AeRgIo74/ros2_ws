@@ -1,0 +1,37 @@
+[9.843s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej3_cliente': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej3_cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej3_cliente build --build-base /home/sergio/ros2_ws/build/p1_ej3_cliente/build install --record /home/sergio/ros2_ws/build/p1_ej3_cliente/install.log --single-version-externally-managed install_data
+[11.543s] running egg_info
+[11.543s] creating ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info
+[11.543s] writing ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/PKG-INFO
+[11.543s] writing dependency_links to ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/dependency_links.txt
+[11.546s] writing entry points to ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/entry_points.txt
+[11.546s] writing requirements to ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/requires.txt
+[11.546s] writing top-level names to ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/top_level.txt
+[11.546s] writing manifest file '../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/SOURCES.txt'
+[11.557s] reading manifest file '../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/SOURCES.txt'
+[11.558s] writing manifest file '../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info/SOURCES.txt'
+[11.560s] running build
+[11.563s] running build_py
+[11.563s] creating /home/sergio/ros2_ws/build/p1_ej3_cliente/build
+[11.564s] creating /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib
+[11.564s] creating /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib/p1_ej3_cliente
+[11.564s] copying p1_ej3_cliente/__init__.py -> /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib/p1_ej3_cliente
+[11.564s] copying p1_ej3_cliente/cliente.py -> /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib/p1_ej3_cliente
+[11.574s] running install
+[11.574s] running install_lib
+[11.574s] creating /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente
+[11.574s] copying /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib/p1_ej3_cliente/__init__.py -> /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente
+[11.574s] copying /home/sergio/ros2_ws/build/p1_ej3_cliente/build/lib/p1_ej3_cliente/cliente.py -> /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente
+[11.578s] byte-compiling /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente/__init__.py to __init__.cpython-310.pyc
+[11.579s] byte-compiling /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente/cliente.py to cliente.cpython-310.pyc
+[11.584s] running install_data
+[11.584s] creating /home/sergio/ros2_ws/install/p1_ej3_cliente/share/ament_index
+[11.584s] creating /home/sergio/ros2_ws/install/p1_ej3_cliente/share/ament_index/resource_index
+[11.584s] creating /home/sergio/ros2_ws/install/p1_ej3_cliente/share/ament_index/resource_index/packages
+[11.585s] copying resource/p1_ej3_cliente -> /home/sergio/ros2_ws/install/p1_ej3_cliente/share/ament_index/resource_index/packages
+[11.585s] copying package.xml -> /home/sergio/ros2_ws/install/p1_ej3_cliente/share/p1_ej3_cliente
+[11.592s] running install_egg_info
+[11.603s] Copying ../../build/p1_ej3_cliente/p1_ej3_cliente.egg-info to /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages/p1_ej3_cliente-0.0.0-py3.10.egg-info
+[11.603s] running install_scripts
+[11.717s] Installing cliente script to /home/sergio/ros2_ws/install/p1_ej3_cliente/lib/p1_ej3_cliente
+[11.723s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej3_cliente/install.log'
+[12.717s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej3_cliente' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej3_cliente/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej3_cliente build --build-base /home/sergio/ros2_ws/build/p1_ej3_cliente/build install --record /home/sergio/ros2_ws/build/p1_ej3_cliente/install.log --single-version-externally-managed install_data

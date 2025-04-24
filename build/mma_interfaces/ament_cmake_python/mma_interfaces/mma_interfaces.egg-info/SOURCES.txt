@@ -4,9 +4,3 @@ mma_interfaces.egg-info/PKG-INFO
 mma_interfaces.egg-info/SOURCES.txt
 mma_interfaces.egg-info/dependency_links.txt
 mma_interfaces.egg-info/top_level.txt
-mma_interfaces/action/__init__.py
-mma_interfaces/action/_fight_simulation.py
-mma_interfaces/msg/__init__.py
-mma_interfaces/msg/_fighter.py
-mma_interfaces/srv/__init__.py
-mma_interfaces/srv/_fight_request.py

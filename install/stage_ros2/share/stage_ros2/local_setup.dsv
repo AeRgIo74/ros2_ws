@@ -1,3 +1,1 @@
-source;share/stage_ros2/environment/ament_prefix_path.sh
-source;share/stage_ros2/environment/library_path.sh
-source;share/stage_ros2/environment/path.sh
+/home/sergio/ros2_ws/build/stage_ros2/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,2 +1,0 @@
-Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
-Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '1': /usr/bin/cmake /home/sergio/ros2_ws/src/Stage -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/Stage
