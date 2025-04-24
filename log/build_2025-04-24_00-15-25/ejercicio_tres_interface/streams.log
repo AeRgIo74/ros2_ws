@@ -1,0 +1,151 @@
+[1.874s] Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[2.623s] [  3%] Built target ejercicio_tres_interface__cpp
+[2.623s] [ 12%] Built target ejercicio_tres_interface__rosidl_generator_c
+[2.623s] [ 12%] Built target ament_cmake_python_copy_ejercicio_tres_interface
+[2.623s] [ 22%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_cpp
+[2.623s] [ 38%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_c
+[2.624s] [ 41%] Built target ejercicio_tres_interface__rosidl_typesupport_c
+[2.624s] [ 51%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_c
+[2.624s] [ 61%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_cpp
+[2.624s] [ 70%] Built target ejercicio_tres_interface__rosidl_typesupport_cpp
+[2.624s] [ 70%] Built target ejercicio_tres_interface
+[2.624s] [ 74%] Built target ejercicio_tres_interface__py
+[2.624s] [ 80%] Built target ejercicio_tres_interface__rosidl_generator_py
+[2.624s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_c__pyext
+[2.624s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_introspection_c__pyext
+[2.625s] [100%] Built target ejercicio_tres_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.625s] running egg_info
+[2.625s] writing ejercicio_tres_interface.egg-info/PKG-INFO
+[2.625s] writing dependency_links to ejercicio_tres_interface.egg-info/dependency_links.txt
+[2.625s] writing top-level names to ejercicio_tres_interface.egg-info/top_level.txt
+[2.625s] reading manifest file 'ejercicio_tres_interface.egg-info/SOURCES.txt'
+[2.625s] writing manifest file 'ejercicio_tres_interface.egg-info/SOURCES.txt'
+[2.625s] [100%] Built target ament_cmake_python_build_ejercicio_tres_interface_egg
+[2.862s] Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/ejercicio_tres_interface -- -j16 -l16
+[2.863s] Invoking command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres_interface
+[2.873s] -- Install configuration: ""
+[2.879s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ament_index/resource_index/rosidl_interfaces/ejercicio_tres_interface
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg/rosidl_generator_c__visibility_control.h
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__functions.c
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__type_support.h
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__functions.h
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__struct.h
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/midpoint.h
+[2.880s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/library_path.sh
+[2.881s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/library_path.dsv
+[2.881s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_generator_c.so
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.882s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__rosidl_typesupport_fastrtps_c.h
+[2.884s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_fastrtps_c.so
+[2.884s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.884s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg
+[2.884s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.885s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.885s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.885s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__type_support.c
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__rosidl_typesupport_introspection_c.h
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_introspection_c.so
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_c.so
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg
+[2.886s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__traits.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__builder.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__type_support.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__struct.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/midpoint.hpp
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.887s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.888s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/dds_fastrtps
+[2.888s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[2.890s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.890s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface
+[2.890s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv
+[2.890s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__type_support.cpp
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/include/ejercicio_tres_interface/ejercicio_tres_interface/srv/detail/midpoint__rosidl_typesupport_introspection_cpp.hpp
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_introspection_cpp.so
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_typesupport_cpp.so
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/pythonpath.sh
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/pythonpath.dsv
+[2.898s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface-0.0.0-py3.10.egg-info
+[2.899s] -- Installing: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.900s] -- Installing: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.901s] -- Installing: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.901s] -- Installing: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/__init__.py
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/_ejercicio_tres_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/_ejercicio_tres_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.902s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/_ejercicio_tres_interface_s.ep.rosidl_typesupport_c.c
+[2.903s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/libejercicio_tres_interface__rosidl_generator_py.so
+[2.903s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/srv
+[2.903s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/srv/__init__.py
+[2.904s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/srv/_midpoint_s.c
+[2.904s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/srv/_midpoint.py
+[2.904s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.992s] Listing '/home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface'...
+[2.992s] Listing '/home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/srv'...
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages/ejercicio_tres_interface/ejercicio_tres_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/lib/libejercicio_tres_interface__rosidl_generator_py.so
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/srv/Midpoint.idl
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/srv/Midpoint.srv
+[2.993s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/srv/Midpoint_Request.msg
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/srv/Midpoint_Response.msg
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ament_index/resource_index/package_run_dependencies/ejercicio_tres_interface
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ament_index/resource_index/parent_prefix_path/ejercicio_tres_interface
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/ament_prefix_path.sh
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/ament_prefix_path.dsv
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/path.sh
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/environment/path.dsv
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/local_setup.bash
+[2.994s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/local_setup.sh
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/local_setup.zsh
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/local_setup.dsv
+[2.995s] -- Installing: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.dsv
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ament_index/resource_index/packages/ejercicio_tres_interface
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_generator_cExport.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_generator_cExport-noconfig.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_cExport.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.995s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_generator_cppExport.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_cppExport.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.996s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_generator_pyExport.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/export_ejercicio_tres_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/rosidl_cmake-extras.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.997s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.998s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.998s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interfaceConfig.cmake
+[2.998s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/cmake/ejercicio_tres_interfaceConfig-version.cmake
+[2.998s] -- Up-to-date: /home/sergio/ros2_ws/install/ejercicio_tres_interface/share/ejercicio_tres_interface/package.xml
+[3.023s] Invoked command in '/home/sergio/ros2_ws/build/ejercicio_tres_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/ejercicio_tres_interface

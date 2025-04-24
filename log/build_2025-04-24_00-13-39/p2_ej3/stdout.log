@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/p2_ej3/p2_ej3.egg-info
+writing ../../build/p2_ej3/p2_ej3.egg-info/PKG-INFO
+writing dependency_links to ../../build/p2_ej3/p2_ej3.egg-info/dependency_links.txt
+writing entry points to ../../build/p2_ej3/p2_ej3.egg-info/entry_points.txt
+writing requirements to ../../build/p2_ej3/p2_ej3.egg-info/requires.txt
+writing top-level names to ../../build/p2_ej3/p2_ej3.egg-info/top_level.txt
+writing manifest file '../../build/p2_ej3/p2_ej3.egg-info/SOURCES.txt'
+reading manifest file '../../build/p2_ej3/p2_ej3.egg-info/SOURCES.txt'
+writing manifest file '../../build/p2_ej3/p2_ej3.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/p2_ej3/build
+creating /home/sergio/ros2_ws/build/p2_ej3/build/lib
+creating /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3
+copying p2_ej3/__init__.py -> /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3
+copying p2_ej3/avoid_obstacles.py -> /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3
+running install
+running install_lib
+creating /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3
+copying /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3/__init__.py -> /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3
+copying /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3/avoid_obstacles.py -> /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3
+byte-compiling /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3/avoid_obstacles.py to avoid_obstacles.cpython-310.pyc
+running install_data
+creating /home/sergio/ros2_ws/install/p2_ej3/share/ament_index
+creating /home/sergio/ros2_ws/install/p2_ej3/share/ament_index/resource_index
+creating /home/sergio/ros2_ws/install/p2_ej3/share/ament_index/resource_index/packages
+copying resource/p2_ej3 -> /home/sergio/ros2_ws/install/p2_ej3/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3
+creating /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3/launch

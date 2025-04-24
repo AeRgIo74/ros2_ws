@@ -1,0 +1,62 @@
+# lol_map.world
+# Mapa basado en League of Legends con un robot Pioneer y un bloque.
+# Inspirado en cave.world
+
+include "include/robots.inc"
+
+# Resolución del modelo de rayos
+resolution 0.05
+
+# Paso de simulación en milisegundos
+interval_sim 100  
+
+# Definición del plano del suelo
+define floorplan model
+(
+  color "gray30"
+  boundary 1
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+# Configuración de la ventana
+window
+(
+  size [800.000 800.000] # en píxeles
+  scale 40.0             # píxeles por metro
+  center [0 0]
+  rotate [0 0]
+  show_data 1            # 1=on 0=off
+)
+
+# Cargar imagen del entorno de LoL
+floorplan
+( 
+  name "lol_map"
+  size [20.000 20.000 0.800]
+  pose [0 0 0 0]
+  bitmap "bitmaps/lol_map.png"
+  gui_move 0
+)
+
+# Definir un bloque
+define my_block model
+(
+  size [0.5 0.5 0.5]
+  gui_nose 0
+)
+
+# Insertar un bloque
+my_block( pose [ 5 4 0 180.000 ] color "green")
+
+# Insertar un robot Pioneer con LIDAR
+pioneer2dx_with_laser 
+(
+  name "lol_bot"
+  color "blue"
+  pose [ -7 -7 0 45 ]
+)

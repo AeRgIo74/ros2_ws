@@ -1,0 +1,54 @@
+# mapa_parcial.world
+
+include "include/robots.inc"
+
+resolution 0.05
+interval_sim 100
+
+define floorplan model
+(
+  color "gray30"
+  boundary 1
+  gui_nose 0
+  gui_grid 0
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+window
+(
+  size [800.000 800.000]
+  scale 40.0
+  center [0 0]
+  rotate [0 0]
+  show_data 1
+)
+
+floorplan
+(
+  name "mapa_parcial"
+  size [24.75 15.75 0.800]
+  pose [0 0 0 0]
+  bitmap "bitmaps/mapa_parcial.png"
+  gui_move 0
+)
+
+# Definir un bloque reutilizable (por ejemplo, para obstáculos o metas)
+define my_block model
+(
+  size [0.5 0.5 0.5]
+  gui_nose 0
+)
+
+# Objetivo: bloque verde en coordenadas específicas
+#my_block( pose [ 10.11 -6.78 0 0 ] color "green")
+
+# Robot: rojo
+pioneer2dx_with_laser
+(
+  name "mapa_parcial_bot"
+  color "red"
+  pose [ -11.33 6.72 0 0 ]
+)
