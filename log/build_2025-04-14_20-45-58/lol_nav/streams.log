@@ -1,0 +1,65 @@
+[0.010s] Invoking command in '/home/sergio/ros2_ws/build/lol_nav': /usr/bin/cmake /home/sergio/ros2_ws/src/lol_nav -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/lol_nav
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.217s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.299s] -- Detecting C compile features
+[0.299s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.382s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.389s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.730s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.738s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.750s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.849s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.855s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.948s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.990s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.056s] -- Looking for pthread.h
+[1.138s] -- Looking for pthread.h - found
+[1.138s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.207s] -- Found Threads: TRUE  
+[1.277s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.293s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.374s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.437s] Error parsing '/home/sergio/ros2_ws/src/lol_nav/package.xml':
+[1.483s] Traceback (most recent call last):
+[1.483s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.483s]     main()
+[1.483s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.483s]     raise e
+[1.483s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.483s]     package = parse_package_string(
+[1.484s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.484s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.484s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sergio/ros2_ws/src/lol_nav/package.xml':
+[1.484s] Error(s):
+[1.484s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[1.484s] - The generic dependency on 'nav2_msgs' is redundant with: exec_depend
+[1.484s] - The generic dependency on 'nav_msgs' is redundant with: exec_depend
+[1.484s] - The generic dependency on 'std_msgs' is redundant with: exec_depend
+[1.497s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.498s]   execute_process(/usr/bin/python3
+[1.498s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.498s]   /home/sergio/ros2_ws/src/lol_nav/package.xml
+[1.498s]   /home/sergio/ros2_ws/build/lol_nav/ament_cmake_core/package.cmake) returned
+[1.498s]   error code 1
+[1.498s] Call Stack (most recent call first):
+[1.498s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.498s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.498s]   CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)
+[1.498s] 
+[1.498s] [0m
+[1.498s] -- Configuring incomplete, errors occurred!
+[1.498s] See also "/home/sergio/ros2_ws/build/lol_nav/CMakeFiles/CMakeOutput.log".
+[1.507s] Invoked command in '/home/sergio/ros2_ws/build/lol_nav' returned '1': /usr/bin/cmake /home/sergio/ros2_ws/src/lol_nav -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/lol_nav

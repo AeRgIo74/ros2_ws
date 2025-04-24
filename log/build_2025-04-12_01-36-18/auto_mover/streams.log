@@ -1,0 +1,21 @@
+[5.483s] Invoking command in '/home/sergio/ros2_ws/src/auto_mover': PYTHONPATH=/home/sergio/ros2_ws/build/auto_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mover build --build-base /home/sergio/ros2_ws/build/auto_mover/build install --record /home/sergio/ros2_ws/build/auto_mover/install.log --single-version-externally-managed install_data
+[6.675s] running egg_info
+[6.677s] writing ../../build/auto_mover/auto_mover.egg-info/PKG-INFO
+[6.677s] writing dependency_links to ../../build/auto_mover/auto_mover.egg-info/dependency_links.txt
+[6.677s] writing entry points to ../../build/auto_mover/auto_mover.egg-info/entry_points.txt
+[6.677s] writing requirements to ../../build/auto_mover/auto_mover.egg-info/requires.txt
+[6.677s] writing top-level names to ../../build/auto_mover/auto_mover.egg-info/top_level.txt
+[6.679s] reading manifest file '../../build/auto_mover/auto_mover.egg-info/SOURCES.txt'
+[6.683s] writing manifest file '../../build/auto_mover/auto_mover.egg-info/SOURCES.txt'
+[6.683s] running build
+[6.683s] running build_py
+[6.683s] running install
+[6.683s] running install_lib
+[6.687s] running install_data
+[6.688s] running install_egg_info
+[6.691s] removing '/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages/auto_mover-0.0.0-py3.10.egg-info' (and everything under it)
+[6.691s] Copying ../../build/auto_mover/auto_mover.egg-info to /home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages/auto_mover-0.0.0-py3.10.egg-info
+[6.693s] running install_scripts
+[6.749s] Installing move_node script to /home/sergio/ros2_ws/install/auto_mover/lib/auto_mover
+[6.750s] writing list of installed files to '/home/sergio/ros2_ws/build/auto_mover/install.log'
+[7.243s] Invoked command in '/home/sergio/ros2_ws/src/auto_mover' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/auto_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_mover build --build-base /home/sergio/ros2_ws/build/auto_mover/build install --record /home/sergio/ros2_ws/build/auto_mover/install.log --single-version-externally-managed install_data

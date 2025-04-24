@@ -1,0 +1,24 @@
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/mapa_parcial.world
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/bitmaps/mapa_parcial.png
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/bitmaps/lol_map.png
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/bitmaps/lol_map1.png
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/bitmaps/mapa lol.jpg
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/lol_map1.world
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/mi_mundo.world
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/include/pioneer2dx.inc
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/worlds/include/robots.inc
+/home/sergio/ros2_ws/install/stage_worlds/share/ament_index/resource_index/package_run_dependencies/stage_worlds
+/home/sergio/ros2_ws/install/stage_worlds/share/ament_index/resource_index/parent_prefix_path/stage_worlds
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/environment/ament_prefix_path.sh
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/environment/ament_prefix_path.dsv
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/environment/path.sh
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/environment/path.dsv
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/local_setup.bash
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/local_setup.sh
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/local_setup.zsh
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/local_setup.dsv
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/package.dsv
+/home/sergio/ros2_ws/install/stage_worlds/share/ament_index/resource_index/packages/stage_worlds
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/cmake/stage_worldsConfig.cmake
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/cmake/stage_worldsConfig-version.cmake
+/home/sergio/ros2_ws/install/stage_worlds/share/stage_worlds/package.xml

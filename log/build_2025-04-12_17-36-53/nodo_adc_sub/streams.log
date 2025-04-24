@@ -1,0 +1,21 @@
+[2.947s] Invoking command in '/home/sergio/ros2_ws/src/nodo_adc_sub': PYTHONPATH=/home/sergio/ros2_ws/build/nodo_adc_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodo_adc_sub build --build-base /home/sergio/ros2_ws/build/nodo_adc_sub/build install --record /home/sergio/ros2_ws/build/nodo_adc_sub/install.log --single-version-externally-managed install_data
+[3.786s] running egg_info
+[3.788s] writing ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/PKG-INFO
+[3.788s] writing dependency_links to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/dependency_links.txt
+[3.789s] writing entry points to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/entry_points.txt
+[3.789s] writing requirements to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/requires.txt
+[3.789s] writing top-level names to ../../build/nodo_adc_sub/nodo_adc_sub.egg-info/top_level.txt
+[3.793s] reading manifest file '../../build/nodo_adc_sub/nodo_adc_sub.egg-info/SOURCES.txt'
+[3.795s] writing manifest file '../../build/nodo_adc_sub/nodo_adc_sub.egg-info/SOURCES.txt'
+[3.795s] running build
+[3.795s] running build_py
+[3.795s] running install
+[3.796s] running install_lib
+[3.799s] running install_data
+[3.799s] running install_egg_info
+[3.803s] removing '/home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages/nodo_adc_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[3.803s] Copying ../../build/nodo_adc_sub/nodo_adc_sub.egg-info to /home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages/nodo_adc_sub-0.0.0-py3.10.egg-info
+[3.803s] running install_scripts
+[3.836s] Installing subscriber_adc script to /home/sergio/ros2_ws/install/nodo_adc_sub/lib/nodo_adc_sub
+[3.836s] writing list of installed files to '/home/sergio/ros2_ws/build/nodo_adc_sub/install.log'
+[3.891s] Invoked command in '/home/sergio/ros2_ws/src/nodo_adc_sub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/nodo_adc_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/nodo_adc_sub build --build-base /home/sergio/ros2_ws/build/nodo_adc_sub/build install --record /home/sergio/ros2_ws/build/nodo_adc_sub/install.log --single-version-externally-managed install_data

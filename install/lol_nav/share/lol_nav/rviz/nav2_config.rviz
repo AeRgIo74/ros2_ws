@@ -1,0 +1,48 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Name: Map
+      Class: rviz_default_plugins/Map
+      Enabled: true
+      Topic: /map
+      Alpha: 0.7
+      Draw Behind: true
+    - Name: RobotModel
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Robot Description: robot_description
+    - Name: LaserScan
+      Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Topic: /scan
+      Size (m): 0.03
+      Color: 255; 255; 255
+    - Name: TF
+      Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 10.0
+      Show Names: true
+      Show Axes: true
+      Show Arrows: true
+    - Name: Path
+      Class: nav_msgs/Path
+      Enabled: true
+      Topic: /plan
+      Color: 0; 255; 0
+      Line Style: Lines
+      Line Width: 0.03
+  Enabled: true
+  Global Options:
+    Fixed Frame: map
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic: /goal_pose
+  Value: true

@@ -1,0 +1,2 @@
+Invoking command in '/home/sergio/ros2_ws/build/stage_worlds': /usr/bin/cmake /home/sergio/ros2_ws/src/stage_worlds -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/stage_worlds
+Invoked command in '/home/sergio/ros2_ws/build/stage_worlds' returned '1': /usr/bin/cmake /home/sergio/ros2_ws/src/stage_worlds -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/stage_worlds

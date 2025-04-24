@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/robot_autonomo/robot_autonomo.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_autonomo/robot_autonomo.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_autonomo/robot_autonomo.egg-info/entry_points.txt
+writing requirements to ../../build/robot_autonomo/robot_autonomo.egg-info/requires.txt
+writing top-level names to ../../build/robot_autonomo/robot_autonomo.egg-info/top_level.txt
+reading manifest file '../../build/robot_autonomo/robot_autonomo.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_autonomo/robot_autonomo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_autonomo/nodo_evitar_obstaculos.py -> /home/sergio/ros2_ws/build/robot_autonomo/build/lib/robot_autonomo
+running install
+running install_lib
+copying /home/sergio/ros2_ws/build/robot_autonomo/build/lib/robot_autonomo/nodo_evitar_obstaculos.py -> /home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo
+byte-compiling /home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo/nodo_evitar_obstaculos.py to nodo_evitar_obstaculos.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_autonomo/robot_autonomo.egg-info to /home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing evita_obstaculos script to /home/sergio/ros2_ws/install/robot_autonomo/lib/robot_autonomo
+writing list of installed files to '/home/sergio/ros2_ws/build/robot_autonomo/install.log'

@@ -1,0 +1,41 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (-) JobUnselected: {'identifier': 'P1_ej1_pub'}
+[0.000187] (-) JobUnselected: {'identifier': 'P1_ej1_sub'}
+[0.000210] (-) JobUnselected: {'identifier': 'Stage'}
+[0.000219] (-) JobUnselected: {'identifier': 'auto_mover'}
+[0.000228] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.000237] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000246] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.000254] (-) JobUnselected: {'identifier': 'ejemplo_uno'}
+[0.000262] (-) JobUnselected: {'identifier': 'ejercicio_dos'}
+[0.000271] (-) JobUnselected: {'identifier': 'ejercicio_tres_client'}
+[0.000279] (-) JobUnselected: {'identifier': 'ejercicio_tres_interface'}
+[0.000287] (-) JobUnselected: {'identifier': 'ejercicio_tres_server'}
+[0.000296] (-) JobUnselected: {'identifier': 'mma_interfaces'}
+[0.000304] (-) JobUnselected: {'identifier': 'mma_listener'}
+[0.000313] (-) JobUnselected: {'identifier': 'mma_service'}
+[0.000321] (-) JobUnselected: {'identifier': 'mma_talker'}
+[0.000329] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000337] (-) JobUnselected: {'identifier': 'my_stage_mover'}
+[0.000346] (-) JobUnselected: {'identifier': 'navigation_tb3'}
+[0.000355] (-) JobUnselected: {'identifier': 'nodo_adc_sub'}
+[0.000363] (-) JobUnselected: {'identifier': 'p1_ej2_interface'}
+[0.000371] (-) JobUnselected: {'identifier': 'p1_ej2_nodo4'}
+[0.000380] (-) JobUnselected: {'identifier': 'p1_ej2_nodo5'}
+[0.000388] (-) JobUnselected: {'identifier': 'p1_ej2_nodos_sensor'}
+[0.000401] (-) JobUnselected: {'identifier': 'p1_ej3_cliente'}
+[0.000409] (-) JobUnselected: {'identifier': 'p1_ej3_interface'}
+[0.000417] (-) JobUnselected: {'identifier': 'p1_ej3_servidor'}
+[0.000426] (-) JobUnselected: {'identifier': 'robot_autonomo'}
+[0.000434] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000442] (-) JobUnselected: {'identifier': 'stage_ros2'}
+[0.000450] (-) JobUnselected: {'identifier': 'stage_worlds'}
+[0.000458] (-) JobUnselected: {'identifier': 'trr_robot'}
+[0.000466] (-) JobUnselected: {'identifier': 'trr_robot_ps'}
+[0.000476] (robot_nav) JobQueued: {'identifier': 'robot_nav', 'dependencies': OrderedDict()}
+[0.000632] (robot_nav) JobStarted: {'identifier': 'robot_nav'}
+[0.099914] (-) TimerEvent: {}
+[0.200187] (-) TimerEvent: {}
+[0.213613] (robot_nav) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.214023] (robot_nav) JobEnded: {'identifier': 'robot_nav', 'rc': 1}
+[0.224143] (-) EventReactorShutdown: {}

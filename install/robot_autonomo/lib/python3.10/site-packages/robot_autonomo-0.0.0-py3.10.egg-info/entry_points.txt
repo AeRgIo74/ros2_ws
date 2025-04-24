@@ -1,0 +1,4 @@
+[console_scripts]
+evita_obstaculos = robot_autonomo.nodo_evitar_obstaculos:main
+evita_obstaculos2 = robot_autonomo.evitar_obstaculos:main
+

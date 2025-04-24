@@ -1,0 +1,21 @@
+[6.099s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej2_nodo4': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo4 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo4/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo4/install.log --single-version-externally-managed install_data
+[7.052s] running egg_info
+[7.053s] writing ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/PKG-INFO
+[7.053s] writing dependency_links to ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/dependency_links.txt
+[7.053s] writing entry points to ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/entry_points.txt
+[7.053s] writing requirements to ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/requires.txt
+[7.053s] writing top-level names to ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/top_level.txt
+[7.058s] reading manifest file '../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/SOURCES.txt'
+[7.059s] writing manifest file '../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info/SOURCES.txt'
+[7.060s] running build
+[7.060s] running build_py
+[7.063s] running install
+[7.064s] running install_lib
+[7.065s] running install_data
+[7.066s] running install_egg_info
+[7.072s] removing '/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages/p1_ej2_nodo4-0.0.0-py3.10.egg-info' (and everything under it)
+[7.073s] Copying ../../build/p1_ej2_nodo4/p1_ej2_nodo4.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages/p1_ej2_nodo4-0.0.0-py3.10.egg-info
+[7.074s] running install_scripts
+[7.152s] Installing nodo4 script to /home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/p1_ej2_nodo4
+[7.152s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodo4/install.log'
+[7.389s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej2_nodo4' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo4 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo4/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo4/install.log --single-version-externally-managed install_data

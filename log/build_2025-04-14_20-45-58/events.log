@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (-) JobUnselected: {'identifier': 'P1_ej1_pub'}
+[0.000424] (-) JobUnselected: {'identifier': 'P1_ej1_sub'}
+[0.000441] (-) JobUnselected: {'identifier': 'Stage'}
+[0.000456] (-) JobUnselected: {'identifier': 'auto_mover'}
+[0.000469] (-) JobUnselected: {'identifier': 'cartographer_ros'}
+[0.000483] (-) JobUnselected: {'identifier': 'cartographer_ros_msgs'}
+[0.000496] (-) JobUnselected: {'identifier': 'cartographer_rviz'}
+[0.000509] (-) JobUnselected: {'identifier': 'ejemplo_uno'}
+[0.000522] (-) JobUnselected: {'identifier': 'ejercicio_dos'}
+[0.000535] (-) JobUnselected: {'identifier': 'ejercicio_tres_client'}
+[0.000551] (-) JobUnselected: {'identifier': 'ejercicio_tres_interface'}
+[0.000567] (-) JobUnselected: {'identifier': 'ejercicio_tres_server'}
+[0.000577] (-) JobUnselected: {'identifier': 'mma_interfaces'}
+[0.000586] (-) JobUnselected: {'identifier': 'mma_listener'}
+[0.000595] (-) JobUnselected: {'identifier': 'mma_service'}
+[0.000604] (-) JobUnselected: {'identifier': 'mma_talker'}
+[0.000613] (-) JobUnselected: {'identifier': 'my_package'}
+[0.000622] (-) JobUnselected: {'identifier': 'my_stage_mover'}
+[0.000631] (-) JobUnselected: {'identifier': 'navigation_tb3'}
+[0.000641] (-) JobUnselected: {'identifier': 'nodo_adc_sub'}
+[0.000650] (-) JobUnselected: {'identifier': 'p1_ej2_interface'}
+[0.000659] (-) JobUnselected: {'identifier': 'p1_ej2_nodo4'}
+[0.000668] (-) JobUnselected: {'identifier': 'p1_ej2_nodo5'}
+[0.000677] (-) JobUnselected: {'identifier': 'p1_ej2_nodos_sensor'}
+[0.000686] (-) JobUnselected: {'identifier': 'p1_ej3_cliente'}
+[0.000695] (-) JobUnselected: {'identifier': 'p1_ej3_interface'}
+[0.000704] (-) JobUnselected: {'identifier': 'p1_ej3_servidor'}
+[0.000713] (-) JobUnselected: {'identifier': 'robot_autonomo'}
+[0.000722] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.000731] (-) JobUnselected: {'identifier': 'stage_ros2'}
+[0.000740] (-) JobUnselected: {'identifier': 'stage_worlds'}
+[0.000749] (-) JobUnselected: {'identifier': 'trr_robot'}
+[0.000758] (-) JobUnselected: {'identifier': 'trr_robot_ps'}
+[0.000769] (lol_nav) JobQueued: {'identifier': 'lol_nav', 'dependencies': OrderedDict()}
+[0.000782] (lol_nav) JobStarted: {'identifier': 'lol_nav'}
+[0.009514] (lol_nav) JobProgress: {'identifier': 'lol_nav', 'progress': 'cmake'}
+[0.009734] (lol_nav) Command: {'cmd': ['/usr/bin/cmake', '/home/sergio/ros2_ws/src/lol_nav', '-DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/lol_nav'], 'cwd': '/home/sergio/ros2_ws/build/lol_nav', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sergio'), ('LC_TIME', 'es_BO.UTF-8'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/sergio/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/ejercicio_tres/lib:/home/sergio/ros2_ws/install/cartographer_rviz/lib:/home/sergio/ros2_ws/install/cartographer_ros/lib:/home/sergio/ros2_ws/install/cartographer_ros_msgs/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/sergio'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/sergio/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.99.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/190/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/sergio/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/190/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'es_BO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/190/usr/share/code/code'), ('MANAGERPID', '1963'), ('SYSTEMD_EXEC_PID', '2304'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3761'), ('PICO_TOOLCHAIN_PATH', '/opt/gcc-arm-none-eabi-9-2020-q2'), ('COLCON_PREFIX_PATH', '/home/sergio/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sergio'), ('JOURNAL_STREAM', '8:12672'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'sergio'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/sergio/ros2_ws/install/Stage/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sergio-Katana-GF76-11UD:@/tmp/.ICE-unix/2277,unix/sergio-Katana-GF76-11UD:/tmp/.ICE-unix/2277'), ('GTK_EXE_PREFIX', '/snap/code/190/usr'), ('INVOCATION_ID', 'd0ed5643bc864643adb49d8e237dbf17'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_BO.UTF-8'), ('BAMF_DESKTOP_FILE_HINT', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/190/usr/lib/locale'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'es_BO.UTF-8'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/sergio/snap/code/190/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-39e394b488.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/sergio/snap/code/190/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_teleop:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_example:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/cartographer_rviz:/home/sergio/ros2_ws/install/cartographer_ros:/home/sergio/ros2_ws/install/cartographer_ros_msgs:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_BO.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('LC_MEASUREMENT', 'es_BO.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_BO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sergio/ros2_ws/build/lol_nav'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('PICO_SDK_PATH', '/home/sergio/pico-sdk'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/home/sergio/snap/code/190/.local/share:/home/sergio/snap/code/190:/snap/code/190/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sergio/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej3_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej3_cliente/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej2_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/p1_ej2_nodo4/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/nodo_adc_sub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/my_package/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_service/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_server/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_tres_interface/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:/home/sergio/ros2_ws/install/auto_mover/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_BO.UTF-8'), ('LC_PAPER', 'es_BO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sergio/ros2_ws/install/turtlebot3:/home/sergio/ros2_ws/install/turtlebot3_bringup:/home/sergio/ros2_ws/install/turtlebot3_node:/home/sergio/ros2_ws/install/turtlebot3_navigation2:/home/sergio/ros2_ws/install/turtlebot3_description:/home/sergio/ros2_ws/install/turtlebot3_cartographer:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/robot_trr:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/ejercicio_tres:/home/sergio/ros2_ws/install/cartographer_rviz:/home/sergio/ros2_ws/install/cartographer_ros:/home/sergio/ros2_ws/install/cartographer_ros_msgs:/home/sergio/ros2_ws/install/Stage')]), 'shell': False}
+[0.099880] (-) TimerEvent: {}
+[0.122327] (lol_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199993] (-) TimerEvent: {}
+[0.202808] (lol_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.217423] (lol_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.292847] (lol_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299011] (lol_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.299518] (lol_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300040] (lol_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300156] (-) TimerEvent: {}
+[0.303469] (lol_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.382496] (lol_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.388610] (lol_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.389004] (lol_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.389489] (lol_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.393840] (lol_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400236] (-) TimerEvent: {}
+[0.500545] (-) TimerEvent: {}
+[0.555697] (lol_nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600689] (-) TimerEvent: {}
+[0.669051] (lol_nav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700820] (-) TimerEvent: {}
+[0.730595] (lol_nav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.739055] (lol_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.750288] (lol_nav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.764527] (lol_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.782262] (lol_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800900] (-) TimerEvent: {}
+[0.849855] (lol_nav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.855659] (lol_nav) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.900982] (-) TimerEvent: {}
+[0.948971] (lol_nav) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.990580] (lol_nav) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.001132] (-) TimerEvent: {}
+[1.043001] (lol_nav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.056895] (lol_nav) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.101278] (-) TimerEvent: {}
+[1.138802] (lol_nav) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.139135] (lol_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.201362] (-) TimerEvent: {}
+[1.206912] (lol_nav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.207954] (lol_nav) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.277188] (lol_nav) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.293693] (lol_nav) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.301467] (-) TimerEvent: {}
+[1.374283] (lol_nav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.401659] (-) TimerEvent: {}
+[1.437503] (lol_nav) StderrLine: {'line': b"Error parsing '/home/sergio/ros2_ws/src/lol_nav/package.xml':\n"}
+[1.483698] (lol_nav) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.483887] (lol_nav) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.483959] (lol_nav) StderrLine: {'line': b'    main()\n'}
+[1.484010] (lol_nav) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.484063] (lol_nav) StderrLine: {'line': b'    raise e\n'}
+[1.484131] (lol_nav) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.484180] (lol_nav) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.484243] (lol_nav) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[1.484385] (lol_nav) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[1.484469] (lol_nav) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/sergio/ros2_ws/src/lol_nav/package.xml':\n"}
+[1.484531] (lol_nav) StderrLine: {'line': b'Error(s):\n'}
+[1.484583] (lol_nav) StderrLine: {'line': b"- The generic dependency on 'geometry_msgs' is redundant with: exec_depend\n"}
+[1.484623] (lol_nav) StderrLine: {'line': b"- The generic dependency on 'nav2_msgs' is redundant with: exec_depend\n"}
+[1.484660] (lol_nav) StderrLine: {'line': b"- The generic dependency on 'nav_msgs' is redundant with: exec_depend\n"}
+[1.484698] (lol_nav) StderrLine: {'line': b"- The generic dependency on 'std_msgs' is redundant with: exec_depend\n"}
+[1.497932] (lol_nav) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.498246] (lol_nav) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.498320] (lol_nav) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.498377] (lol_nav) StderrLine: {'line': b'  /home/sergio/ros2_ws/src/lol_nav/package.xml\n'}
+[1.498415] (lol_nav) StderrLine: {'line': b'  /home/sergio/ros2_ws/build/lol_nav/ament_cmake_core/package.cmake) returned\n'}
+[1.498452] (lol_nav) StderrLine: {'line': b'  error code 1\n'}
+[1.498489] (lol_nav) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.498525] (lol_nav) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.498567] (lol_nav) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.498603] (lol_nav) StderrLine: {'line': b'  CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies)\n'}
+[1.498639] (lol_nav) StderrLine: {'line': b'\n'}
+[1.498674] (lol_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[1.498709] (lol_nav) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.498752] (lol_nav) StdoutLine: {'line': b'See also "/home/sergio/ros2_ws/build/lol_nav/CMakeFiles/CMakeOutput.log".\n'}
+[1.501749] (-) TimerEvent: {}
+[1.507930] (lol_nav) CommandEnded: {'returncode': 1}
+[1.508678] (lol_nav) JobEnded: {'identifier': 'lol_nav', 'rc': 1}
+[1.519349] (-) EventReactorShutdown: {}

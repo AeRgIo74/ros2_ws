@@ -1,9 +1,0 @@
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/uninstall.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/robot_trr_uninstall.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/test.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/edit_cache.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/rebuild_cache.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/list_install_components.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/install.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/install/local.dir
-/home/sergio/ros2_ws/build/robot_trr/CMakeFiles/install/strip.dir

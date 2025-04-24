@@ -1,0 +1,3 @@
+[console_scripts]
+mover = my_stage_mover.mover:main
+

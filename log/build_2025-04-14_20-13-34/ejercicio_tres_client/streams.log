@@ -1,0 +1,21 @@
+[4.919s] Invoking command in '/home/sergio/ros2_ws/src/ejercicio_tres_client': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_client build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_client/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_client/install.log --single-version-externally-managed install_data
+[5.718s] running egg_info
+[5.718s] writing ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/PKG-INFO
+[5.719s] writing dependency_links to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/dependency_links.txt
+[5.719s] writing entry points to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/entry_points.txt
+[5.719s] writing requirements to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/requires.txt
+[5.719s] writing top-level names to ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/top_level.txt
+[5.723s] reading manifest file '../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/SOURCES.txt'
+[5.727s] writing manifest file '../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info/SOURCES.txt'
+[5.727s] running build
+[5.727s] running build_py
+[5.727s] running install
+[5.728s] running install_lib
+[5.730s] running install_data
+[5.730s] running install_egg_info
+[5.734s] removing '/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client-0.0.0-py3.10.egg-info' (and everything under it)
+[5.737s] Copying ../../build/ejercicio_tres_client/ejercicio_tres_client.egg-info to /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages/ejercicio_tres_client-0.0.0-py3.10.egg-info
+[5.743s] running install_scripts
+[5.792s] Installing midpoint_client script to /home/sergio/ros2_ws/install/ejercicio_tres_client/lib/ejercicio_tres_client
+[5.792s] writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio_tres_client/install.log'
+[6.142s] Invoked command in '/home/sergio/ros2_ws/src/ejercicio_tres_client' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_tres_client/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_tres_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_tres_client build --build-base /home/sergio/ros2_ws/build/ejercicio_tres_client/build install --record /home/sergio/ros2_ws/build/ejercicio_tres_client/install.log --single-version-externally-managed install_data

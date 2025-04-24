@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/my_stage_mover/my_stage_mover.egg-info/PKG-INFO
+../../build/my_stage_mover/my_stage_mover.egg-info/SOURCES.txt
+../../build/my_stage_mover/my_stage_mover.egg-info/dependency_links.txt
+../../build/my_stage_mover/my_stage_mover.egg-info/entry_points.txt
+../../build/my_stage_mover/my_stage_mover.egg-info/requires.txt
+../../build/my_stage_mover/my_stage_mover.egg-info/top_level.txt
+../../build/my_stage_mover/my_stage_mover.egg-info/zip-safe
+my_stage_mover/__init__.py
+my_stage_mover/mover.py
+resource/my_stage_mover
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
