@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info
+writing ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/top_level.txt
+writing manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build
+creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib
+creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+copying ejercicio1_pkg/__init__.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+copying ejercicio1_pkg/ik_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+copying ejercicio1_pkg/fk_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+running install
+running install_lib
+creating /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/__init__.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/ik_publisher.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/fk_publisher.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/ik_publisher.py to ik_publisher.cpython-310.pyc
+byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/fk_publisher.py to fk_publisher.cpython-310.pyc
+running install_data
+creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index
+creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index
+creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index/packages
+copying resource/ejercicio1_pkg -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ejercicio1_pkg
+running install_egg_info
+Copying ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fk_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+Installing ik_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio1_pkg/install.log'

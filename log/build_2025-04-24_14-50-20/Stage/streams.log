@@ -1,0 +1,16 @@
+[0.134s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake --build /home/sergio/ros2_ws/build/Stage -- -j16 -l16
+[2.162s] [ 57%] Built target stage
+[2.162s] [ 61%] Built target stagebinary
+[2.162s] [ 64%] Built target expand_pioneer
+[2.162s] [ 67%] Built target lasernoise
+[2.162s] [ 72%] Built target fasr2
+[2.162s] [ 76%] Built target rasterize
+[2.162s] [ 79%] Built target fasr
+[2.162s] [ 86%] Built target source
+[2.162s] [ 86%] Built target pioneer_flocking
+[2.162s] [ 89%] Built target sink
+[2.163s] [ 93%] Built target wander
+[2.163s] [ 96%] Built target dynamic
+[2.163s] [100%] Built target expand_swarm
+[2.196s] Invoked command in '/home/sergio/ros2_ws/build/Stage' returned '0': /usr/bin/cmake --build /home/sergio/ros2_ws/build/Stage -- -j16 -l16
+[2.198s] Invoking command in '/home/sergio/ros2_ws/build/Stage': /usr/bin/cmake --install /home/sergio/ros2_ws/build/Stage

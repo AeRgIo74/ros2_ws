@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<robot name="brazo_robotico_con_gripper">
+  <!-- Definición de materiales -->
+  <material name="amarillo">
+      <color rgba="1 1 0 1"/>
+  </material>
+  <material name="negro">
+      <color rgba="0 0 0 1"/>
+  </material>
+  <material name="plomo">
+      <color rgba="0.6 0.6 0 1"/>
+  </material>
+  
+  <!-- Base del robot con movimiento torsional -->
+  <link name="base_link">
+      <visual>
+          <geometry>
+              <cylinder length="0.2" radius="0.15"/>
+          </geometry>
+          <origin xyz="0 0 0" rpy="0 0 0"/>
+          <material name="amarillo"/>
+      </visual>
+  </link>
+
+  <!-- Articulación de la base (torsional) -->
+  <joint name="base_to_articulacion1" type="revolute">
+      <parent link="base_link"/>
+      <child link="articulacion1_link"/>
+      <origin xyz="0 0 0.2" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/> <!-- Rotación alrededor del eje Z -->
+      <limit effort="411" lower="-3.14" upper="3.14" velocity="1.57"/>
+      <dynamics damping="60.0" friction="4.0"/>
+  </joint>
+
+  <!-- Primer segmento del brazo -->
+  <link name="articulacion1_link">
+      <visual>
+          <geometry>
+              <cylinder length="0.4" radius="0.05"/>
+          </geometry>
+          <origin xyz="0 0 0.2" rpy="0 0 0"/>
+          <material name="plomo"/>
+      </visual>
+  </link>
+
+  <!-- Articulación rotacional 1 -->
+  <joint name="articulacion1_to_articulacion2" type="revolute">
+      <parent link="articulacion1_link"/>
+      <child link="articulacion2_link"/>
+      <origin xyz="0 0 0.4" rpy="0 0 0"/>
+      <axis xyz="1 0 0"/> <!-- Rotación alrededor del eje X -->
+      <limit effort="50" velocity="1.0" lower="-1.57" upper="1.57"/>
+  </joint>
+
+  <!-- Segundo segmento del brazo -->
+  <link name="articulacion2_link">
+      <visual>
+          <geometry>
+              <cylinder length="0.4" radius="0.05"/>
+          </geometry>
+          <origin xyz="0 0 0.2" rpy="0 0 0"/>
+          <material name="plomo"/>
+      </visual>
+  </link>
+
+  <!-- Articulación rotacional 2 -->
+  <joint name="articulacion2_to_efector" type="revolute">
+      <parent link="articulacion2_link"/>
+      <child link="efector_link"/>
+      <origin xyz="0 0 0.5" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/> <!-- Rotación alrededor del eje Y -->
+      <limit effort="50" velocity="1.0" lower="-1.57" upper="1.57"/>
+  </joint>
+
+  <!-- Efector final -->
+  <link name="efector_link">
+      <visual>
+          <geometry>
+              <cylinder length="0.4" radius="0.05"/>
+          </geometry>
+          <origin xyz="0 0 0.05" rpy="0 0 0"/>
+          <material name="plomo"/>
+      </visual>
+  </link>
+
+  <!-- Gripper -->
+  <link name="gripper_link">
+    <visual>
+        <geometry>
+            <box size="0.1 0.1 0.2"/> <!-- Tamaño del gripper más visible -->
+        </geometry>
+        <origin xyz="0 0 0.1" rpy="0 0 0"/>
+        <material name="negro"/>
+    </visual>
+  </link>
+
+  <!-- Articulación del gripper (prismática para abrir y cerrar) -->
+  <joint name="gripper_joint" type="prismatic">
+    <parent link="efector_link"/>
+    <child link="gripper_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/> <!-- Movimiento en el eje Y -->
+    <limit effort="50" lower="-0.1" upper="0.1" velocity="0.2"/>
+    <dynamics damping="0.1" friction="0.1"/>
+  </joint>
+
+</robot>

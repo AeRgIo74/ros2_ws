@@ -1280,4 +1280,21 @@ CMakeFiles/panda_ik_menu.dir/src/panda_ik_menu.cpp.o: \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__traits.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/srv/detail/frame_graph__type_support.hpp \
  /opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /opt/ros/humble/include/moveit_move_group_interface_export.h
+ /opt/ros/humble/include/moveit_move_group_interface_export.h \
+ /opt/ros/humble/include/moveit/planning_scene_interface/planning_scene_interface.h \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/object_color.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__builder.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/object_color__type_support.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/collision_object.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__builder.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/collision_object__type_support.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/attached_collision_object.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__builder.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/attached_collision_object__type_support.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/planning_scene.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__builder.hpp \
+ /opt/ros/humble/include/moveit_msgs/moveit_msgs/msg/detail/planning_scene__type_support.hpp \
+ /opt/ros/humble/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp \
+ /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp \
+ /opt/ros/humble/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp \
+ /opt/ros/humble/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

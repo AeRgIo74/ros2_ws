@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<robot name="robot_4dof">
+
+  <!-- Link base -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <material name="gray"><color rgba="0.6 0.6 0.6 1"/></material>
+    </visual>
+  </link>
+
+  <!-- Joint 1 -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="5" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 1 (vertical) -->
+  <link name="link1">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.5"/>
+      </geometry>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <material name="blue"><color rgba="0.2 0.2 1 1"/></material>
+    </visual>
+  </link>
+
+  <!-- Joint 2 -->
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 0.5" rpy="1.5708 0 0"/> <!-- α=90° -->
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 2 -->
+  <link name="link2">
+    <visual>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <material name="green"><color rgba="0.2 1 0.2 1"/></material>
+    </visual>
+  </link>
+
+  <!-- Joint 3 -->
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 3 -->
+  <link name="link3">
+    <visual>
+      <geometry>
+        <box size="0.3 0.03 0.03"/>
+      </geometry>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <material name="orange"><color rgba="1 0.5 0.2 1"/></material>
+    </visual>
+  </link>
+
+  <!-- Joint 4 -->
+  <joint name="joint4" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0.3 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="5" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 4 (end-effector) -->
+  <link name="link4">
+    <visual>
+      <geometry>
+        <box size="0.3 0.02 0.02"/>
+      </geometry>
+      <origin xyz="0.15 0 0" rpy="0 0 0"/>
+      <material name="red"><color rgba="1 0.2 0.2 1"/></material>
+    </visual>
+  </link>
+
+</robot>

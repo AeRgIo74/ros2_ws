@@ -1,20 +1,27 @@
 #include <rclcpp/rclcpp.hpp>
 #include <moveit/move_group_interface/move_group_interface.h>
+#include <moveit/planning_scene_interface/planning_scene_interface.h> // Nuevo header para la escena
 #include <geometry_msgs/msg/pose.hpp>
+#include <shape_msgs/msg/solid_primitive.hpp> // Nuevo header para formas primitivas
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
 #include <map>
+#include <vector>
 
 using moveit::planning_interface::MoveGroupInterface;
+using moveit::planning_interface::PlanningSceneInterface;
 
-geometry_msgs::msg::Pose crear_pose(double x, double y, double z, double w = 1.0)
+geometry_msgs::msg::Pose crear_pose(double x, double y, double z, double w = 1.0, double rx = 0.0, double ry = 0.0, double rz = 0.0)
 {
   geometry_msgs::msg::Pose pose;
   pose.position.x = x;
   pose.position.y = y;
   pose.position.z = z;
   pose.orientation.w = w;
+  pose.orientation.x = rx;
+  pose.orientation.y = ry;
+  pose.orientation.z = rz;
   return pose;
 }
 
@@ -72,7 +79,45 @@ int main(int argc, char **argv)
   rclcpp::Logger logger = rclcpp::get_logger("panda_ik_menu");
 
   MoveGroupInterface move_group(node, "panda_arm");
+  PlanningSceneInterface planning_scene_interface; // Interfaz para la escena de planificación
   move_group.setPlanningTime(5.0);
+
+  // Añadir dos obstáculos (bloques cúbicos) a la escena
+  moveit_msgs::msg::CollisionObject obstacle1;
+  obstacle1.header.frame_id = move_group.getPlanningFrame();
+  obstacle1.id = "obstacle_1";
+  shape_msgs::msg::SolidPrimitive primitive1;
+  primitive1.type = primitive1.BOX;
+  primitive1.dimensions = {0.2, 0.2, 0.2};
+  geometry_msgs::msg::Pose pose_obstacle1;
+  pose_obstacle1.orientation.w = 1.0;
+  pose_obstacle1.position.x = 0.3;
+  pose_obstacle1.position.y = 0.3;
+  pose_obstacle1.position.z = 0.5;
+  obstacle1.primitives.push_back(primitive1);
+  obstacle1.primitive_poses.push_back(pose_obstacle1);
+  obstacle1.operation = obstacle1.ADD;
+
+  moveit_msgs::msg::CollisionObject obstacle2;
+  obstacle2.header.frame_id = move_group.getPlanningFrame();
+  obstacle2.id = "obstacle_2";
+  shape_msgs::msg::SolidPrimitive primitive2;
+  primitive2.type = primitive2.BOX;
+  primitive2.dimensions = {0.3, 0.3, 0.3};
+  geometry_msgs::msg::Pose pose_obstacle2;
+  pose_obstacle2.orientation.w = 1.0;
+  pose_obstacle2.position.x = -0.5;
+  pose_obstacle2.position.y = -0.3;
+  pose_obstacle2.position.z = 0.5;
+  obstacle2.primitives.push_back(primitive2);
+  obstacle2.primitive_poses.push_back(pose_obstacle2);
+  obstacle2.operation = obstacle2.ADD;
+
+  std::vector<moveit_msgs::msg::CollisionObject> collision_objects;
+  collision_objects.push_back(obstacle1);
+  collision_objects.push_back(obstacle2);
+  planning_scene_interface.addCollisionObjects(collision_objects);
+  RCLCPP_INFO(logger, "Se han añadido dos obstáculos a la escena.");
 
   // Inicializar generador de números aleatorios
   std::srand(std::time(0));
