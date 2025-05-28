@@ -1,0 +1,13 @@
+[  7%] Built target servo_keyboard_input
+[ 15%] Built target mtc_tutorial
+[ 23%] Built target pilz_move_group
+[ 30%] Built target minimal_mtc_tutorial
+[ 38%] Built target robot_model_and_robot_state_tutorial
+[ 46%] Built target motion_planning_api_tutorial
+[ 53%] Built target planning_scene_tutorial
+[ 61%] Built target pilz_mtc
+[ 69%] Built target move_group_interface_tutorial
+[ 76%] Built target moveit_cpp_tutorial
+[ 84%] Built target ompl_constrained_planning
+[ 92%] Built target servo_cpp_interface_demo
+[100%] Built target planning_scene_ros_api_tutorial

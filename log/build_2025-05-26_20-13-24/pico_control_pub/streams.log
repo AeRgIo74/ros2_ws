@@ -1,0 +1,29 @@
+[3.883s] Invoking command in '/home/sergio/ros2_ws/src/pico_control_pub': PYTHONPATH=/home/sergio/ros2_ws/build/pico_control_pub/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_control_pub build --build-base /home/sergio/ros2_ws/build/pico_control_pub/build install --record /home/sergio/ros2_ws/build/pico_control_pub/install.log --single-version-externally-managed install_data
+[4.540s] running egg_info
+[4.568s] writing ../../build/pico_control_pub/pico_control_pub.egg-info/PKG-INFO
+[4.568s] writing dependency_links to ../../build/pico_control_pub/pico_control_pub.egg-info/dependency_links.txt
+[4.568s] writing entry points to ../../build/pico_control_pub/pico_control_pub.egg-info/entry_points.txt
+[4.568s] writing requirements to ../../build/pico_control_pub/pico_control_pub.egg-info/requires.txt
+[4.568s] writing top-level names to ../../build/pico_control_pub/pico_control_pub.egg-info/top_level.txt
+[4.648s] reading manifest file '../../build/pico_control_pub/pico_control_pub.egg-info/SOURCES.txt'
+[4.649s] writing manifest file '../../build/pico_control_pub/pico_control_pub.egg-info/SOURCES.txt'
+[4.650s] running build
+[4.650s] running build_py
+[4.650s] copying pico_control_pub/__init__.py -> /home/sergio/ros2_ws/build/pico_control_pub/build/lib/pico_control_pub
+[4.654s] copying pico_control_pub/publisher.py -> /home/sergio/ros2_ws/build/pico_control_pub/build/lib/pico_control_pub
+[4.656s] copying pico_control_pub/auto.py -> /home/sergio/ros2_ws/build/pico_control_pub/build/lib/pico_control_pub
+[4.661s] running install
+[4.664s] running install_lib
+[4.694s] copying /home/sergio/ros2_ws/build/pico_control_pub/build/lib/pico_control_pub/auto.py -> /home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages/pico_control_pub
+[4.695s] byte-compiling /home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages/pico_control_pub/auto.py to auto.cpython-310.pyc
+[4.697s] running install_data
+[4.697s] copying resource/pico_control_pub -> /home/sergio/ros2_ws/install/pico_control_pub/share/ament_index/resource_index/packages
+[4.697s] copying package.xml -> /home/sergio/ros2_ws/install/pico_control_pub/share/pico_control_pub
+[4.698s] running install_egg_info
+[4.728s] removing '/home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages/pico_control_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[4.730s] Copying ../../build/pico_control_pub/pico_control_pub.egg-info to /home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages/pico_control_pub-0.0.0-py3.10.egg-info
+[4.732s] running install_scripts
+[4.978s] Installing auto script to /home/sergio/ros2_ws/install/pico_control_pub/lib/pico_control_pub
+[4.978s] Installing publisher script to /home/sergio/ros2_ws/install/pico_control_pub/lib/pico_control_pub
+[4.980s] writing list of installed files to '/home/sergio/ros2_ws/build/pico_control_pub/install.log'
+[5.020s] Invoked command in '/home/sergio/ros2_ws/src/pico_control_pub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/pico_control_pub/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/pico_control_pub/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pico_control_pub build --build-base /home/sergio/ros2_ws/build/pico_control_pub/build install --record /home/sergio/ros2_ws/build/pico_control_pub/install.log --single-version-externally-managed install_data
