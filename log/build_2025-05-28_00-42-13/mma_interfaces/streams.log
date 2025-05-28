@@ -1,0 +1,218 @@
+[0.058s] Invoking command in '/home/sergio/ros2_ws/build/mma_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/pico_control_pub:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/cam_viewer:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/mma_interfaces -- -j16 -l16
+[0.184s] [ 10%] Built target mma_interfaces__rosidl_generator_c
+[0.185s] [ 12%] Built target mma_interfaces__cpp
+[0.200s] [ 12%] Built target ament_cmake_python_copy_mma_interfaces
+[0.252s] [ 23%] Built target mma_interfaces__rosidl_typesupport_introspection_c
+[0.252s] [ 34%] Built target mma_interfaces__rosidl_typesupport_c
+[0.264s] [ 44%] Built target mma_interfaces__rosidl_typesupport_introspection_cpp
+[0.268s] [ 61%] Built target mma_interfaces__rosidl_typesupport_cpp
+[0.269s] [ 65%] Built target mma_interfaces__rosidl_typesupport_fastrtps_c
+[0.269s] [ 76%] Built target mma_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.343s] [ 76%] Built target mma_interfaces
+[0.421s] [ 78%] Built target mma_interfaces__py
+[0.539s] [ 87%] Built target mma_interfaces__rosidl_generator_py
+[0.653s] [ 91%] Built target mma_interfaces__rosidl_typesupport_c__pyext
+[0.662s] [ 95%] Built target mma_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.674s] [100%] Built target mma_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.336s] running egg_info
+[1.336s] writing mma_interfaces.egg-info/PKG-INFO
+[1.336s] writing dependency_links to mma_interfaces.egg-info/dependency_links.txt
+[1.336s] writing top-level names to mma_interfaces.egg-info/top_level.txt
+[1.347s] reading manifest file 'mma_interfaces.egg-info/SOURCES.txt'
+[1.349s] writing manifest file 'mma_interfaces.egg-info/SOURCES.txt'
+[1.420s] [100%] Built target ament_cmake_python_build_mma_interfaces_egg
+[1.791s] Invoked command in '/home/sergio/ros2_ws/build/mma_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/pico_control_pub:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/cam_viewer:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/mma_interfaces -- -j16 -l16
+[1.794s] Invoking command in '/home/sergio/ros2_ws/build/mma_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/pico_control_pub:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/cam_viewer:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/mma_interfaces
+[2.022s] -- Install configuration: ""
+[2.024s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/ament_index/resource_index/rosidl_interfaces/mma_interfaces
+[2.024s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.024s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.024s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/fighter.h
+[2.024s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.025s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.025s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__type_support.h
+[2.025s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__struct.h
+[2.025s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__functions.c
+[2.025s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__functions.h
+[2.026s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.027s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.027s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__functions.h
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__functions.c
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__struct.h
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__type_support.h
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/fight_simulation.h
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/fight_request.h
+[2.028s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.029s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__struct.h
+[2.029s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__type_support.h
+[2.030s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__functions.h
+[2.030s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__functions.c
+[2.030s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/library_path.sh
+[2.030s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/library_path.dsv
+[2.030s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_generator_c.so
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__rosidl_typesupport_fastrtps_c.h
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_fastrtps_c.h
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.031s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_fastrtps_c.h
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__rosidl_typesupport_introspection_c.h
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__type_support.c
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.032s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_introspection_c.h
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__type_support.c
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__type_support.c
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_introspection_c.h
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_introspection_c.so
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_c.so
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.033s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/fighter.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__struct.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__traits.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__type_support.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__builder.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/fight_simulation.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__builder.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__traits.hpp
+[2.034s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__type_support.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__struct.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/fight_request.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__type_support.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__struct.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__builder.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__traits.hpp
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.035s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/dds_fastrtps
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__rosidl_typesupport_fastrtps_cpp.hpp
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/dds_fastrtps
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_fastrtps_cpp.hpp
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/dds_fastrtps
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_fastrtps_cpp.hpp
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg
+[2.036s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__rosidl_typesupport_introspection_cpp.hpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/msg/detail/fighter__type_support.cpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__type_support.cpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/action/detail/fight_simulation__rosidl_typesupport_introspection_cpp.hpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__rosidl_typesupport_introspection_cpp.hpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/include/mma_interfaces/mma_interfaces/srv/detail/fight_request__type_support.cpp
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_typesupport_cpp.so
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/pythonpath.sh
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/pythonpath.dsv
+[2.037s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces-0.0.0-py3.10.egg-info
+[2.038s] -- Installing: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.038s] -- Installing: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.038s] -- Installing: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.038s] -- Installing: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/_mma_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/msg
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/msg/__init__.py
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/msg/_fighter.py
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/msg/_fighter_s.c
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.038s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/action
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/action/__init__.py
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/action/_fight_simulation.py
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/action/_fight_simulation_s.c
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/__init__.py
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/_mma_interfaces_s.ep.rosidl_typesupport_c.c
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/libmma_interfaces__rosidl_generator_py.so
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/_mma_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/srv
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/srv/_fight_request.py
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/srv/__init__.py
+[2.039s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/srv/_fight_request_s.c
+[2.039s] Listing '/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces'...
+[2.039s] Listing '/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/action'...
+[2.040s] Listing '/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/msg'...
+[2.040s] Listing '/home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/srv'...
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/local/lib/python3.10/dist-packages/mma_interfaces/mma_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/lib/libmma_interfaces__rosidl_generator_py.so
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/msg/Fighter.idl
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/srv/FightRequest.idl
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/action/FightSimulation.idl
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/msg/Fighter.msg
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/srv/FightRequest.srv
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/srv/FightRequest_Request.msg
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/srv/FightRequest_Response.msg
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/action/FightSimulation.action
+[2.040s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/ament_index/resource_index/package_run_dependencies/mma_interfaces
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/ament_index/resource_index/parent_prefix_path/mma_interfaces
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/ament_prefix_path.sh
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/ament_prefix_path.dsv
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/path.sh
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/environment/path.dsv
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/local_setup.bash
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/local_setup.sh
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/local_setup.zsh
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/local_setup.dsv
+[2.041s] -- Installing: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.dsv
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/ament_index/resource_index/packages/mma_interfaces
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_generator_cExport.cmake
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.041s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.042s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.042s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.042s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.042s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_cExport.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_generator_cppExport.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_cppExport.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.046s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_generator_pyExport.cmake
+[2.056s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/export_mma_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.056s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.056s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfacesConfig.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/cmake/mma_interfacesConfig-version.cmake
+[2.057s] -- Up-to-date: /home/sergio/ros2_ws/install/mma_interfaces/share/mma_interfaces/package.xml
+[2.148s] Invoked command in '/home/sergio/ros2_ws/build/mma_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/pico_control_pub:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/cam_viewer:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/mma_interfaces

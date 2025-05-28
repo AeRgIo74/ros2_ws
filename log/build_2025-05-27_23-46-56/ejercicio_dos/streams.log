@@ -1,0 +1,29 @@
+[3.334s] Invoking command in '/home/sergio/ros2_ws/src/ejercicio_dos': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_dos/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_dos build --build-base /home/sergio/ros2_ws/build/ejercicio_dos/build install --record /home/sergio/ros2_ws/build/ejercicio_dos/install.log --single-version-externally-managed install_data
+[4.274s] running egg_info
+[4.331s] writing ../../build/ejercicio_dos/ejercicio_dos.egg-info/PKG-INFO
+[4.331s] writing dependency_links to ../../build/ejercicio_dos/ejercicio_dos.egg-info/dependency_links.txt
+[4.332s] writing entry points to ../../build/ejercicio_dos/ejercicio_dos.egg-info/entry_points.txt
+[4.332s] writing requirements to ../../build/ejercicio_dos/ejercicio_dos.egg-info/requires.txt
+[4.332s] writing top-level names to ../../build/ejercicio_dos/ejercicio_dos.egg-info/top_level.txt
+[4.394s] reading manifest file '../../build/ejercicio_dos/ejercicio_dos.egg-info/SOURCES.txt'
+[4.394s] writing manifest file '../../build/ejercicio_dos/ejercicio_dos.egg-info/SOURCES.txt'
+[4.394s] running build
+[4.394s] running build_py
+[4.394s] copying ejercicio_dos/suma_cuadrados.py -> /home/sergio/ros2_ws/build/ejercicio_dos/build/lib/ejercicio_dos
+[4.394s] copying ejercicio_dos/pares_publisher.py -> /home/sergio/ros2_ws/build/ejercicio_dos/build/lib/ejercicio_dos
+[4.395s] copying ejercicio_dos/__init__.py -> /home/sergio/ros2_ws/build/ejercicio_dos/build/lib/ejercicio_dos
+[4.395s] copying ejercicio_dos/impares_publisher.py -> /home/sergio/ros2_ws/build/ejercicio_dos/build/lib/ejercicio_dos
+[4.395s] running install
+[4.406s] running install_lib
+[4.458s] running install_data
+[4.459s] copying resource/ejercicio_dos -> /home/sergio/ros2_ws/install/ejercicio_dos/share/ament_index/resource_index/packages
+[4.459s] copying package.xml -> /home/sergio/ros2_ws/install/ejercicio_dos/share/ejercicio_dos
+[4.459s] running install_egg_info
+[4.477s] removing '/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages/ejercicio_dos-0.0.0-py3.10.egg-info' (and everything under it)
+[4.477s] Copying ../../build/ejercicio_dos/ejercicio_dos.egg-info to /home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages/ejercicio_dos-0.0.0-py3.10.egg-info
+[4.479s] running install_scripts
+[4.695s] Installing impares_publisher script to /home/sergio/ros2_ws/install/ejercicio_dos/lib/ejercicio_dos
+[4.705s] Installing pares_publisher script to /home/sergio/ros2_ws/install/ejercicio_dos/lib/ejercicio_dos
+[4.705s] Installing suma_cuadrados script to /home/sergio/ros2_ws/install/ejercicio_dos/lib/ejercicio_dos
+[4.706s] writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio_dos/install.log'
+[5.421s] Invoked command in '/home/sergio/ros2_ws/src/ejercicio_dos' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio_dos/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio_dos/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio_dos build --build-base /home/sergio/ros2_ws/build/ejercicio_dos/build install --record /home/sergio/ros2_ws/build/ejercicio_dos/install.log --single-version-externally-managed install_data

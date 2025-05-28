@@ -1,0 +1,27 @@
+[2.755s] Invoking command in '/home/sergio/ros2_ws/src/robot_autonomo': PYTHONPATH=/home/sergio/ros2_ws/build/robot_autonomo/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_autonomo build --build-base /home/sergio/ros2_ws/build/robot_autonomo/build install --record /home/sergio/ros2_ws/build/robot_autonomo/install.log --single-version-externally-managed install_data
+[3.426s] running egg_info
+[3.447s] writing ../../build/robot_autonomo/robot_autonomo.egg-info/PKG-INFO
+[3.447s] writing dependency_links to ../../build/robot_autonomo/robot_autonomo.egg-info/dependency_links.txt
+[3.450s] writing entry points to ../../build/robot_autonomo/robot_autonomo.egg-info/entry_points.txt
+[3.450s] writing requirements to ../../build/robot_autonomo/robot_autonomo.egg-info/requires.txt
+[3.450s] writing top-level names to ../../build/robot_autonomo/robot_autonomo.egg-info/top_level.txt
+[3.499s] reading manifest file '../../build/robot_autonomo/robot_autonomo.egg-info/SOURCES.txt'
+[3.501s] writing manifest file '../../build/robot_autonomo/robot_autonomo.egg-info/SOURCES.txt'
+[3.501s] running build
+[3.501s] running build_py
+[3.501s] copying robot_autonomo/__init__.py -> /home/sergio/ros2_ws/build/robot_autonomo/build/lib/robot_autonomo
+[3.502s] copying robot_autonomo/evitar_obstaculos.py -> /home/sergio/ros2_ws/build/robot_autonomo/build/lib/robot_autonomo
+[3.502s] copying robot_autonomo/nodo_evitar_obstaculos.py -> /home/sergio/ros2_ws/build/robot_autonomo/build/lib/robot_autonomo
+[3.502s] running install
+[3.515s] running install_lib
+[3.541s] running install_data
+[3.542s] copying resource/robot_autonomo -> /home/sergio/ros2_ws/install/robot_autonomo/share/ament_index/resource_index/packages
+[3.542s] copying package.xml -> /home/sergio/ros2_ws/install/robot_autonomo/share/robot_autonomo
+[3.542s] running install_egg_info
+[3.573s] removing '/home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo-0.0.0-py3.10.egg-info' (and everything under it)
+[3.574s] Copying ../../build/robot_autonomo/robot_autonomo.egg-info to /home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages/robot_autonomo-0.0.0-py3.10.egg-info
+[3.576s] running install_scripts
+[3.747s] Installing evita_obstaculos script to /home/sergio/ros2_ws/install/robot_autonomo/lib/robot_autonomo
+[3.753s] Installing evita_obstaculos2 script to /home/sergio/ros2_ws/install/robot_autonomo/lib/robot_autonomo
+[3.753s] writing list of installed files to '/home/sergio/ros2_ws/build/robot_autonomo/install.log'
+[3.791s] Invoked command in '/home/sergio/ros2_ws/src/robot_autonomo' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/robot_autonomo/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/robot_autonomo/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_autonomo build --build-base /home/sergio/ros2_ws/build/robot_autonomo/build install --record /home/sergio/ros2_ws/build/robot_autonomo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[2.215s] Invoking command in '/home/sergio/ros2_ws/src/trr_robot_ps': PYTHONPATH=/home/sergio/ros2_ws/build/trr_robot_ps/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trr_robot_ps build --build-base /home/sergio/ros2_ws/build/trr_robot_ps/build install --record /home/sergio/ros2_ws/build/trr_robot_ps/install.log --single-version-externally-managed install_data
+[2.570s] running egg_info
+[2.583s] writing ../../build/trr_robot_ps/trr_robot_ps.egg-info/PKG-INFO
+[2.583s] writing dependency_links to ../../build/trr_robot_ps/trr_robot_ps.egg-info/dependency_links.txt
+[2.583s] writing entry points to ../../build/trr_robot_ps/trr_robot_ps.egg-info/entry_points.txt
+[2.583s] writing requirements to ../../build/trr_robot_ps/trr_robot_ps.egg-info/requires.txt
+[2.583s] writing top-level names to ../../build/trr_robot_ps/trr_robot_ps.egg-info/top_level.txt
+[2.610s] reading manifest file '../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt'
+[2.611s] writing manifest file '../../build/trr_robot_ps/trr_robot_ps.egg-info/SOURCES.txt'
+[2.611s] running build
+[2.611s] running build_py
+[2.612s] copying trr_robot_ps/__init__.py -> /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps
+[2.612s] copying trr_robot_ps/pub_sub.py -> /home/sergio/ros2_ws/build/trr_robot_ps/build/lib/trr_robot_ps
+[2.612s] running install
+[2.619s] running install_lib
+[2.642s] running install_data
+[2.642s] copying resource/trr_robot_ps -> /home/sergio/ros2_ws/install/trr_robot_ps/share/ament_index/resource_index/packages
+[2.642s] copying package.xml -> /home/sergio/ros2_ws/install/trr_robot_ps/share/trr_robot_ps
+[2.644s] running install_egg_info
+[2.666s] removing '/home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps-0.0.0-py3.10.egg-info' (and everything under it)
+[2.666s] Copying ../../build/trr_robot_ps/trr_robot_ps.egg-info to /home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages/trr_robot_ps-0.0.0-py3.10.egg-info
+[2.667s] running install_scripts
+[2.788s] Installing pub_sub script to /home/sergio/ros2_ws/install/trr_robot_ps/lib/trr_robot_ps
+[2.788s] writing list of installed files to '/home/sergio/ros2_ws/build/trr_robot_ps/install.log'
+[2.806s] Invoked command in '/home/sergio/ros2_ws/src/trr_robot_ps' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/trr_robot_ps/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/trr_robot_ps/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trr_robot_ps build --build-base /home/sergio/ros2_ws/build/trr_robot_ps/build install --record /home/sergio/ros2_ws/build/trr_robot_ps/install.log --single-version-externally-managed install_data

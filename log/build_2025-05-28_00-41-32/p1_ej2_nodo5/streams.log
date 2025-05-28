@@ -1,0 +1,25 @@
+[3.792s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej2_nodo5': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo5/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo5 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo5/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log --single-version-externally-managed install_data
+[4.324s] running egg_info
+[4.344s] writing ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/PKG-INFO
+[4.344s] writing dependency_links to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/dependency_links.txt
+[4.344s] writing entry points to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/entry_points.txt
+[4.345s] writing requirements to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/requires.txt
+[4.345s] writing top-level names to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/top_level.txt
+[4.397s] reading manifest file '../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/SOURCES.txt'
+[4.397s] writing manifest file '../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/SOURCES.txt'
+[4.397s] running build
+[4.397s] running build_py
+[4.397s] copying p1_ej2_nodo5/nodo5.py -> /home/sergio/ros2_ws/build/p1_ej2_nodo5/build/lib/p1_ej2_nodo5
+[4.398s] copying p1_ej2_nodo5/__init__.py -> /home/sergio/ros2_ws/build/p1_ej2_nodo5/build/lib/p1_ej2_nodo5
+[4.398s] running install
+[4.411s] running install_lib
+[4.443s] running install_data
+[4.443s] copying resource/p1_ej2_nodo5 -> /home/sergio/ros2_ws/install/p1_ej2_nodo5/share/ament_index/resource_index/packages
+[4.444s] copying package.xml -> /home/sergio/ros2_ws/install/p1_ej2_nodo5/share/p1_ej2_nodo5
+[4.444s] running install_egg_info
+[4.472s] removing '/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages/p1_ej2_nodo5-0.0.0-py3.10.egg-info' (and everything under it)
+[4.472s] Copying ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages/p1_ej2_nodo5-0.0.0-py3.10.egg-info
+[4.487s] running install_scripts
+[4.686s] Installing nodo5 script to /home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/p1_ej2_nodo5
+[4.686s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log'
+[4.743s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej2_nodo5' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej2_nodo5/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej2_nodo5 build --build-base /home/sergio/ros2_ws/build/p1_ej2_nodo5/build install --record /home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log --single-version-externally-managed install_data

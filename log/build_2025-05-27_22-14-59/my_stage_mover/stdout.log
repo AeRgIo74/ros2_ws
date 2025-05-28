@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/my_stage_mover/my_stage_mover.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_stage_mover/my_stage_mover.egg-info/dependency_links.txt
+writing entry points to ../../build/my_stage_mover/my_stage_mover.egg-info/entry_points.txt
+writing requirements to ../../build/my_stage_mover/my_stage_mover.egg-info/requires.txt
+writing top-level names to ../../build/my_stage_mover/my_stage_mover.egg-info/top_level.txt
+reading manifest file '../../build/my_stage_mover/my_stage_mover.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_stage_mover/my_stage_mover.egg-info/SOURCES.txt'
+running build
+running build_py
+copying my_stage_mover/__init__.py -> /home/sergio/ros2_ws/build/my_stage_mover/build/lib/my_stage_mover
+copying my_stage_mover/mover.py -> /home/sergio/ros2_ws/build/my_stage_mover/build/lib/my_stage_mover
+running install
+running install_lib
+running install_data
+copying resource/my_stage_mover -> /home/sergio/ros2_ws/install/my_stage_mover/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/my_stage_mover/share/my_stage_mover
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages/my_stage_mover-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/my_stage_mover/my_stage_mover.egg-info to /home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages/my_stage_mover-0.0.0-py3.10.egg-info
+running install_scripts
+Installing mover script to /home/sergio/ros2_ws/install/my_stage_mover/lib/my_stage_mover
+writing list of installed files to '/home/sergio/ros2_ws/build/my_stage_mover/install.log'

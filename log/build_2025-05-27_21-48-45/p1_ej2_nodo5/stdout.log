@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/PKG-INFO
+writing dependency_links to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/dependency_links.txt
+writing entry points to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/entry_points.txt
+writing requirements to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/requires.txt
+writing top-level names to ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/top_level.txt
+reading manifest file '../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/SOURCES.txt'
+writing manifest file '../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info/SOURCES.txt'
+running build
+running build_py
+copying p1_ej2_nodo5/nodo5.py -> /home/sergio/ros2_ws/build/p1_ej2_nodo5/build/lib/p1_ej2_nodo5
+copying p1_ej2_nodo5/__init__.py -> /home/sergio/ros2_ws/build/p1_ej2_nodo5/build/lib/p1_ej2_nodo5
+running install
+running install_lib
+running install_data
+copying resource/p1_ej2_nodo5 -> /home/sergio/ros2_ws/install/p1_ej2_nodo5/share/ament_index/resource_index/packages
+copying package.xml -> /home/sergio/ros2_ws/install/p1_ej2_nodo5/share/p1_ej2_nodo5
+running install_egg_info
+removing '/home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages/p1_ej2_nodo5-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/p1_ej2_nodo5/p1_ej2_nodo5.egg-info to /home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/python3.10/site-packages/p1_ej2_nodo5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing nodo5 script to /home/sergio/ros2_ws/install/p1_ej2_nodo5/lib/p1_ej2_nodo5
+writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej2_nodo5/install.log'
