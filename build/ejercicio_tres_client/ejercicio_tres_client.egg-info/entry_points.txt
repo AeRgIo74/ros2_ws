@@ -1,3 +1,2 @@
 [console_scripts]
 midpoint_client = ejercicio_tres_client.midpoint_client:main
-

@@ -1,0 +1,25 @@
+[4.294s] Invoking command in '/home/sergio/ros2_ws/src/cam_viewer': PYTHONPATH=/home/sergio/ros2_ws/build/cam_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cam_viewer build --build-base /home/sergio/ros2_ws/build/cam_viewer/build install --record /home/sergio/ros2_ws/build/cam_viewer/install.log --single-version-externally-managed install_data
+[4.995s] running egg_info
+[4.996s] writing ../../build/cam_viewer/cam_viewer.egg-info/PKG-INFO
+[4.997s] writing dependency_links to ../../build/cam_viewer/cam_viewer.egg-info/dependency_links.txt
+[4.997s] writing entry points to ../../build/cam_viewer/cam_viewer.egg-info/entry_points.txt
+[4.999s] writing requirements to ../../build/cam_viewer/cam_viewer.egg-info/requires.txt
+[4.999s] writing top-level names to ../../build/cam_viewer/cam_viewer.egg-info/top_level.txt
+[5.005s] reading manifest file '../../build/cam_viewer/cam_viewer.egg-info/SOURCES.txt'
+[5.006s] writing manifest file '../../build/cam_viewer/cam_viewer.egg-info/SOURCES.txt'
+[5.006s] running build
+[5.006s] running build_py
+[5.007s] copying cam_viewer/cam_sub.py -> /home/sergio/ros2_ws/build/cam_viewer/build/lib/cam_viewer
+[5.007s] running install
+[5.007s] running install_lib
+[5.008s] copying /home/sergio/ros2_ws/build/cam_viewer/build/lib/cam_viewer/cam_sub.py -> /home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages/cam_viewer
+[5.009s] byte-compiling /home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages/cam_viewer/cam_sub.py to cam_sub.cpython-310.pyc
+[5.010s] running install_data
+[5.011s] running install_egg_info
+[5.015s] removing '/home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages/cam_viewer-0.0.0-py3.10.egg-info' (and everything under it)
+[5.015s] Copying ../../build/cam_viewer/cam_viewer.egg-info to /home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages/cam_viewer-0.0.0-py3.10.egg-info
+[5.019s] running install_scripts
+[5.067s] Installing cam_sub script to /home/sergio/ros2_ws/install/cam_viewer/lib/cam_viewer
+[5.067s] Installing camera_node script to /home/sergio/ros2_ws/install/cam_viewer/lib/cam_viewer
+[5.067s] writing list of installed files to '/home/sergio/ros2_ws/build/cam_viewer/install.log'
+[5.170s] Invoked command in '/home/sergio/ros2_ws/src/cam_viewer' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/cam_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/cam_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cam_viewer build --build-base /home/sergio/ros2_ws/build/cam_viewer/build install --record /home/sergio/ros2_ws/build/cam_viewer/install.log --single-version-externally-managed install_data

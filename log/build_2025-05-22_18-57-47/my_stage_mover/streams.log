@@ -1,0 +1,25 @@
+[3.765s] Invoking command in '/home/sergio/ros2_ws/src/my_stage_mover': PYTHONPATH=/home/sergio/ros2_ws/build/my_stage_mover/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_stage_mover build --build-base /home/sergio/ros2_ws/build/my_stage_mover/build install --record /home/sergio/ros2_ws/build/my_stage_mover/install.log --single-version-externally-managed install_data
+[4.418s] running egg_info
+[4.462s] writing ../../build/my_stage_mover/my_stage_mover.egg-info/PKG-INFO
+[4.462s] writing dependency_links to ../../build/my_stage_mover/my_stage_mover.egg-info/dependency_links.txt
+[4.462s] writing entry points to ../../build/my_stage_mover/my_stage_mover.egg-info/entry_points.txt
+[4.463s] writing requirements to ../../build/my_stage_mover/my_stage_mover.egg-info/requires.txt
+[4.463s] writing top-level names to ../../build/my_stage_mover/my_stage_mover.egg-info/top_level.txt
+[4.533s] reading manifest file '../../build/my_stage_mover/my_stage_mover.egg-info/SOURCES.txt'
+[4.541s] writing manifest file '../../build/my_stage_mover/my_stage_mover.egg-info/SOURCES.txt'
+[4.541s] running build
+[4.541s] running build_py
+[4.541s] copying my_stage_mover/__init__.py -> /home/sergio/ros2_ws/build/my_stage_mover/build/lib/my_stage_mover
+[4.541s] copying my_stage_mover/mover.py -> /home/sergio/ros2_ws/build/my_stage_mover/build/lib/my_stage_mover
+[4.541s] running install
+[4.562s] running install_lib
+[4.590s] running install_data
+[4.591s] copying resource/my_stage_mover -> /home/sergio/ros2_ws/install/my_stage_mover/share/ament_index/resource_index/packages
+[4.592s] copying package.xml -> /home/sergio/ros2_ws/install/my_stage_mover/share/my_stage_mover
+[4.593s] running install_egg_info
+[4.635s] removing '/home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages/my_stage_mover-0.0.0-py3.10.egg-info' (and everything under it)
+[4.635s] Copying ../../build/my_stage_mover/my_stage_mover.egg-info to /home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages/my_stage_mover-0.0.0-py3.10.egg-info
+[4.640s] running install_scripts
+[4.914s] Installing mover script to /home/sergio/ros2_ws/install/my_stage_mover/lib/my_stage_mover
+[4.915s] writing list of installed files to '/home/sergio/ros2_ws/build/my_stage_mover/install.log'
+[5.111s] Invoked command in '/home/sergio/ros2_ws/src/my_stage_mover' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/my_stage_mover/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/my_stage_mover/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_stage_mover build --build-base /home/sergio/ros2_ws/build/my_stage_mover/build install --record /home/sergio/ros2_ws/build/my_stage_mover/install.log --single-version-externally-managed install_data

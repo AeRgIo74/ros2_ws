@@ -1,3 +1,2 @@
 [console_scripts]
 subscriber_adc = nodo_adc_sub.subscriber_adc:main
-

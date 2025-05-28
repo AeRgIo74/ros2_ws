@@ -1,0 +1,45 @@
+[6.887s] Invoking command in '/home/sergio/ros2_ws/src/ejemplo_uno': PYTHONPATH=/home/sergio/ros2_ws/build/ejemplo_uno/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejemplo_uno build --build-base /home/sergio/ros2_ws/build/ejemplo_uno/build install --record /home/sergio/ros2_ws/build/ejemplo_uno/install.log --single-version-externally-managed install_data
+[9.224s] running egg_info
+[9.224s] creating ../../build/ejemplo_uno/ejemplo_uno.egg-info
+[9.235s] writing ../../build/ejemplo_uno/ejemplo_uno.egg-info/PKG-INFO
+[9.236s] writing dependency_links to ../../build/ejemplo_uno/ejemplo_uno.egg-info/dependency_links.txt
+[9.236s] writing entry points to ../../build/ejemplo_uno/ejemplo_uno.egg-info/entry_points.txt
+[9.236s] writing requirements to ../../build/ejemplo_uno/ejemplo_uno.egg-info/requires.txt
+[9.236s] writing top-level names to ../../build/ejemplo_uno/ejemplo_uno.egg-info/top_level.txt
+[9.236s] writing manifest file '../../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+[9.255s] reading manifest file '../../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+[9.255s] writing manifest file '../../build/ejemplo_uno/ejemplo_uno.egg-info/SOURCES.txt'
+[9.255s] running build
+[9.255s] running build_py
+[9.256s] creating /home/sergio/ros2_ws/build/ejemplo_uno/build
+[9.258s] creating /home/sergio/ros2_ws/build/ejemplo_uno/build/lib
+[9.259s] creating /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno
+[9.259s] copying ejemplo_uno/suma_acumulador.py -> /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno
+[9.268s] copying ejemplo_uno/__init__.py -> /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno
+[9.270s] copying ejemplo_uno/calculador.py -> /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno
+[9.270s] copying ejemplo_uno/random_publicador.py -> /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno
+[9.270s] running install
+[9.277s] running install_lib
+[9.282s] creating /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno
+[9.282s] copying /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno/suma_acumulador.py -> /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno
+[9.282s] copying /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno/__init__.py -> /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno
+[9.282s] copying /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno/calculador.py -> /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno
+[9.297s] copying /home/sergio/ros2_ws/build/ejemplo_uno/build/lib/ejemplo_uno/random_publicador.py -> /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno
+[9.306s] byte-compiling /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno/suma_acumulador.py to suma_acumulador.cpython-310.pyc
+[9.308s] byte-compiling /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno/__init__.py to __init__.cpython-310.pyc
+[9.327s] byte-compiling /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno/calculador.py to calculador.cpython-310.pyc
+[9.327s] byte-compiling /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno/random_publicador.py to random_publicador.cpython-310.pyc
+[9.327s] running install_data
+[9.327s] creating /home/sergio/ros2_ws/install/ejemplo_uno/share/ament_index
+[9.328s] creating /home/sergio/ros2_ws/install/ejemplo_uno/share/ament_index/resource_index
+[9.328s] creating /home/sergio/ros2_ws/install/ejemplo_uno/share/ament_index/resource_index/packages
+[9.328s] copying resource/ejemplo_uno -> /home/sergio/ros2_ws/install/ejemplo_uno/share/ament_index/resource_index/packages
+[9.328s] copying package.xml -> /home/sergio/ros2_ws/install/ejemplo_uno/share/ejemplo_uno
+[9.328s] running install_egg_info
+[9.330s] Copying ../../build/ejemplo_uno/ejemplo_uno.egg-info to /home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages/ejemplo_uno-0.0.0-py3.10.egg-info
+[9.330s] running install_scripts
+[9.471s] Installing calculador script to /home/sergio/ros2_ws/install/ejemplo_uno/lib/ejemplo_uno
+[9.471s] Installing random_publicador script to /home/sergio/ros2_ws/install/ejemplo_uno/lib/ejemplo_uno
+[9.474s] Installing suma_acumulador script to /home/sergio/ros2_ws/install/ejemplo_uno/lib/ejemplo_uno
+[9.475s] writing list of installed files to '/home/sergio/ros2_ws/build/ejemplo_uno/install.log'
+[13.612s] Invoked command in '/home/sergio/ros2_ws/src/ejemplo_uno' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejemplo_uno/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejemplo_uno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejemplo_uno build --build-base /home/sergio/ros2_ws/build/ejemplo_uno/build install --record /home/sergio/ros2_ws/build/ejemplo_uno/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[3.162s] Invoking command in '/home/sergio/ros2_ws/src/p1_ej3_servidor': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej3_servidor/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej3_servidor build --build-base /home/sergio/ros2_ws/build/p1_ej3_servidor/build install --record /home/sergio/ros2_ws/build/p1_ej3_servidor/install.log --single-version-externally-managed install_data
+[3.716s] running egg_info
+[3.745s] writing ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/PKG-INFO
+[3.747s] writing dependency_links to ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/dependency_links.txt
+[3.747s] writing entry points to ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/entry_points.txt
+[3.747s] writing requirements to ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/requires.txt
+[3.748s] writing top-level names to ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/top_level.txt
+[3.805s] reading manifest file '../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/SOURCES.txt'
+[3.810s] writing manifest file '../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info/SOURCES.txt'
+[3.810s] running build
+[3.810s] running build_py
+[3.810s] copying p1_ej3_servidor/__init__.py -> /home/sergio/ros2_ws/build/p1_ej3_servidor/build/lib/p1_ej3_servidor
+[3.810s] copying p1_ej3_servidor/servidor.py -> /home/sergio/ros2_ws/build/p1_ej3_servidor/build/lib/p1_ej3_servidor
+[3.811s] running install
+[3.824s] running install_lib
+[3.849s] running install_data
+[3.851s] copying resource/p1_ej3_servidor -> /home/sergio/ros2_ws/install/p1_ej3_servidor/share/ament_index/resource_index/packages
+[3.851s] copying package.xml -> /home/sergio/ros2_ws/install/p1_ej3_servidor/share/p1_ej3_servidor
+[3.851s] running install_egg_info
+[3.893s] removing '/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages/p1_ej3_servidor-0.0.0-py3.10.egg-info' (and everything under it)
+[3.898s] Copying ../../build/p1_ej3_servidor/p1_ej3_servidor.egg-info to /home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages/p1_ej3_servidor-0.0.0-py3.10.egg-info
+[3.898s] running install_scripts
+[4.061s] Installing servidor script to /home/sergio/ros2_ws/install/p1_ej3_servidor/lib/p1_ej3_servidor
+[4.061s] writing list of installed files to '/home/sergio/ros2_ws/build/p1_ej3_servidor/install.log'
+[4.249s] Invoked command in '/home/sergio/ros2_ws/src/p1_ej3_servidor' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p1_ej3_servidor/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p1_ej3_servidor/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p1_ej3_servidor build --build-base /home/sergio/ros2_ws/build/p1_ej3_servidor/build install --record /home/sergio/ros2_ws/build/p1_ej3_servidor/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+[10.786s] Invoking command in '/home/sergio/ros2_ws/src/mma_listener': PYTHONPATH=/home/sergio/ros2_ws/build/mma_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_listener build --build-base /home/sergio/ros2_ws/build/mma_listener/build install --record /home/sergio/ros2_ws/build/mma_listener/install.log --single-version-externally-managed install_data
+[12.969s] running egg_info
+[12.972s] creating ../../build/mma_listener/mma_listener.egg-info
+[12.973s] writing ../../build/mma_listener/mma_listener.egg-info/PKG-INFO
+[12.983s] writing dependency_links to ../../build/mma_listener/mma_listener.egg-info/dependency_links.txt
+[12.984s] writing entry points to ../../build/mma_listener/mma_listener.egg-info/entry_points.txt
+[12.984s] writing requirements to ../../build/mma_listener/mma_listener.egg-info/requires.txt
+[12.984s] writing top-level names to ../../build/mma_listener/mma_listener.egg-info/top_level.txt
+[12.984s] writing manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+[12.997s] reading manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+[12.999s] writing manifest file '../../build/mma_listener/mma_listener.egg-info/SOURCES.txt'
+[13.011s] running build
+[13.018s] running build_py
+[13.019s] creating /home/sergio/ros2_ws/build/mma_listener/build
+[13.019s] creating /home/sergio/ros2_ws/build/mma_listener/build/lib
+[13.019s] creating /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+[13.019s] copying mma_listener/__init__.py -> /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+[13.019s] copying mma_listener/listener.py -> /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener
+[13.019s] running install
+[13.019s] running install_lib
+[13.020s] creating /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+[13.020s] copying /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener/__init__.py -> /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+[13.021s] copying /home/sergio/ros2_ws/build/mma_listener/build/lib/mma_listener/listener.py -> /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener
+[13.026s] byte-compiling /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener/__init__.py to __init__.cpython-310.pyc
+[13.028s] byte-compiling /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener/listener.py to listener.cpython-310.pyc
+[13.032s] running install_data
+[13.033s] creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index
+[13.033s] creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index
+[13.038s] creating /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index/packages
+[13.039s] copying resource/mma_listener -> /home/sergio/ros2_ws/install/mma_listener/share/ament_index/resource_index/packages
+[13.039s] copying package.xml -> /home/sergio/ros2_ws/install/mma_listener/share/mma_listener
+[13.039s] running install_egg_info
+[13.046s] Copying ../../build/mma_listener/mma_listener.egg-info to /home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages/mma_listener-0.0.0-py3.10.egg-info
+[13.049s] running install_scripts
+[13.225s] Installing listener script to /home/sergio/ros2_ws/install/mma_listener/lib/mma_listener
+[13.225s] writing list of installed files to '/home/sergio/ros2_ws/build/mma_listener/install.log'
+[13.422s] Invoked command in '/home/sergio/ros2_ws/src/mma_listener' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/mma_listener/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_listener/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_listener build --build-base /home/sergio/ros2_ws/build/mma_listener/build install --record /home/sergio/ros2_ws/build/mma_listener/install.log --single-version-externally-managed install_data

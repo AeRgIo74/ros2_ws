@@ -1,0 +1,25 @@
+[3.312s] Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_sub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data
+[3.897s] running egg_info
+[3.955s] writing ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/PKG-INFO
+[3.959s] writing dependency_links to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/dependency_links.txt
+[3.960s] writing entry points to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/entry_points.txt
+[3.961s] writing requirements to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/requires.txt
+[3.961s] writing top-level names to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/top_level.txt
+[4.100s] reading manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+[4.102s] writing manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+[4.102s] running build
+[4.102s] running build_py
+[4.103s] copying P1_ej1_sub/__init__.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+[4.103s] copying P1_ej1_sub/suscriptor.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+[4.104s] running install
+[4.117s] running install_lib
+[4.172s] running install_data
+[4.172s] copying resource/P1_ej1_sub -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index/packages
+[4.172s] copying package.xml -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub
+[4.173s] running install_egg_info
+[4.250s] removing '/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub-0.0.0-py3.10.egg-info' (and everything under it)
+[4.250s] Copying ../../build/P1_ej1_sub/P1_ej1_sub.egg-info to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub-0.0.0-py3.10.egg-info
+[4.266s] running install_scripts
+[4.585s] Installing suscriptor script to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/P1_ej1_sub
+[4.586s] writing list of installed files to '/home/sergio/ros2_ws/build/P1_ej1_sub/install.log'
+[5.121s] Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_sub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data

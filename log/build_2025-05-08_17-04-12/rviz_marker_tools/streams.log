@@ -1,0 +1,76 @@
+[0.158s] Invoking command in '/home/sergio/ros2_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/rviz_marker_tools
+[4.057s] -- The C compiler identification is GNU 11.4.0
+[4.058s] -- The CXX compiler identification is GNU 11.4.0
+[4.058s] -- Detecting C compiler ABI info
+[4.058s] -- Detecting C compiler ABI info - done
+[4.058s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.058s] -- Detecting C compile features
+[4.058s] -- Detecting C compile features - done
+[4.058s] -- Detecting CXX compiler ABI info
+[4.059s] -- Detecting CXX compiler ABI info - done
+[4.059s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.059s] -- Detecting CXX compile features
+[4.059s] -- Detecting CXX compile features - done
+[4.060s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.060s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.062s] -- Found moveit_common: 2.5.8 (/opt/ros/humble/share/moveit_common/cmake)
+[4.062s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.062s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.063s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.063s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.063s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.063s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.063s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.063s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.063s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.063s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.063s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.064s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.064s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.064s] -- Looking for pthread.h
+[4.064s] -- Looking for pthread.h - found
+[4.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.064s] -- Found Threads: TRUE  
+[4.065s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[4.065s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.065s] -- Configuring done
+[4.065s] -- Generating done
+[4.065s] -- Build files have been written to: /home/sergio/ros2_ws/build/rviz_marker_tools
+[4.065s] [0mrviz_marker_tools: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[4.091s] Invoked command in '/home/sergio/ros2_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/moveit_task_constructor/rviz_marker_tools -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/rviz_marker_tools
+[4.093s] Invoking command in '/home/sergio/ros2_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/rviz_marker_tools -- -j16 -l16
+[4.272s] [ 50%] [32mBuilding CXX object CMakeFiles/rviz_marker_tools.dir/src/marker_creation.cpp.o[0m
+[28.267s] [100%] [32m[1mLinking CXX shared library librviz_marker_tools.so[0m
+[28.563s] [100%] Built target rviz_marker_tools
+[29.066s] Invoked command in '/home/sergio/ros2_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/rviz_marker_tools -- -j16 -l16
+[29.070s] Invoking command in '/home/sergio/ros2_ws/build/rviz_marker_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/rviz_marker_tools
+[29.248s] -- Install configuration: "Release"
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/include
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/include/rviz_marker_tools/marker_creation.h
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so
+[29.249s] -- Set runtime path of "/home/sergio/ros2_ws/install/rviz_marker_tools/lib/librviz_marker_tools.so" to ""
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.sh
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/library_path.dsv
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/package_run_dependencies/rviz_marker_tools
+[29.249s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/parent_prefix_path/rviz_marker_tools
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.sh
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/ament_prefix_path.dsv
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.sh
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/environment/path.dsv
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.bash
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.sh
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.zsh
+[29.250s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/local_setup.dsv
+[29.251s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.dsv
+[29.251s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/ament_index/resource_index/packages/rviz_marker_tools
+[29.251s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport.cmake
+[29.251s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsTargetsExport-release.cmake
+[29.251s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_targets-extras.cmake
+[29.256s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[29.256s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig.cmake
+[29.256s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/cmake/rviz_marker_toolsConfig-version.cmake
+[29.256s] -- Installing: /home/sergio/ros2_ws/install/rviz_marker_tools/share/rviz_marker_tools/package.xml
+[29.270s] Invoked command in '/home/sergio/ros2_ws/build/rviz_marker_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/rviz_marker_tools

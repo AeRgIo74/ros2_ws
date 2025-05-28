@@ -1,0 +1,103 @@
+[2.249s] Invoking command in '/home/sergio/ros2_ws/build/p2_ej2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/p2_ej2 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/p2_ej2
+[3.827s] -- The C compiler identification is GNU 11.4.0
+[3.828s] -- The CXX compiler identification is GNU 11.4.0
+[3.836s] -- Detecting C compiler ABI info
+[3.836s] -- Detecting C compiler ABI info - done
+[3.836s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.836s] -- Detecting C compile features
+[3.836s] -- Detecting C compile features - done
+[3.837s] -- Detecting CXX compiler ABI info
+[3.837s] -- Detecting CXX compiler ABI info - done
+[3.837s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.837s] -- Detecting CXX compile features
+[3.837s] -- Detecting CXX compile features - done
+[3.837s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.968s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.279s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.441s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.466s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.499s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.602s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.774s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.782s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.027s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.104s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.194s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.226s] -- Looking for pthread.h
+[5.338s] -- Looking for pthread.h - found
+[5.339s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.486s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.487s] -- Found Threads: TRUE  
+[5.625s] -- Found moveit_ros_planning_interface: 2.5.8 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[5.711s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[6.193s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[6.390s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.448s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.473s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[6.579s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[6.919s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[7.070s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[7.523s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[7.614s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[7.682s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[7.776s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[8.074s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[8.131s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[8.141s] -- Found OGRE
+[8.142s] --   static     : OFF
+[8.142s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[8.142s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.142s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[8.142s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[8.142s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[8.142s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[8.142s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[8.142s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.142s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[8.143s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.143s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[8.214s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[8.227s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[8.464s] -- Found X11: /usr/include   
+[8.464s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[8.613s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[8.614s] -- Looking for gethostbyname
+[8.743s] -- Looking for gethostbyname - found
+[8.743s] -- Looking for connect
+[8.866s] -- Looking for connect - found
+[8.866s] -- Looking for remove
+[8.980s] -- Looking for remove - found
+[8.983s] -- Looking for shmat
+[9.091s] -- Looking for shmat - found
+[9.091s] -- Looking for IceConnectionNumber in ICE
+[9.212s] -- Looking for IceConnectionNumber in ICE - found
+[9.646s] -- Configuring done
+[9.713s] -- Generating done
+[9.725s] -- Build files have been written to: /home/sergio/ros2_ws/build/p2_ej2
+[9.744s] Invoked command in '/home/sergio/ros2_ws/build/p2_ej2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/p2_ej2 -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/p2_ej2
+[9.747s] Invoking command in '/home/sergio/ros2_ws/build/p2_ej2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p2_ej2 -- -j16 -l16
+[9.843s] [ 50%] [32mBuilding CXX object CMakeFiles/panda_ik_menu.dir/src/panda_ik_menu.cpp.o[0m
+[20.981s] [100%] [32m[1mLinking CXX executable panda_ik_menu[0m
+[21.498s] [100%] Built target panda_ik_menu
+[21.515s] Invoked command in '/home/sergio/ros2_ws/build/p2_ej2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/p2_ej2 -- -j16 -l16
+[21.519s] Invoking command in '/home/sergio/ros2_ws/build/p2_ej2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p2_ej2
+[21.527s] -- Install configuration: ""
+[21.527s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/lib/p2_ej2/panda_ik_menu
+[21.528s] -- Set runtime path of "/home/sergio/ros2_ws/install/p2_ej2/lib/p2_ej2/panda_ik_menu" to ""
+[21.528s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/package_run_dependencies/p2_ej2
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/parent_prefix_path/p2_ej2
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/ament_prefix_path.sh
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/ament_prefix_path.dsv
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/path.sh
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/environment/path.dsv
+[21.529s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.bash
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.sh
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.zsh
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/local_setup.dsv
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/package.dsv
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/ament_index/resource_index/packages/p2_ej2
+[21.530s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/cmake/p2_ej2Config.cmake
+[21.531s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/cmake/p2_ej2Config-version.cmake
+[21.531s] -- Installing: /home/sergio/ros2_ws/install/p2_ej2/share/p2_ej2/package.xml
+[21.534s] Invoked command in '/home/sergio/ros2_ws/build/p2_ej2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/p2_ej2

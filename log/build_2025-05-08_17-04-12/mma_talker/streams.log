@@ -1,0 +1,41 @@
+[10.685s] Invoking command in '/home/sergio/ros2_ws/src/mma_talker': PYTHONPATH=/home/sergio/ros2_ws/build/mma_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_talker build --build-base /home/sergio/ros2_ws/build/mma_talker/build install --record /home/sergio/ros2_ws/build/mma_talker/install.log --single-version-externally-managed install_data
+[13.330s] running egg_info
+[13.330s] creating ../../build/mma_talker/mma_talker.egg-info
+[13.330s] writing ../../build/mma_talker/mma_talker.egg-info/PKG-INFO
+[13.330s] writing dependency_links to ../../build/mma_talker/mma_talker.egg-info/dependency_links.txt
+[13.331s] writing entry points to ../../build/mma_talker/mma_talker.egg-info/entry_points.txt
+[13.352s] writing requirements to ../../build/mma_talker/mma_talker.egg-info/requires.txt
+[13.352s] writing top-level names to ../../build/mma_talker/mma_talker.egg-info/top_level.txt
+[13.352s] writing manifest file '../../build/mma_talker/mma_talker.egg-info/SOURCES.txt'
+[13.353s] reading manifest file '../../build/mma_talker/mma_talker.egg-info/SOURCES.txt'
+[13.353s] writing manifest file '../../build/mma_talker/mma_talker.egg-info/SOURCES.txt'
+[13.353s] running build
+[13.354s] running build_py
+[13.354s] creating /home/sergio/ros2_ws/build/mma_talker/build
+[13.354s] creating /home/sergio/ros2_ws/build/mma_talker/build/lib
+[13.354s] creating /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker
+[13.354s] copying mma_talker/mma_talker.py -> /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker
+[13.365s] copying mma_talker/__init__.py -> /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker
+[13.366s] copying mma_talker/talker.py -> /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker
+[13.366s] running install
+[13.371s] running install_lib
+[13.371s] creating /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker
+[13.371s] copying /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker/mma_talker.py -> /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker
+[13.371s] copying /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker/__init__.py -> /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker
+[13.371s] copying /home/sergio/ros2_ws/build/mma_talker/build/lib/mma_talker/talker.py -> /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker
+[13.383s] byte-compiling /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker/mma_talker.py to mma_talker.cpython-310.pyc
+[13.390s] byte-compiling /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker/__init__.py to __init__.cpython-310.pyc
+[13.390s] byte-compiling /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker/talker.py to talker.cpython-310.pyc
+[13.396s] running install_data
+[13.397s] creating /home/sergio/ros2_ws/install/mma_talker/share/ament_index
+[13.397s] creating /home/sergio/ros2_ws/install/mma_talker/share/ament_index/resource_index
+[13.397s] creating /home/sergio/ros2_ws/install/mma_talker/share/ament_index/resource_index/packages
+[13.397s] copying resource/mma_talker -> /home/sergio/ros2_ws/install/mma_talker/share/ament_index/resource_index/packages
+[13.397s] copying package.xml -> /home/sergio/ros2_ws/install/mma_talker/share/mma_talker
+[13.398s] running install_egg_info
+[13.417s] Copying ../../build/mma_talker/mma_talker.egg-info to /home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages/mma_talker-0.0.0-py3.10.egg-info
+[13.425s] running install_scripts
+[13.626s] Installing mma_talker script to /home/sergio/ros2_ws/install/mma_talker/lib/mma_talker
+[13.628s] Installing talker script to /home/sergio/ros2_ws/install/mma_talker/lib/mma_talker
+[13.628s] writing list of installed files to '/home/sergio/ros2_ws/build/mma_talker/install.log'
+[15.539s] Invoked command in '/home/sergio/ros2_ws/src/mma_talker' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/mma_talker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/mma_talker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mma_talker build --build-base /home/sergio/ros2_ws/build/mma_talker/build install --record /home/sergio/ros2_ws/build/mma_talker/install.log --single-version-externally-managed install_data

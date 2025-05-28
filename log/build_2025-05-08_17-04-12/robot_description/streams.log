@@ -1,0 +1,94 @@
+[0.779s] Invoking command in '/home/sergio/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/robot_description
+[1.372s] -- The C compiler identification is GNU 11.4.0
+[1.372s] -- The CXX compiler identification is GNU 11.4.0
+[1.372s] -- Detecting C compiler ABI info
+[1.372s] -- Detecting C compiler ABI info - done
+[1.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.373s] -- Detecting C compile features
+[1.373s] -- Detecting C compile features - done
+[1.373s] -- Detecting CXX compiler ABI info
+[1.373s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.373s] -- Detecting CXX compile features
+[1.374s] -- Detecting CXX compile features - done
+[1.374s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.076s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.340s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.346s] -- Added test 'lint_cmake' to check CMake code style
+[2.348s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.368s] -- Added test 'xmllint' to check XML markup files
+[2.369s] -- Configuring done
+[2.369s] -- Generating done
+[2.374s] -- Build files have been written to: /home/sergio/ros2_ws/build/robot_description
+[2.397s] Invoked command in '/home/sergio/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake /home/sergio/ros2_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/robot_description
+[2.398s] Invoking command in '/home/sergio/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/robot_description -- -j16 -l16
+[3.126s] Invoked command in '/home/sergio/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --build /home/sergio/ros2_ws/build/robot_description -- -j16 -l16
+[3.127s] Invoking command in '/home/sergio/ros2_ws/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/robot_description
+[3.197s] -- Install configuration: ""
+[3.197s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/launch
+[3.197s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/launch/view_robot.py
+[3.197s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/launch/llaunch_both.launch.py
+[3.198s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf
+[3.198s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/guillecar.urdf
+[3.198s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/mi_robot.urdf
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/scara.urdf
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/panda.urdf
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/pantilt.urdf
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/diff_wheeled_robot.urdf
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log
+[3.201s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/latest
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/build_2025-03-20_18-05-24
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/build_2025-03-20_18-05-24/logger_all.log
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/build_2025-03-20_18-05-24/events.log
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/latest_build
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/log/COLCON_IGNORE
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/myfirst_robot.urdf
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/robot_trrr.urdf
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/clases_test.urdf
+[3.202s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/wally1.urdf
+[3.203s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/cobot_arm.urdf
+[3.203s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/class.urdf
+[3.203s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/multipleshapes.pdf
+[3.205s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/urdf/multipleshapes.gv
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/rviz
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/rviz/urdf.rviz
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link0.obj
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link2.obj
+[3.206s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link3.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link5.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/hand.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link1.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/finger.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link6.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link4.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/collision/link7.obj
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[3.207s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[3.208s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[3.208s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[3.218s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[3.218s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[3.218s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[3.222s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[3.228s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[3.235s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[3.240s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[3.242s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[3.243s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[3.245s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[3.247s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/environment/path.sh
+[3.249s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/environment/path.dsv
+[3.250s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/local_setup.bash
+[3.251s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/local_setup.sh
+[3.252s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/local_setup.zsh
+[3.253s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/local_setup.dsv
+[3.254s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/package.dsv
+[3.256s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[3.256s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[3.258s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[3.258s] -- Installing: /home/sergio/ros2_ws/install/robot_description/share/robot_description/package.xml
+[3.279s] Invoked command in '/home/sergio/ros2_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble /usr/bin/cmake --install /home/sergio/ros2_ws/build/robot_description

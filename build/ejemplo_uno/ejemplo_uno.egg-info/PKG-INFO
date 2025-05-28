@@ -1,12 +1,8 @@
 Metadata-Version: 2.1
-Name: ejemplo-uno
+Name: ejemplo_uno
 Version: 0.0.0
 Summary: TODO: Package description
-Home-page: UNKNOWN
 Maintainer: sergio
 Maintainer-email: sergio@todo.todo
 License: TODO: License declaration
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools

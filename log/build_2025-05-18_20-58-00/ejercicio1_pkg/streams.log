@@ -1,0 +1,27 @@
+[4.021s] Invoking command in '/home/sergio/ros2_ws/src/ejercicio1_pkg': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio1_pkg/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio1_pkg build --build-base /home/sergio/ros2_ws/build/ejercicio1_pkg/build install --record /home/sergio/ros2_ws/build/ejercicio1_pkg/install.log --single-version-externally-managed install_data
+[4.640s] running egg_info
+[4.666s] writing ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/PKG-INFO
+[4.667s] writing dependency_links to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/dependency_links.txt
+[4.670s] writing entry points to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/entry_points.txt
+[4.671s] writing requirements to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/requires.txt
+[4.671s] writing top-level names to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/top_level.txt
+[4.737s] reading manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+[4.741s] writing manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+[4.742s] running build
+[4.742s] running build_py
+[4.742s] copying ejercicio1_pkg/__init__.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[4.742s] copying ejercicio1_pkg/ik_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[4.742s] copying ejercicio1_pkg/fk_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[4.742s] running install
+[4.754s] running install_lib
+[4.787s] running install_data
+[4.788s] copying resource/ejercicio1_pkg -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index/packages
+[4.789s] copying package.xml -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ejercicio1_pkg
+[4.789s] running install_egg_info
+[4.823s] removing '/home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[4.823s] Copying ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg-0.0.0-py3.10.egg-info
+[4.823s] running install_scripts
+[5.053s] Installing fk_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+[5.053s] Installing ik_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+[5.054s] writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio1_pkg/install.log'
+[5.182s] Invoked command in '/home/sergio/ros2_ws/src/ejercicio1_pkg' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio1_pkg/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio1_pkg build --build-base /home/sergio/ros2_ws/build/ejercicio1_pkg/build install --record /home/sergio/ros2_ws/build/ejercicio1_pkg/install.log --single-version-externally-managed install_data

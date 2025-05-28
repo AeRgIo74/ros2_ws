@@ -1,3 +1,2 @@
 [console_scripts]
 move_node = auto_mover.move_node:main
-

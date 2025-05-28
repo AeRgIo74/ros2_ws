@@ -1,4 +1,3 @@
 [console_scripts]
 fk_publisher = ejercicio1_pkg.fk_publisher:main
 ik_publisher = ejercicio1_pkg.ik_publisher:main
-

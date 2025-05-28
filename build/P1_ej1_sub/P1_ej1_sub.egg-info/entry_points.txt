@@ -1,3 +1,2 @@
 [console_scripts]
 suscriptor = P1_ej1_sub.suscriptor:main
-

@@ -1,0 +1,28 @@
+[4.123s] Invoking command in '/home/sergio/ros2_ws/src/p2_ej3': PYTHONPATH=/home/sergio/ros2_ws/build/p2_ej3/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2_ej3 build --build-base /home/sergio/ros2_ws/build/p2_ej3/build install --record /home/sergio/ros2_ws/build/p2_ej3/install.log --single-version-externally-managed install_data
+[4.843s] running egg_info
+[4.879s] writing ../../build/p2_ej3/p2_ej3.egg-info/PKG-INFO
+[4.879s] writing dependency_links to ../../build/p2_ej3/p2_ej3.egg-info/dependency_links.txt
+[4.879s] writing entry points to ../../build/p2_ej3/p2_ej3.egg-info/entry_points.txt
+[4.882s] writing requirements to ../../build/p2_ej3/p2_ej3.egg-info/requires.txt
+[4.882s] writing top-level names to ../../build/p2_ej3/p2_ej3.egg-info/top_level.txt
+[4.944s] reading manifest file '../../build/p2_ej3/p2_ej3.egg-info/SOURCES.txt'
+[4.944s] writing manifest file '../../build/p2_ej3/p2_ej3.egg-info/SOURCES.txt'
+[4.945s] running build
+[4.945s] running build_py
+[4.945s] copying p2_ej3/__init__.py -> /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3
+[4.945s] copying p2_ej3/avoid_obstacles.py -> /home/sergio/ros2_ws/build/p2_ej3/build/lib/p2_ej3
+[4.946s] running install
+[4.957s] running install_lib
+[4.991s] running install_data
+[4.991s] copying resource/p2_ej3 -> /home/sergio/ros2_ws/install/p2_ej3/share/ament_index/resource_index/packages
+[4.992s] copying package.xml -> /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3
+[4.992s] copying package.xml -> /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3
+[4.992s] copying launch/bringup.launch.py -> /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3/launch
+[4.992s] copying rviz/nav2_config.rviz -> /home/sergio/ros2_ws/install/p2_ej3/share/p2_ej3/rviz
+[4.992s] running install_egg_info
+[5.025s] removing '/home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3-0.0.0-py3.10.egg-info' (and everything under it)
+[5.027s] Copying ../../build/p2_ej3/p2_ej3.egg-info to /home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages/p2_ej3-0.0.0-py3.10.egg-info
+[5.027s] running install_scripts
+[5.224s] Installing avoid_obstacles script to /home/sergio/ros2_ws/install/p2_ej3/lib/p2_ej3
+[5.225s] writing list of installed files to '/home/sergio/ros2_ws/build/p2_ej3/install.log'
+[5.262s] Invoked command in '/home/sergio/ros2_ws/src/p2_ej3' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/p2_ej3/prefix_override:/home/sergio/.espressif/python_env/idf5.2_py3.10_env/lib/python3.10/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/p2_ej3/lib/python3.10/site-packages:${PYTHONPATH} /home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/p2_ej3 build --build-base /home/sergio/ros2_ws/build/p2_ej3/build install --record /home/sergio/ros2_ws/build/p2_ej3/install.log --single-version-externally-managed install_data

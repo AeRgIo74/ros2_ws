@@ -1,3 +1,2 @@
 [console_scripts]
 avoid_obstacles = p2_ej3.avoid_obstacles:main
-

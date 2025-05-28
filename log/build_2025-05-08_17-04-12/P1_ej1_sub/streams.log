@@ -1,0 +1,37 @@
+[6.950s] Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_sub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data
+[9.153s] running egg_info
+[9.153s] creating ../../build/P1_ej1_sub/P1_ej1_sub.egg-info
+[9.163s] writing ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/PKG-INFO
+[9.164s] writing dependency_links to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/dependency_links.txt
+[9.165s] writing entry points to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/entry_points.txt
+[9.166s] writing requirements to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/requires.txt
+[9.166s] writing top-level names to ../../build/P1_ej1_sub/P1_ej1_sub.egg-info/top_level.txt
+[9.167s] writing manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+[9.177s] reading manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+[9.182s] writing manifest file '../../build/P1_ej1_sub/P1_ej1_sub.egg-info/SOURCES.txt'
+[9.182s] running build
+[9.182s] running build_py
+[9.183s] creating /home/sergio/ros2_ws/build/P1_ej1_sub/build
+[9.183s] creating /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib
+[9.183s] creating /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+[9.183s] copying P1_ej1_sub/__init__.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+[9.192s] copying P1_ej1_sub/suscriptor.py -> /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub
+[9.192s] running install
+[9.192s] running install_lib
+[9.213s] creating /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+[9.213s] copying /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub/__init__.py -> /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+[9.213s] copying /home/sergio/ros2_ws/build/P1_ej1_sub/build/lib/P1_ej1_sub/suscriptor.py -> /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub
+[9.213s] byte-compiling /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub/__init__.py to __init__.cpython-310.pyc
+[9.213s] byte-compiling /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub/suscriptor.py to suscriptor.cpython-310.pyc
+[9.214s] running install_data
+[9.214s] creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index
+[9.230s] creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index
+[9.230s] creating /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index/packages
+[9.231s] copying resource/P1_ej1_sub -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/ament_index/resource_index/packages
+[9.231s] copying package.xml -> /home/sergio/ros2_ws/install/P1_ej1_sub/share/P1_ej1_sub
+[9.231s] running install_egg_info
+[9.231s] Copying ../../build/P1_ej1_sub/P1_ej1_sub.egg-info to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages/P1_ej1_sub-0.0.0-py3.10.egg-info
+[9.231s] running install_scripts
+[9.380s] Installing suscriptor script to /home/sergio/ros2_ws/install/P1_ej1_sub/lib/P1_ej1_sub
+[9.383s] writing list of installed files to '/home/sergio/ros2_ws/build/P1_ej1_sub/install.log'
+[13.576s] Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_sub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_sub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_sub build --build-base /home/sergio/ros2_ws/build/P1_ej1_sub/build install --record /home/sergio/ros2_ws/build/P1_ej1_sub/install.log --single-version-externally-managed install_data

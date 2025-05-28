@@ -1,0 +1,210 @@
+[0.034s] Invoking command in '/home/sergio/ros2_ws/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sergio/ros2_ws/src/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/moveit2_tutorials
+[0.114s] -- The C compiler identification is GNU 11.4.0
+[0.189s] -- The CXX compiler identification is GNU 11.4.0
+[0.200s] -- Detecting C compiler ABI info
+[0.288s] -- Detecting C compiler ABI info - done
+[0.296s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.297s] -- Detecting C compile features
+[0.297s] -- Detecting C compile features - done
+[0.301s] -- Detecting CXX compiler ABI info
+[0.400s] -- Detecting CXX compiler ABI info - done
+[0.408s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.408s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.419s] -- Found moveit_common: 2.5.8 (/opt/ros/humble/share/moveit_common/cmake)
+[0.434s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.752s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.163s] [0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.527s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread 
+[1.542s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.661s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.679s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.703s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.752s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.792s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.011s] -- Found moveit_core: 2.5.8 (/opt/ros/humble/share/moveit_core/cmake)
+[2.065s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.169s] -- Found parameter_traits: 0.4.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.282s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.427s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.484s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.549s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.582s] -- Found Threads: TRUE  
+[2.670s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.679s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.722s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.908s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.998s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.395s] -- Found moveit_task_constructor_core: 0.1.3 (/home/sergio/ros2_ws/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[3.417s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[3.477s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.498s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[3.534s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[3.645s] -- Found moveit_ros_perception: 2.5.8 (/opt/ros/humble/share/moveit_ros_perception/cmake)
+[3.652s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[3.690s] -- Found moveit_servo: 2.5.8 (/opt/ros/humble/share/moveit_servo/cmake)
+[3.777s] -- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)
+[3.787s] -- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)
+[3.844s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.873s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.874s] -- Found OGRE
+[3.874s] --   static     : OFF
+[3.874s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.874s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.874s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.874s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.874s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.874s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.875s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.875s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.875s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.875s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.875s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.904s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.914s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[4.078s] -- Found X11: /usr/include   
+[4.079s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[4.204s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[4.205s] -- Looking for gethostbyname
+[4.328s] -- Looking for gethostbyname - found
+[4.328s] -- Looking for connect
+[4.461s] -- Looking for connect - found
+[4.461s] -- Looking for remove
+[4.589s] -- Looking for remove - found
+[4.589s] -- Looking for shmat
+[4.721s] -- Looking for shmat - found
+[4.721s] -- Looking for IceConnectionNumber in ICE
+[4.840s] -- Looking for IceConnectionNumber in ICE - found
+[4.978s] -- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)
+[5.343s] -- Configuring done
+[5.703s] -- Generating done
+[5.886s] -- Build files have been written to: /home/sergio/ros2_ws/build/moveit2_tutorials
+[5.931s] Invoked command in '/home/sergio/ros2_ws/build/moveit2_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sergio/ros2_ws/src/moveit2_tutorials -DCMAKE_INSTALL_PREFIX=/home/sergio/ros2_ws/install/moveit2_tutorials
+[5.940s] Invoking command in '/home/sergio/ros2_ws/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sergio/ros2_ws/build/moveit2_tutorials -- -j16 -l16
+[6.040s] [  3%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o[0m
+[6.043s] [  7%] [32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o[0m
+[6.043s] [ 11%] [32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o[0m
+[23.757s] [ 15%] [32m[1mLinking CXX executable minimal_mtc_tutorial[0m
+[24.556s] [ 15%] Built target minimal_mtc_tutorial
+[25.187s] [ 19%] [32m[1mLinking CXX executable mtc_tutorial[0m
+[26.044s] [ 19%] Built target mtc_tutorial
+[35.156s] [ 23%] [32m[1mLinking CXX executable motion_planning_api_tutorial[0m
+[36.040s] [ 23%] Built target motion_planning_api_tutorial
+[36.076s] [ 26%] [32mBuilding CXX object doc/how_to_guides/using_ompl_constrained_planning/CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o[0m
+[36.077s] [ 30%] [32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o[0m
+[36.079s] [ 34%] [32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o[0m
+[36.081s] [ 38%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o[0m
+[36.082s] [ 42%] [32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o[0m
+[36.084s] [ 46%] [32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o[0m
+[46.551s] [ 50%] [32m[1mLinking CXX executable servo_keyboard_input[0m
+[47.282s] [ 53%] [32m[1mLinking CXX executable robot_model_and_robot_state_tutorial[0m
+[48.302s] [ 53%] Built target robot_model_and_robot_state_tutorial
+[48.434s] [ 53%] Built target servo_keyboard_input
+[53.956s] [ 57%] [32m[1mLinking CXX executable ompl_constrained_planning[0m
+[54.694s] [ 61%] [32m[1mLinking CXX executable moveit_cpp_tutorial[0m
+[54.889s] [ 61%] Built target ompl_constrained_planning
+[54.935s] [ 65%] [32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o[0m
+[54.945s] [ 69%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o[0m
+[54.951s] [ 73%] [32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir/src/pilz_mtc.cpp.o[0m
+[55.022s] [ 76%] [32m[1mLinking CXX executable planning_scene_ros_api_tutorial[0m
+[55.867s] [ 76%] Built target planning_scene_ros_api_tutorial
+[55.912s] [ 80%] [32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o[0m
+[55.937s] [ 80%] Built target moveit_cpp_tutorial
+[62.267s] [ 84%] [32m[1mLinking CXX executable servo_cpp_interface_demo[0m
+[63.045s] [ 84%] Built target servo_cpp_interface_demo
+[69.443s] [ 88%] [32m[1mLinking CXX executable planning_scene_tutorial[0m
+[70.244s] [ 88%] Built target planning_scene_tutorial
+[70.260s] [ 92%] [32m[1mLinking CXX executable pilz_mtc[0m
+[70.863s] [ 92%] Built target pilz_mtc
+[75.094s] [ 96%] [32m[1mLinking CXX executable move_group_interface_tutorial[0m
+[75.353s] [100%] [32m[1mLinking CXX executable pilz_move_group[0m
+[75.891s] [100%] Built target move_group_interface_tutorial
+[76.155s] [100%] Built target pilz_move_group
+[76.171s] Invoked command in '/home/sergio/ros2_ws/build/moveit2_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sergio/ros2_ws/build/moveit2_tutorials -- -j16 -l16
+[76.173s] Invoking command in '/home/sergio/ros2_ws/build/moveit2_tutorials': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sergio/ros2_ws/build/moveit2_tutorials
+[76.183s] -- Install configuration: "Release"
+[76.183s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials
+[76.183s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials
+[76.183s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh
+[76.184s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake
+[76.185s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/package.xml
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_hello_moveit.rviz
+[76.186s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz
+[76.187s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial
+[76.196s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial" to ""
+[76.196s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial
+[76.203s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial" to ""
+[76.204s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.204s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo.launch.py
+[76.204s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc.rviz
+[76.204s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo_minimal.launch.py
+[76.204s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pick_place_demo.launch.py
+[76.204s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial
+[76.205s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial" to ""
+[76.205s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.205s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py
+[76.206s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial
+[76.206s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial" to ""
+[76.206s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.206s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz
+[76.206s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py
+[76.206s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py
+[76.207s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group
+[76.207s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group" to ""
+[76.207s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc
+[76.207s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc" to ""
+[76.208s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.208s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py
+[76.208s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial
+[76.208s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial" to ""
+[76.208s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.208s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py
+[76.209s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial
+[76.209s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial" to ""
+[76.209s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.209s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py
+[76.210s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial
+[76.210s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial" to ""
+[76.210s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.210s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py
+[76.210s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial
+[76.211s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial" to ""
+[76.211s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.211s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py
+[76.211s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz
+[76.211s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+[76.211s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml
+[76.212s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input
+[76.212s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input" to ""
+[76.212s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo
+[76.213s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo" to ""
+[76.213s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.213s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py
+[76.213s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+[76.213s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz
+[76.213s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.214s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/chomp_demo.launch.py
+[76.214s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config
+[76.214s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_chomp.rviz
+[76.214s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning
+[76.214s] -- Set runtime path of "/home/sergio/ros2_ws/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning" to ""
+[76.214s] -- Up-to-date: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch
+[76.215s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.rviz
+[76.215s] -- Installing: /home/sergio/ros2_ws/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.launch.py
+[76.218s] Invoked command in '/home/sergio/ros2_ws/build/moveit2_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core:/home/sergio/ros2_ws/install/moveit_resources_panda_moveit_config:/home/sergio/ros2_ws/install/moveit_resources_fanuc_moveit_config:/home/sergio/ros2_ws/install/rviz_marker_tools:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs:/home/sergio/ros2_ws/install/moveit_resources_panda_description:/home/sergio/ros2_ws/install/moveit_resources_fanuc_description:/home/sergio/ros2_ws/install/trr_robot:/home/sergio/ros2_ws/install/stage_worlds:/home/sergio/ros2_ws/install/stage_ros2:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization:/home/sergio/ros2_ws/install/moveit_task_constructor_demo:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities:/home/sergio/ros2_ws/install/moveit2_tutorials:/home/sergio/ros2_ws/install/robot_description:/home/sergio/ros2_ws/install/p2_ej2:/home/sergio/ros2_ws/install/p1_ej3_interface:/home/sergio/ros2_ws/install/p1_ej2_interface:/home/sergio/ros2_ws/install/navigation_tb3:/home/sergio/ros2_ws/install/moveit_resources:/home/sergio/ros2_ws/install/mma_interfaces:/home/sergio/ros2_ws/install/hello_moveit:/home/sergio/ros2_ws/install/ejercicio_tres_interface:/home/sergio/ros2_ws/install/Stage:/home/sergio/ros2_ws/install/trr_robot_ps:/home/sergio/ros2_ws/install/robot_nav:/home/sergio/ros2_ws/install/robot_autonomo:/home/sergio/ros2_ws/install/p2_ej3:/home/sergio/ros2_ws/install/p1_ej3_servidor:/home/sergio/ros2_ws/install/p1_ej3_cliente:/home/sergio/ros2_ws/install/p1_ej2_nodos_sensor:/home/sergio/ros2_ws/install/p1_ej2_nodo5:/home/sergio/ros2_ws/install/p1_ej2_nodo4:/home/sergio/ros2_ws/install/nodo_adc_sub:/home/sergio/ros2_ws/install/my_stage_mover:/home/sergio/ros2_ws/install/my_package:/home/sergio/ros2_ws/install/moveit_resources_pr2_description:/home/sergio/ros2_ws/install/mma_talker:/home/sergio/ros2_ws/install/mma_service:/home/sergio/ros2_ws/install/mma_listener:/home/sergio/ros2_ws/install/ejercicio_tres_server:/home/sergio/ros2_ws/install/ejercicio_tres_client:/home/sergio/ros2_ws/install/ejercicio_dos:/home/sergio/ros2_ws/install/ejercicio1_pkg:/home/sergio/ros2_ws/install/ejemplo_uno:/home/sergio/ros2_ws/install/auto_mover:/home/sergio/ros2_ws/install/P1_ej1_sub:/home/sergio/ros2_ws/install/P1_ej1_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/sergio/ros2_ws/install/moveit_task_constructor_core/lib:/home/sergio/ros2_ws/install/rviz_marker_tools/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_msgs/lib:/home/sergio/ros2_ws/install/stage_ros2/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_visualization/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_demo/lib:/home/sergio/ros2_ws/install/moveit_task_constructor_capabilities/lib:/home/sergio/ros2_ws/install/p1_ej3_interface/lib:/home/sergio/ros2_ws/install/p1_ej2_interface/lib:/home/sergio/ros2_ws/install/mma_interfaces/lib:/home/sergio/ros2_ws/install/ejercicio_tres_interface/lib:/home/sergio/ros2_ws/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sergio/ros2_ws/build/moveit2_tutorials

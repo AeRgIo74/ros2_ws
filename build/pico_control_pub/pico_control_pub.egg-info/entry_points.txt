@@ -1,0 +1,3 @@
+[console_scripts]
+auto = pico_control_pub.auto:main
+publisher = pico_control_pub.publisher:main

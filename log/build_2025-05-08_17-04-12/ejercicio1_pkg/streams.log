@@ -1,0 +1,41 @@
+[6.941s] Invoking command in '/home/sergio/ros2_ws/src/ejercicio1_pkg': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio1_pkg build --build-base /home/sergio/ros2_ws/build/ejercicio1_pkg/build install --record /home/sergio/ros2_ws/build/ejercicio1_pkg/install.log --single-version-externally-managed install_data
+[8.945s] running egg_info
+[8.945s] creating ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info
+[8.945s] writing ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/PKG-INFO
+[8.945s] writing dependency_links to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/dependency_links.txt
+[8.945s] writing entry points to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/entry_points.txt
+[8.945s] writing requirements to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/requires.txt
+[8.945s] writing top-level names to ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/top_level.txt
+[8.945s] writing manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+[8.946s] reading manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+[8.946s] writing manifest file '../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info/SOURCES.txt'
+[8.946s] running build
+[8.946s] running build_py
+[8.946s] creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build
+[8.946s] creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib
+[8.946s] creating /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[8.946s] copying ejercicio1_pkg/__init__.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[8.946s] copying ejercicio1_pkg/ik_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[8.946s] copying ejercicio1_pkg/fk_publisher.py -> /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg
+[8.946s] running install
+[8.947s] running install_lib
+[8.947s] creating /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+[8.947s] copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/__init__.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+[8.947s] copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/ik_publisher.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+[8.947s] copying /home/sergio/ros2_ws/build/ejercicio1_pkg/build/lib/ejercicio1_pkg/fk_publisher.py -> /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg
+[8.947s] byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/__init__.py to __init__.cpython-310.pyc
+[8.947s] byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/ik_publisher.py to ik_publisher.cpython-310.pyc
+[8.947s] byte-compiling /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg/fk_publisher.py to fk_publisher.cpython-310.pyc
+[8.947s] running install_data
+[8.948s] creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index
+[8.975s] creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index
+[8.976s] creating /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index/packages
+[8.976s] copying resource/ejercicio1_pkg -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ament_index/resource_index/packages
+[8.976s] copying package.xml -> /home/sergio/ros2_ws/install/ejercicio1_pkg/share/ejercicio1_pkg
+[8.976s] running install_egg_info
+[8.976s] Copying ../../build/ejercicio1_pkg/ejercicio1_pkg.egg-info to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages/ejercicio1_pkg-0.0.0-py3.10.egg-info
+[8.976s] running install_scripts
+[8.976s] Installing fk_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+[8.976s] Installing ik_publisher script to /home/sergio/ros2_ws/install/ejercicio1_pkg/lib/ejercicio1_pkg
+[8.977s] writing list of installed files to '/home/sergio/ros2_ws/build/ejercicio1_pkg/install.log'
+[9.043s] Invoked command in '/home/sergio/ros2_ws/src/ejercicio1_pkg' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/ejercicio1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/ejercicio1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ejercicio1_pkg build --build-base /home/sergio/ros2_ws/build/ejercicio1_pkg/build install --record /home/sergio/ros2_ws/build/ejercicio1_pkg/install.log --single-version-externally-managed install_data

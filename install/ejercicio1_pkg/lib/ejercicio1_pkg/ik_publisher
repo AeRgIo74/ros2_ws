@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/home/sergio/.espressif/python_env/idf5.2_py3.10_env/bin/python3
 # EASY-INSTALL-ENTRY-SCRIPT: 'ejercicio1-pkg==0.0.0','console_scripts','ik_publisher'
 import re
 import sys

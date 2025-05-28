@@ -1,3 +1,2 @@
 [console_scripts]
 nodo4 = p1_ej2_nodo4.nodo4:main
-

@@ -1,0 +1,37 @@
+[7.924s] Invoking command in '/home/sergio/ros2_ws/src/P1_ej1_pub': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data
+[10.006s] running egg_info
+[10.009s] creating ../../build/P1_ej1_pub/P1_ej1_pub.egg-info
+[10.012s] writing ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/PKG-INFO
+[10.012s] writing dependency_links to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/dependency_links.txt
+[10.015s] writing entry points to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/entry_points.txt
+[10.015s] writing requirements to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/requires.txt
+[10.016s] writing top-level names to ../../build/P1_ej1_pub/P1_ej1_pub.egg-info/top_level.txt
+[10.024s] writing manifest file '../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt'
+[10.031s] reading manifest file '../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt'
+[10.032s] writing manifest file '../../build/P1_ej1_pub/P1_ej1_pub.egg-info/SOURCES.txt'
+[10.032s] running build
+[10.034s] running build_py
+[10.034s] creating /home/sergio/ros2_ws/build/P1_ej1_pub/build
+[10.034s] creating /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib
+[10.034s] creating /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib/P1_ej1_pub
+[10.037s] copying P1_ej1_pub/__init__.py -> /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib/P1_ej1_pub
+[10.038s] copying P1_ej1_pub/publicador.py -> /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib/P1_ej1_pub
+[10.038s] running install
+[10.046s] running install_lib
+[10.046s] creating /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub
+[10.046s] copying /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib/P1_ej1_pub/__init__.py -> /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub
+[10.047s] copying /home/sergio/ros2_ws/build/P1_ej1_pub/build/lib/P1_ej1_pub/publicador.py -> /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub
+[10.055s] byte-compiling /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub/__init__.py to __init__.cpython-310.pyc
+[10.055s] byte-compiling /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub/publicador.py to publicador.cpython-310.pyc
+[10.059s] running install_data
+[10.059s] creating /home/sergio/ros2_ws/install/P1_ej1_pub/share/ament_index
+[10.059s] creating /home/sergio/ros2_ws/install/P1_ej1_pub/share/ament_index/resource_index
+[10.060s] creating /home/sergio/ros2_ws/install/P1_ej1_pub/share/ament_index/resource_index/packages
+[10.069s] copying resource/P1_ej1_pub -> /home/sergio/ros2_ws/install/P1_ej1_pub/share/ament_index/resource_index/packages
+[10.069s] copying package.xml -> /home/sergio/ros2_ws/install/P1_ej1_pub/share/P1_ej1_pub
+[10.069s] running install_egg_info
+[10.082s] Copying ../../build/P1_ej1_pub/P1_ej1_pub.egg-info to /home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages/P1_ej1_pub-0.0.0-py3.10.egg-info
+[10.084s] running install_scripts
+[10.179s] Installing publicador script to /home/sergio/ros2_ws/install/P1_ej1_pub/lib/P1_ej1_pub
+[10.179s] writing list of installed files to '/home/sergio/ros2_ws/build/P1_ej1_pub/install.log'
+[13.710s] Invoked command in '/home/sergio/ros2_ws/src/P1_ej1_pub' returned '0': PYTHONPATH=/home/sergio/ros2_ws/build/P1_ej1_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sergio/ros2_ws/install/P1_ej1_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/P1_ej1_pub build --build-base /home/sergio/ros2_ws/build/P1_ej1_pub/build install --record /home/sergio/ros2_ws/build/P1_ej1_pub/install.log --single-version-externally-managed install_data
